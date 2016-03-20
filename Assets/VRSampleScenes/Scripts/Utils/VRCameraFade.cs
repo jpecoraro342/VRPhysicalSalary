@@ -41,7 +41,7 @@ namespace VRStandardAssets.Utils
         {
             var myPosition = transform.position;
 
-            if (myPosition.z > 800)
+            if (myPosition.z > 1250)
             {
                 FadeOut(true);
             }
