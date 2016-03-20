@@ -23,7 +23,9 @@ namespace VRStandardAssets.Maze
 
         private void OnEnable ()
         {
-            m_SelectionSlider.OnBarFilled += HandleBarFilled;
+            m_SelectionSlider.
+                
+               OnBarFilled += HandleBarFilled;
         }
 
 

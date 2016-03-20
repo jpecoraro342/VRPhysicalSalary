@@ -115,8 +115,8 @@ namespace VRStandardAssets.Utils
                 // Wait until next frame.
                 yield return null;
 
-                // If the user is still looking at the bar, go on to the next iteration of the loop.
-                if (m_GazeOver)
+                // We want to continue the loop ever if the user looks away.
+                if (true)
                     continue;
 
                 // If the user is no longer looking at the bar, reset the timer and bar and leave the function.
@@ -124,13 +124,6 @@ namespace VRStandardAssets.Utils
                 SetSliderValue (0f);
                 yield break;
             }
-
-            // If the loop has finished the bar is now full.
-            m_BarFilled = true;
-
-            // If anything has subscribed to OnBarFilled call it now.
-            if (OnBarFilled != null)
-                OnBarFilled ();
 
             // Play the clip for when the bar is filled.
             m_Audio.clip = m_OnFilledClip;
@@ -163,15 +156,7 @@ namespace VRStandardAssets.Utils
 
 
         private void HandleUp ()
-        {
-            // If the coroutine has been started (and thus we have a reference to it) stop it.
-            if(m_FillBarRoutine != null)
-                StopCoroutine (m_FillBarRoutine);
-
-            // Reset the timer and bar values.
-            m_Timer = 0f;
-            SetSliderValue(0f);
-        }
+        { }
 
 
         private void HandleOver ()
@@ -187,16 +172,7 @@ namespace VRStandardAssets.Utils
 
         private void HandleOut ()
         {
-            // The user is no longer looking at the bar.
             m_GazeOver = false;
-
-            // If the coroutine has been started (and thus we have a reference to it) stop it.
-            if (m_FillBarRoutine != null)
-                StopCoroutine(m_FillBarRoutine);
-
-            // Reset the timer and bar values.
-            m_Timer = 0f;
-            SetSliderValue(0f);
         }
     }
 }

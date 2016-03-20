@@ -40,12 +40,12 @@ using UnityEngine;
 [RequireComponent(typeof(Camera))]
 public class SkyboxMesh : MonoBehaviour {
 #if UNITY_5
-  void Awake() {
+    void Awake() {
     Debug.Log("SkyboxMesh is not needed in Unity 5");
     Component.Destroy(this);
   }
 #else
-  /// The overall shape of the generated sky mesh.
+//   The overall shape of the generated sky mesh.
   public enum Shape {
     Sphere,
     Cube,
