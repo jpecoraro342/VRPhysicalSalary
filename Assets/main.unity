@@ -890,7 +890,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1854863492}
-  - {fileID: 1012720096}
+  - {fileID: 2106599088}
   m_Father: {fileID: 472859592}
   m_RootOrder: 2
 --- !u!1 &131973688
@@ -1570,7 +1570,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Low Income One
+  m_Text: Fast-Food Worker
 --- !u!222 &162163039
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2371,17 +2371,17 @@ RectTransform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 250386722}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.782}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000014901161}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5880006}
   m_LocalScale: {x: 0.04451718, y: 0.044517178, z: 0.044517178}
   m_Children:
   - {fileID: 1258782850}
   - {fileID: 690075375}
-  m_Father: {fileID: 1957472339}
-  m_RootOrder: 0
+  m_Father: {fileID: 1525435273}
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.55, y: 1.91}
+  m_AnchoredPosition: {x: -4.9190125, y: 5.58}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &257679791
@@ -2721,17 +2721,17 @@ RectTransform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 284645830}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.782}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: 0, y: 0, z: 0.58800125}
   m_LocalScale: {x: 0.04451718, y: 0.044517178, z: 0.044517178}
   m_Children:
   - {fileID: 1462489311}
   - {fileID: 1746030444}
-  m_Father: {fileID: 1292955711}
-  m_RootOrder: 0
+  m_Father: {fileID: 1970858136}
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.55, y: 1.7}
+  m_AnchoredPosition: {x: -4.919009, y: 5.37}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &284645832
@@ -4267,76 +4267,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &399138882
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 399138883}
-  - 114: {fileID: 399138884}
-  - 114: {fileID: 399138885}
-  m_Layer: 0
-  m_Name: Room Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &399138883
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 399138882}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -4.369, y: 3.67, z: 9.37}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 602982167}
-  m_Father: {fileID: 1528916724}
-  m_RootOrder: 1
---- !u!114 &399138884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 399138882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ec501a8570e3f469a983e6ba4c11aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FadeSpeed: 1
-  m_GroupsToFade:
-  - {fileID: 602982164}
-  - {fileID: 0}
---- !u!114 &399138885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 399138882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0461d544138945b468d516467d6bd6da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TextComponent: {fileID: 0}
-  m_PlatformTextPairs:
-  - m_Platform: 0
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 2
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 7
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 11
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
 --- !u!1 &401200245
 GameObject:
   m_ObjectHideFlags: 0
@@ -4363,7 +4293,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 452169434}
-  - {fileID: 911672683}
+  - {fileID: 1544471106}
   m_Father: {fileID: 472859592}
   m_RootOrder: 0
 --- !u!1 &407475358
@@ -6045,7 +5975,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 336664012}
-  - {fileID: 645014579}
+  - {fileID: 1683173927}
   m_Father: {fileID: 1948059253}
   m_RootOrder: 1
 --- !u!1 &566406517
@@ -6103,7 +6033,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 25.667
+      value: -10.3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
@@ -6111,7 +6041,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 2.104
+      value: 20.58
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.x
@@ -6119,7 +6049,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.z
@@ -6127,7 +6057,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.00000016292068
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RootOrder
@@ -6143,7 +6073,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_WalkSpeed
-      value: 20
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -7004,17 +6934,17 @@ RectTransform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 601619244}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.782}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: 0, y: 0, z: 0.58799964}
   m_LocalScale: {x: 0.04451718, y: 0.044517178, z: 0.044517178}
   m_Children:
   - {fileID: 339829127}
   - {fileID: 105602755}
-  m_Father: {fileID: 1819955987}
+  m_Father: {fileID: 1533067083}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.55, y: 1.91}
+  m_AnchoredPosition: {x: -4.919009, y: 5.58}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &602982163
@@ -7094,17 +7024,17 @@ RectTransform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 602982163}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.782}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000014901161}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5880006}
   m_LocalScale: {x: 0.04451718, y: 0.044517178, z: 0.044517178}
   m_Children:
   - {fileID: 293695535}
   - {fileID: 1819986596}
-  m_Father: {fileID: 399138883}
-  m_RootOrder: 0
+  m_Father: {fileID: 1528916724}
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.55, y: 1.91}
+  m_AnchoredPosition: {x: -4.9190087, y: 5.58}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &616944057 stripped
@@ -7424,76 +7354,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 644188286}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &645014578
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 645014579}
-  - 114: {fileID: 645014580}
-  - 114: {fileID: 645014581}
-  m_Layer: 0
-  m_Name: Room Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &645014579
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 645014578}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -4.369, y: 3.67, z: 9.37}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1683173927}
-  m_Father: {fileID: 565112269}
-  m_RootOrder: 1
---- !u!114 &645014580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 645014578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ec501a8570e3f469a983e6ba4c11aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FadeSpeed: 1
-  m_GroupsToFade:
-  - {fileID: 1683173924}
-  - {fileID: 0}
---- !u!114 &645014581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 645014578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0461d544138945b468d516467d6bd6da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TextComponent: {fileID: 0}
-  m_PlatformTextPairs:
-  - m_Platform: 0
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 2
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 7
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 11
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
 --- !u!1 &646457981
 GameObject:
   m_ObjectHideFlags: 0
@@ -8673,76 +8533,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &714923364
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 714923365}
-  - 114: {fileID: 714923366}
-  - 114: {fileID: 714923367}
-  m_Layer: 0
-  m_Name: Room Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &714923365
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 714923364}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -4.369, y: 3.67, z: 9.37}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 839815573}
-  m_Father: {fileID: 1152771445}
-  m_RootOrder: 1
---- !u!114 &714923366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 714923364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ec501a8570e3f469a983e6ba4c11aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FadeSpeed: 1
-  m_GroupsToFade:
-  - {fileID: 839815570}
-  - {fileID: 0}
---- !u!114 &714923367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 714923364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0461d544138945b468d516467d6bd6da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TextComponent: {fileID: 0}
-  m_PlatformTextPairs:
-  - m_Platform: 0
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 2
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 7
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 11
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
 --- !u!1 &717771956
 GameObject:
   m_ObjectHideFlags: 0
@@ -10524,17 +10314,17 @@ RectTransform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 839815569}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.782}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000014901161}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5880006}
   m_LocalScale: {x: 0.04451718, y: 0.044517178, z: 0.044517178}
   m_Children:
   - {fileID: 799915685}
   - {fileID: 573920093}
-  m_Father: {fileID: 714923365}
-  m_RootOrder: 0
+  m_Father: {fileID: 1152771445}
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.55, y: 1.91}
+  m_AnchoredPosition: {x: -4.9190087, y: 5.58}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &844677354
@@ -10714,79 +10504,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 319185530}
-  - {fileID: 857553037}
+  - {fileID: 1701730715}
   m_Father: {fileID: 2088910970}
   m_RootOrder: 1
---- !u!1 &857553036
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 857553037}
-  - 114: {fileID: 857553038}
-  - 114: {fileID: 857553039}
-  m_Layer: 0
-  m_Name: Room Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &857553037
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 857553036}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -4.369, y: 3.67, z: 9.37}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1701730715}
-  m_Father: {fileID: 856371536}
-  m_RootOrder: 1
---- !u!114 &857553038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 857553036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ec501a8570e3f469a983e6ba4c11aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FadeSpeed: 1
-  m_GroupsToFade:
-  - {fileID: 0}
-  - {fileID: 0}
---- !u!114 &857553039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 857553036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0461d544138945b468d516467d6bd6da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TextComponent: {fileID: 0}
-  m_PlatformTextPairs:
-  - m_Platform: 0
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 2
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 7
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 11
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
 --- !u!1 &860063906
 GameObject:
   m_ObjectHideFlags: 0
@@ -11137,17 +10857,17 @@ RectTransform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 878981747}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.78}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: 0, y: 0, z: 0.59000015}
   m_LocalScale: {x: 0.04451718, y: 0.044517178, z: 0.044517178}
   m_Children:
   - {fileID: 162163037}
   - {fileID: 1546525831}
-  m_Father: {fileID: 1548903164}
-  m_RootOrder: 0
+  m_Father: {fileID: 1236280489}
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.21, y: 1.91}
+  m_AnchoredPosition: {x: -4.5790014, y: 5.58}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &893003624
@@ -11358,76 +11078,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &911672682
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 911672683}
-  - 114: {fileID: 911672684}
-  - 114: {fileID: 911672685}
-  m_Layer: 0
-  m_Name: Room Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &911672683
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 911672682}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -4.369, y: 3.67, z: 9.37}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1544471106}
-  m_Father: {fileID: 401200246}
-  m_RootOrder: 1
---- !u!114 &911672684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 911672682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ec501a8570e3f469a983e6ba4c11aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FadeSpeed: 1
-  m_GroupsToFade:
-  - {fileID: 1544471103}
-  - {fileID: 0}
---- !u!114 &911672685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 911672682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0461d544138945b468d516467d6bd6da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TextComponent: {fileID: 0}
-  m_PlatformTextPairs:
-  - m_Platform: 0
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 2
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 7
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 11
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
 --- !u!1 &922500331
 GameObject:
   m_ObjectHideFlags: 0
@@ -11897,17 +11547,17 @@ RectTransform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 978335761}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.782}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: 0, y: 0, z: 0.58799964}
   m_LocalScale: {x: 0.04451718, y: 0.044517178, z: 0.044517178}
   m_Children:
   - {fileID: 431337075}
   - {fileID: 2005513415}
-  m_Father: {fileID: 997643481}
+  m_Father: {fileID: 1817013361}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.55, y: 1.91}
+  m_AnchoredPosition: {x: -4.919009, y: 5.58}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &978409880
@@ -12060,76 +11710,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 981380189}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &997643480
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 997643481}
-  - 114: {fileID: 997643482}
-  - 114: {fileID: 997643483}
-  m_Layer: 0
-  m_Name: Room Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &997643481
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 997643480}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -4.369, y: 3.67, z: 9.37}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 978335765}
-  m_Father: {fileID: 1817013361}
-  m_RootOrder: 0
---- !u!114 &997643482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 997643480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ec501a8570e3f469a983e6ba4c11aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FadeSpeed: 1
-  m_GroupsToFade:
-  - {fileID: 978335762}
-  - {fileID: 0}
---- !u!114 &997643483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 997643480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0461d544138945b468d516467d6bd6da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TextComponent: {fileID: 0}
-  m_PlatformTextPairs:
-  - m_Platform: 0
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 2
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 7
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 11
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
 --- !u!1 &1002635387
 GameObject:
   m_ObjectHideFlags: 0
@@ -12335,76 +11915,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1009296746}
---- !u!1 &1012720095
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1012720096}
-  - 114: {fileID: 1012720097}
-  - 114: {fileID: 1012720098}
-  m_Layer: 0
-  m_Name: Room Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1012720096
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012720095}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -4.369, y: 3.67, z: 9.37}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2106599088}
-  m_Father: {fileID: 105789450}
-  m_RootOrder: 1
---- !u!114 &1012720097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012720095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ec501a8570e3f469a983e6ba4c11aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FadeSpeed: 1
-  m_GroupsToFade:
-  - {fileID: 2106599085}
-  - {fileID: 0}
---- !u!114 &1012720098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012720095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0461d544138945b468d516467d6bd6da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TextComponent: {fileID: 0}
-  m_PlatformTextPairs:
-  - m_Platform: 0
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 2
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 7
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 11
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
 --- !u!1 &1025704279
 GameObject:
   m_ObjectHideFlags: 0
@@ -13789,7 +13299,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1784546860}
-  - {fileID: 714923365}
+  - {fileID: 839815573}
   m_Father: {fileID: 472859592}
   m_RootOrder: 1
 --- !u!1 &1155318139
@@ -14081,7 +13591,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Low Income Two
+  m_Text: Janitor/Custoidan
 --- !u!222 &1172361006
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14393,7 +13903,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2104398891}
-  - {fileID: 1548903164}
+  - {fileID: 878981751}
   m_Father: {fileID: 2088910970}
   m_RootOrder: 0
 --- !u!1 &1239399094
@@ -14972,7 +14482,18 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &1258782849
@@ -15659,76 +15180,6 @@ Transform:
   - {fileID: 838065204}
   m_Father: {fileID: 582369378}
   m_RootOrder: 3
---- !u!1 &1292955710
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1292955711}
-  - 114: {fileID: 1292955712}
-  - 114: {fileID: 1292955713}
-  m_Layer: 0
-  m_Name: Room One Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1292955711
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1292955710}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -4.369, y: 3.67, z: 9.37}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 284645831}
-  m_Father: {fileID: 1970858136}
-  m_RootOrder: 1
---- !u!114 &1292955712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1292955710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ec501a8570e3f469a983e6ba4c11aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FadeSpeed: 1
-  m_GroupsToFade:
-  - {fileID: 0}
-  - {fileID: 0}
---- !u!114 &1292955713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1292955710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0461d544138945b468d516467d6bd6da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TextComponent: {fileID: 0}
-  m_PlatformTextPairs:
-  - m_Platform: 0
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 2
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 7
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 11
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
 --- !u!1 &1294321115
 GameObject:
   m_ObjectHideFlags: 0
@@ -17502,7 +16953,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Low Income Three
+  m_Text: Retail Salesperson
 --- !u!222 &1462489313
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18212,7 +17663,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1549404694}
-  - {fileID: 1957472339}
+  - {fileID: 250386726}
   m_Father: {fileID: 1948059253}
   m_RootOrder: 2
 --- !u!1 &1528916723
@@ -18241,7 +17692,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1453630862}
-  - {fileID: 399138883}
+  - {fileID: 602982167}
   m_Father: {fileID: 1948059253}
   m_RootOrder: 0
 --- !u!1 &1531828469
@@ -18345,7 +17796,7 @@ Transform:
   m_LocalPosition: {x: 1.8569679, y: -0.6930537, z: -6.816284}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1819955987}
+  - {fileID: 601619248}
   m_Father: {fileID: 43994862}
   m_RootOrder: 2
 --- !u!1 &1544471102
@@ -18425,17 +17876,17 @@ RectTransform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1544471102}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.782}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000014901161}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5880006}
   m_LocalScale: {x: 0.04451718, y: 0.044517178, z: 0.044517178}
   m_Children:
   - {fileID: 2069650515}
   - {fileID: 212057795}
-  m_Father: {fileID: 911672683}
-  m_RootOrder: 0
+  m_Father: {fileID: 401200246}
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.55, y: 1.91}
+  m_AnchoredPosition: {x: -4.9190087, y: 5.58}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1546525830
@@ -18506,7 +17957,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Average Salary: $$$$$'
+  m_Text: 'Average Salary: $16,000'
 --- !u!222 &1546525833
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18514,76 +17965,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1546525830}
---- !u!1 &1548903163
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1548903164}
-  - 114: {fileID: 1548903165}
-  - 114: {fileID: 1548903166}
-  m_Layer: 0
-  m_Name: Room Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1548903164
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1548903163}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -4.369, y: 3.67, z: 9.37}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 878981751}
-  m_Father: {fileID: 1236280489}
-  m_RootOrder: 1
---- !u!114 &1548903165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1548903163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ec501a8570e3f469a983e6ba4c11aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FadeSpeed: 1
-  m_GroupsToFade:
-  - {fileID: 878981748}
-  - {fileID: 0}
---- !u!114 &1548903166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1548903163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0461d544138945b468d516467d6bd6da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TextComponent: {fileID: 0}
-  m_PlatformTextPairs:
-  - m_Platform: 0
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 2
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 7
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 11
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
 --- !u!1 &1549404693
 GameObject:
   m_ObjectHideFlags: 0
@@ -20598,17 +19979,17 @@ RectTransform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1683173923}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.782}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000014901161}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5880006}
   m_LocalScale: {x: 0.04451718, y: 0.044517178, z: 0.044517178}
   m_Children:
   - {fileID: 1009296747}
   - {fileID: 1671191547}
-  m_Father: {fileID: 645014579}
-  m_RootOrder: 0
+  m_Father: {fileID: 565112269}
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.55, y: 1.91}
+  m_AnchoredPosition: {x: -4.9190087, y: 5.58}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1686061771
@@ -20711,17 +20092,17 @@ RectTransform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1701730714}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.782}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: 0, y: 0, z: 0.58800125}
   m_LocalScale: {x: 0.04451718, y: 0.044517178, z: 0.044517178}
   m_Children:
   - {fileID: 1172361004}
   - {fileID: 1933466299}
-  m_Father: {fileID: 857553037}
-  m_RootOrder: 0
+  m_Father: {fileID: 856371536}
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.55, y: 1.7}
+  m_AnchoredPosition: {x: -4.9190083, y: 5.37}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1701730716
@@ -21081,7 +20462,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Average Salary: $$$$$'
+  m_Text: 'Average Salary: $32,000'
 --- !u!222 &1746030446
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21665,79 +21046,9 @@ Transform:
   m_LocalPosition: {x: -13.153034, y: -0.6930537, z: -6.8192863}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 997643481}
+  - {fileID: 978335765}
   m_Father: {fileID: 43994862}
   m_RootOrder: 1
---- !u!1 &1819955986
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1819955987}
-  - 114: {fileID: 1819955988}
-  - 114: {fileID: 1819955989}
-  m_Layer: 0
-  m_Name: Room Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1819955987
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1819955986}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -4.369, y: 3.67, z: 9.37}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 601619248}
-  m_Father: {fileID: 1533067083}
-  m_RootOrder: 0
---- !u!114 &1819955988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1819955986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ec501a8570e3f469a983e6ba4c11aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FadeSpeed: 1
-  m_GroupsToFade:
-  - {fileID: 601619245}
-  - {fileID: 0}
---- !u!114 &1819955989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1819955986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0461d544138945b468d516467d6bd6da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TextComponent: {fileID: 0}
-  m_PlatformTextPairs:
-  - m_Platform: 0
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 2
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 7
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 11
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
 --- !u!1 &1819986595
 GameObject:
   m_ObjectHideFlags: 0
@@ -22670,7 +21981,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Average Salary: $$$$$'
+  m_Text: 'Average Salary: $24,000'
 --- !u!222 &1933466301
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23464,76 +22775,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.138, y: -0.14197958}
   m_SizeDelta: {x: 50, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1957472338
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1957472339}
-  - 114: {fileID: 1957472340}
-  - 114: {fileID: 1957472341}
-  m_Layer: 0
-  m_Name: Room Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1957472339
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1957472338}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -4.369, y: 3.67, z: 9.37}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 250386726}
-  m_Father: {fileID: 1525435273}
-  m_RootOrder: 1
---- !u!114 &1957472340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1957472338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ec501a8570e3f469a983e6ba4c11aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FadeSpeed: 1
-  m_GroupsToFade:
-  - {fileID: 250386723}
-  - {fileID: 0}
---- !u!114 &1957472341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1957472338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0461d544138945b468d516467d6bd6da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TextComponent: {fileID: 0}
-  m_PlatformTextPairs:
-  - m_Platform: 0
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 2
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 7
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
-  - m_Platform: 11
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
 --- !u!1 &1960008758
 GameObject:
   m_ObjectHideFlags: 0
@@ -23785,7 +23026,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1584388158}
-  - {fileID: 1292955711}
+  - {fileID: 284645831}
   m_Father: {fileID: 2088910970}
   m_RootOrder: 2
 --- !u!1 &1981809331
@@ -25252,17 +24493,17 @@ RectTransform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2106599084}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.782}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000014901161}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5880006}
   m_LocalScale: {x: 0.04451718, y: 0.044517178, z: 0.044517178}
   m_Children:
   - {fileID: 1458037129}
   - {fileID: 1047809304}
-  m_Father: {fileID: 1012720096}
-  m_RootOrder: 0
+  m_Father: {fileID: 105789450}
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.55, y: 1.91}
+  m_AnchoredPosition: {x: -4.9190087, y: 5.58}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2124570471
