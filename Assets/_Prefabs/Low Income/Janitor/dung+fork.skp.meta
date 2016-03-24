@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 381ce4d5c27ffd6479d0f96b230273c3
+timeCreated: 1458848744
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000
+  assetHash:
+    serializedVersion: 2
+    Hash: f15ffde6aa31a5c56d05725b76eb8011
+  longitude: 13.417
+  latitude: 52.533
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.059553806, y: 0.5955899, z: 0.7572396}
+      lookAt: {x: 0.4309557, y: -0.10025664, z: 0.10300641}
+      up: {x: 0.33522487, y: 0.7341161, z: -0.5905065}
+      fov: 45
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Komponente#11
+    100004: Komponente#12
+    100006: Komponente#2
+    100008: Komponente#2 1
+    100010: Komponente#3
+    100012: Komponente#3 1
+    100014: Komponente#4
+    100016: Komponente#5
+    100018: Komponente#8
+    100020: Komponente#9
+    400000: //RootNode
+    400002: Komponente#11
+    400004: Komponente#12
+    400006: Komponente#2
+    400008: Komponente#2 1
+    400010: Komponente#3
+    400012: Komponente#3 1
+    400014: Komponente#4
+    400016: Komponente#5
+    400018: Komponente#8
+    400020: Komponente#9
+    2300000: Komponente#12
+    2300002: Komponente#2
+    2300004: Komponente#2 1
+    2300006: Komponente#3
+    2300008: Komponente#3 1
+    2300010: Komponente#5
+    2300012: Komponente#8
+    2300014: Komponente#9
+    3300000: Komponente#12
+    3300002: Komponente#2
+    3300004: Komponente#2 1
+    3300006: Komponente#3
+    3300008: Komponente#3 1
+    3300010: Komponente#5
+    3300012: Komponente#8
+    3300014: Komponente#9
+    4300000: Mesh Komponente#5
+    4300002: Mesh Komponente#8
+    4300004: Mesh Komponente#2
+    4300006: Mesh Komponente#12
+    4300008: Mesh Komponente#3
+    4300010: Mesh Komponente#9
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

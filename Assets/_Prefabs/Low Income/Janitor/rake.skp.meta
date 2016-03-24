@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: e3439701f6c7ef840b65e8f969832cb4
+timeCreated: 1458846297
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000240000002500000026000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 79178dff9685b0e5c9a772ce9cf66b75
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 2.9053004, y: 1.8395605, z: 0.61683226}
+      lookAt: {x: -1.1844847, y: 0.05788362, z: -0.11465438}
+      up: {x: -0.3879677, y: 0.91905713, z: -0.06939073}
+      fov: 41.426228
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: base
+    100002: handle
+    100004: Rake
+    100006: //RootNode
+    100008: rakepiece
+    100010: rakepiece 1
+    100012: rakepiece 10
+    100014: rakepiece 11
+    100016: rakepiece 12
+    100018: rakepiece 13
+    100020: rakepiece 14
+    100022: rakepiece 15
+    100024: rakepiece 2
+    100026: rakepiece 3
+    100028: rakepiece 4
+    100030: rakepiece 5
+    100032: rakepiece 6
+    100034: rakepiece 7
+    100036: rakepiece 8
+    100038: rakepiece 9
+    400000: base
+    400002: handle
+    400004: Rake
+    400006: //RootNode
+    400008: rakepiece
+    400010: rakepiece 1
+    400012: rakepiece 10
+    400014: rakepiece 11
+    400016: rakepiece 12
+    400018: rakepiece 13
+    400020: rakepiece 14
+    400022: rakepiece 15
+    400024: rakepiece 2
+    400026: rakepiece 3
+    400028: rakepiece 4
+    400030: rakepiece 5
+    400032: rakepiece 6
+    400034: rakepiece 7
+    400036: rakepiece 8
+    400038: rakepiece 9
+    2300000: base
+    2300002: handle
+    2300004: Rake
+    2300006: rakepiece
+    2300008: rakepiece 1
+    2300010: rakepiece 10
+    2300012: rakepiece 11
+    2300014: rakepiece 12
+    2300016: rakepiece 13
+    2300018: rakepiece 14
+    2300020: rakepiece 15
+    2300022: rakepiece 2
+    2300024: rakepiece 3
+    2300026: rakepiece 4
+    2300028: rakepiece 5
+    2300030: rakepiece 6
+    2300032: rakepiece 7
+    2300034: rakepiece 8
+    2300036: rakepiece 9
+    3300000: base
+    3300002: handle
+    3300004: Rake
+    3300006: rakepiece
+    3300008: rakepiece 1
+    3300010: rakepiece 10
+    3300012: rakepiece 11
+    3300014: rakepiece 12
+    3300016: rakepiece 13
+    3300018: rakepiece 14
+    3300020: rakepiece 15
+    3300022: rakepiece 2
+    3300024: rakepiece 3
+    3300026: rakepiece 4
+    3300028: rakepiece 5
+    3300030: rakepiece 6
+    3300032: rakepiece 7
+    3300034: rakepiece 8
+    3300036: rakepiece 9
+    4300000: Mesh Rake
+    4300002: Mesh base
+    4300004: Mesh rakepiece
+    4300006: Mesh handle
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 45d3e3f97e8d444fea24b94684ddb500
+timeCreated: 1458672039
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 9fe8e8d6d9b3f19465b15de1539ede4b
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.49646243, y: 1.536756, z: 0.47684908}
+      lookAt: {x: 19.26949, y: -3.5093122, z: 15.453213}
+      up: {x: 0.16074677, y: 0.9786295, z: 0.12823729}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes:
+    - camera:
+        position: {x: 7.148532, y: 4.3973503, z: -6.4622774}
+        lookAt: {x: -5.3273473, y: -2.0623505, z: 13.657502}
+        up: {x: -0.13872364, y: 0.9647309, z: 0.22371882}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Home
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 2D_Woman_Standing_Sandra
+    100002: dime
+    100004: //RootNode
+    100006: nickel
+    100008: penny
+    100010: quarter
+    400000: 2D_Woman_Standing_Sandra
+    400002: dime
+    400004: //RootNode
+    400006: nickel
+    400008: penny
+    400010: quarter
+    2300000: 2D_Woman_Standing_Sandra
+    2300002: dime
+    2300004: nickel
+    2300006: penny
+    2300008: quarter
+    3300000: 2D_Woman_Standing_Sandra
+    3300002: dime
+    3300004: nickel
+    3300006: penny
+    3300008: quarter
+    4300000: Mesh 2D_Woman_Standing_Sandra
+    4300002: Mesh dime
+    4300004: Mesh penny
+    4300006: Mesh nickel
+    4300008: Mesh quarter
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
