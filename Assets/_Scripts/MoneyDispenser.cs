@@ -50,7 +50,7 @@ public class MoneyDispenser : MonoBehaviour
 
 		dispensing = false;
 		timeSinceLastSpawn = 0;
-		startDispensing ();
+		// startDispensing ();
 	}
 	
 	// Update is called once per frame

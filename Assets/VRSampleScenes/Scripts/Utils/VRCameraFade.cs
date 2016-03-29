@@ -46,7 +46,7 @@ namespace VRStandardAssets.Utils
                 FadeOut(true);
             }
 
-            Debug.Log(myPosition);
+            // Debug.Log(myPosition);
         }
 
         private void Awake()
