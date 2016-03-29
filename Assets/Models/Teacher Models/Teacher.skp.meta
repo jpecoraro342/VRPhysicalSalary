@@ -1,0 +1,103 @@
+fileFormatVersion: 2
+guid: 2b60fe515b71a44d8aa16bcd24211bf1
+timeCreated: 1459270203
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 0000000001000000020000000300000004000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 05915c062eace2c18a5c82e66ef3d88a
+  longitude: 139.75
+  latitude: 35.667
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -5.5141273, y: 5.3521166, z: 1.2171644}
+      lookAt: {x: 0.1732381, y: 2.7620208, z: -6.6075277}
+      up: {x: 0.1520708, y: 0.9659719, z: -0.20921941}
+      fov: 30
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Sketchup6.0
+    100004: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#1"
+    400000: //RootNode
+    400002: Sketchup6.0
+    400004: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#1"
+    2300000: Sketchup6.0
+    2300002: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#1"
+    3300000: Sketchup6.0
+    3300002: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#1"
+    4300000: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#1"
+    4300002: Mesh Sketchup6.0
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

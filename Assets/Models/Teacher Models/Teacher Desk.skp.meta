@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 1b324822f5eae49ceacecbb33221662b
+timeCreated: 1459268688
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f0000002000000021000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 0f16e8722f0f9690947b90141ed20f12
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 5.3146286, y: 1.4193327, z: 2.4335358}
+      lookAt: {x: -16.486197, y: -6.568756, z: 10.376788}
+      up: {x: -0.3058521, y: 0.9455347, z: 0.111438915}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bovenste gedeelte
+    100002: bovenste gedeelte 1
+    100004: frame
+    100006: frame 1
+    100008: frame 2
+    100010: frame 3
+    100012: frame 4
+    100014: onderframe
+    100016: rugleuning
+    100018: rugleuning 1
+    100020: ske5E
+    100022: ske60
+    100024: //RootNode
+    100026: wiel
+    100028: wiel 1
+    100030: wiel 2
+    100032: wiel 3
+    100034: wiel 4
+    400000: bovenste gedeelte
+    400002: bovenste gedeelte 1
+    400004: frame
+    400006: frame 1
+    400008: frame 2
+    400010: frame 3
+    400012: frame 4
+    400014: onderframe
+    400016: rugleuning
+    400018: rugleuning 1
+    400020: ske5E
+    400022: ske60
+    400024: //RootNode
+    400026: wiel
+    400028: wiel 1
+    400030: wiel 2
+    400032: wiel 3
+    400034: wiel 4
+    2300000: bovenste gedeelte
+    2300002: bovenste gedeelte 1
+    2300004: frame
+    2300006: frame 1
+    2300008: frame 2
+    2300010: frame 3
+    2300012: frame 4
+    2300014: onderframe
+    2300016: rugleuning
+    2300018: rugleuning 1
+    2300020: ske5E
+    2300022: wiel
+    2300024: wiel 1
+    2300026: wiel 2
+    2300028: wiel 3
+    2300030: wiel 4
+    3300000: bovenste gedeelte
+    3300002: bovenste gedeelte 1
+    3300004: frame
+    3300006: frame 1
+    3300008: frame 2
+    3300010: frame 3
+    3300012: frame 4
+    3300014: onderframe
+    3300016: rugleuning
+    3300018: rugleuning 1
+    3300020: ske5E
+    3300022: wiel
+    3300024: wiel 1
+    3300026: wiel 2
+    3300028: wiel 3
+    3300030: wiel 4
+    4300000: Mesh ske5E
+    4300002: Mesh bovenste gedeelte
+    4300004: Mesh rugleuning
+    4300006: Mesh onderframe
+    4300008: Mesh wiel
+    4300010: Mesh frame
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
