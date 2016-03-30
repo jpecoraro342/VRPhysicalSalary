@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -17,11 +18,13 @@ public class MoneyDispenser : MonoBehaviour
 
 	[SerializeField] GameObject coinContainer;
 
+	[SerializeField] Text earningsText;
+
 	private bool dispensing;
 
 	private float pennyValue = 0.01f;
 	private float pennySmallClusterValue = 0.5f;
-	private float pennyClusterValue = 5f;
+	private float pennyClusterValue = 20f;
 
 	private float pennyRate = 0f;
 	private float pennySmallClusterRate = 0f;
@@ -81,6 +84,9 @@ public class MoneyDispenser : MonoBehaviour
 			dollarsEarned += amountJustEarned;
 
 			Debug.Log("Total Dollars Earned " + dollarsEarned + "\nAdditional amount earned " + amountJustEarned);
+			if (earningsText) {
+				earningsText.text = "Simulation Earnings: $" + dollarsEarned.ToString("F2");
+			}
 		}
 	}
 
@@ -107,10 +113,10 @@ public class MoneyDispenser : MonoBehaviour
 		var penniesPerMinute = penniesPerDay / 8.0f / 60.0f;
 		var penniesPerSecond = penniesPerMinute / 60.0f;
 
-		if (penniesPerSecond < 5) {
+		if (penniesPerSecond < 15) {
 			pennyRate = penniesPerSecond;
 		}
-		else if (penniesPerSecond < 151) {
+		else if (penniesPerSecond < 351) {
 			pennyRate = .25f;
 			penniesPerSecond -= .25f;
 			pennySmallClusterRate = penniesPerSecond / (pennySmallClusterValue * 100f);
@@ -189,6 +195,7 @@ public class MoneyDispenser : MonoBehaviour
 	public void stopDispensing ()
 	{
 		resetCoinRates ();
+		removeAllCoins();
 		dispensing = false;
 	}
 
@@ -197,7 +204,9 @@ public class MoneyDispenser : MonoBehaviour
 		Transform[] childTransforms = coinContainer.GetComponentsInChildren<Transform> ();
 
 		foreach (Transform coin in childTransforms) {
-			Destroy (coin.gameObject);
+			if ( coin.gameObject.GetInstanceID() != coinContainer.GetInstanceID() ) {
+				Destroy (coin.gameObject);
+			}
 		}
 	}
 }
