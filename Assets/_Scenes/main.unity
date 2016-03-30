@@ -38308,6 +38308,14 @@ Prefab:
       propertyPath: coinCluster
       value: 
       objectReference: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
+    - target: {fileID: 11449978, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: smallCoinCluster
+      value: 
+      objectReference: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
+    - target: {fileID: 11449978, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: largeCoinCluster
+      value: 
+      objectReference: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b7da972ac03044b00b51057640fa43af, type: 2}
   m_IsPrefabParent: 0

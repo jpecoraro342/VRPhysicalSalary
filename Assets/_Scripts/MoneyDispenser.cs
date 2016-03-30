@@ -8,10 +8,8 @@ public class MoneyDispenser : MonoBehaviour
 	[SerializeField] float salaryAmount = 120000f;
 
 	[SerializeField] GameObject penny;
-	[SerializeField] GameObject nickel;
-	[SerializeField] GameObject dime;
-	[SerializeField] GameObject quarter;
-	[SerializeField] GameObject coinCluster;
+	[SerializeField] GameObject smallCoinCluster;
+	[SerializeField] GameObject largeCoinCluster;
 
 	// What is the maximum x and z that we can spawn the coins in around the central dispensing game object?
 	[SerializeField] float containingWidth;
@@ -22,16 +20,16 @@ public class MoneyDispenser : MonoBehaviour
 	private bool dispensing;
 
 	private float pennyValue = 0.01f;
-	private float nickelValue = 0.05f;
-	private float dimeValue = 0.1f;
-	private float quarterValue = 0.25f;
+	private float pennySmallClusterValue = 0.5f;
+	private float pennyClusterValue = 5f;
 
-	private Coroutine pennyCoroutine;
-	private Coroutine nickelCoroutine;
-	private Coroutine dimeCoroutine;
-	private Coroutine quarterCoroutine;
+	private float pennyRate = 0f;
+	private float pennySmallClusterRate = 0f;
+	private float pennyClusterRate = 0f;
 
-	private float timeSinceLastSpawn;
+	private float timeSinceLastPennySpawn;
+	private float timeSinceLastPennySmallClusterSpawn;
+	private float timeSinceLastPennyClusterSpawn;
 
 	private float dollarsEarned = 0;
 
@@ -42,15 +40,10 @@ public class MoneyDispenser : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		coinRate = new Dictionary<GameObject, float> () { 
-			{ penny , 0 },
-			{ nickel , 0 },
-			{ dime , 0 },
-			{ quarter , 0 }
-		};
-
 		dispensing = false;
-		timeSinceLastSpawn = 0;
+		timeSinceLastPennySpawn = 0;
+		timeSinceLastPennySmallClusterSpawn = 0;
+		timeSinceLastPennyClusterSpawn = 0;
 		startDispensing ();
 	}
 	
@@ -58,27 +51,36 @@ public class MoneyDispenser : MonoBehaviour
 	void Update ()
 	{
 		if (dispensing) {
-			timeSinceLastSpawn += Time.deltaTime;
-			var pennySpawnTime = 60 / coinRate [penny];
+			timeSinceLastPennySpawn += Time.deltaTime;
+			timeSinceLastPennySmallClusterSpawn += Time.deltaTime;
+			timeSinceLastPennyClusterSpawn += Time.deltaTime;
 
-			float numberOfItemsToSpawn = timeSinceLastSpawn / pennySpawnTime;
-			if (numberOfItemsToSpawn >= 100) {
-				timeSinceLastSpawn = 0;
-				for (var i = 0; i < Mathf.Round(numberOfItemsToSpawn/100); i++) {
-					spawnCoinInRandomLocation (coinCluster);
-					dollarsEarned += 1f;
-					Debug.Log("Dollars Earned " + dollarsEarned);
-				}
+			var pennySpawnTime = 1 / pennyRate;
+			var pennySmallClusterSpawnTime = 1 / pennySmallClusterRate;
+			var pennyClusterSpawnTime = 1 / pennyClusterRate;
+
+			float numberOfPenniesToSpawn = timeSinceLastPennySpawn / pennySpawnTime;
+			float numberOfPennySmallClustersToSpawn = timeSinceLastPennySmallClusterSpawn / pennySmallClusterSpawnTime;
+			float numberOfPennyClustersToSpawn = timeSinceLastPennyClusterSpawn / pennyClusterSpawnTime;
+
+			spawnItems(penny, numberOfPenniesToSpawn, pennyValue, ref timeSinceLastPennySpawn);
+			spawnItems(smallCoinCluster, numberOfPennySmallClustersToSpawn, pennySmallClusterValue, ref timeSinceLastPennySmallClusterSpawn);
+			spawnItems(largeCoinCluster, numberOfPennyClustersToSpawn, pennyClusterValue, ref timeSinceLastPennyClusterSpawn);
+		}
+	}
+
+	private void spawnItems(GameObject item, float numberToSpawn, float value, ref float timeObject) {
+		var amountJustEarned = 0f;
+		if (numberToSpawn >= 1) {
+			timeObject = 0f;
+			for (var i = 0; i < Mathf.Round(numberToSpawn); i++) {
+				spawnCoinInRandomLocation (item);
+				amountJustEarned += value;
 			}
-			else if (numberOfItemsToSpawn >= 1) {
-				// Debug.Log("Time since last spawn = " + timeSinceLastSpawn + " Spawning " + numberOfItemsToSpawn + " pennies");
-				timeSinceLastSpawn = 0;
-				for (var i = 0; i < Mathf.Round(numberOfItemsToSpawn); i++) {
-					spawnCoinInRandomLocation (penny);
-					dollarsEarned += 0.01f;
-					Debug.Log("Dollars Earned " + dollarsEarned);
-				}
-			}
+
+			dollarsEarned += amountJustEarned;
+
+			Debug.Log("Total Dollars Earned " + dollarsEarned + "\nAdditional amount earned " + amountJustEarned);
 		}
 	}
 
@@ -96,20 +98,6 @@ public class MoneyDispenser : MonoBehaviour
 		removeAllCoins ();
 	}
 
-	private IEnumerator spawnCoinAtRate (GameObject coin, float rate)
-	{
-		if (rate == 0) {
-			yield break;
-		}
-
-		var waitTime = 60 / rate;
-
-		while (true) {
-			yield return new WaitForSeconds (waitTime);
-			spawnCoinInRandomLocation (coin);
-		}
-	}
-
 	private void calculateCoinRates (float salary)
 	{
 		var salaryPerWeek = salary / 52.0f;
@@ -117,32 +105,34 @@ public class MoneyDispenser : MonoBehaviour
 		var penniesPerDay = salaryPerDay / pennyValue;
 
 		var penniesPerMinute = penniesPerDay / 8.0f / 60.0f;
-		setCoinRate (penny, penniesPerMinute);
+		var penniesPerSecond = penniesPerMinute / 60.0f;
 
-		Debug.Log ("Pennies per minute = " + penniesPerMinute);
+		if (penniesPerSecond < 5) {
+			pennyRate = penniesPerSecond;
+		}
+		else if (penniesPerSecond < 151) {
+			pennyRate = .25f;
+			penniesPerSecond -= .25f;
+			pennySmallClusterRate = penniesPerSecond / (pennySmallClusterValue * 100f);
+		}
+		else {
+			pennyRate = .25f;
+			penniesPerSecond -= .25f;
+			pennySmallClusterRate = .18f;
+			penniesPerSecond -= .18f*pennySmallClusterValue;
 
-		// TODO: Set this up for a variety of coins, not just pennies
+			pennyClusterRate = penniesPerSecond / (pennyClusterValue * 100f);
+
+		}
+
+		Debug.Log("Pennies per second: " + pennyRate + "\nSmall Clusters per second: " + pennySmallClusterRate + "\nClusters per second: " + pennyClusterRate);
 	}
 
 	private void resetCoinRates ()
 	{
-		setCoinRate (penny, 0f);
-		setCoinRate (nickel, 0f);
-		setCoinRate (dime, 0f);
-		setCoinRate (quarter, 0f);
-	}
-
-	private void setCoinRate (GameObject coin, float rate)
-	{
-		coinRate [coin] = rate;
-	}
-
-	private void startSpawningAllCoinObjects ()
-	{
-		pennyCoroutine = StartCoroutine (spawnCoinAtRate (penny, coinRate [penny]));
-		nickelCoroutine = StartCoroutine (spawnCoinAtRate (nickel, coinRate [nickel]));
-		dimeCoroutine = StartCoroutine (spawnCoinAtRate (dime, coinRate [dime]));
-		quarterCoroutine = StartCoroutine (spawnCoinAtRate (quarter, coinRate [quarter]));
+		pennyRate = 0;
+		pennySmallClusterRate = 0;
+		pennyClusterRate = 0;
 	}
 
 	private void spawnCoinInRandomLocation (GameObject coin)
@@ -170,27 +160,6 @@ public class MoneyDispenser : MonoBehaviour
 		newCoin.transform.localPosition = location;
 
 		newCoin.transform.localEulerAngles = eulerAngles;
-		Debug.Log(newCoin.transform.rotation);
-	}
-
-	private void StopAllCoroutines ()
-	{
-
-		if (pennyCoroutine != null) {
-			StopCoroutine (pennyCoroutine);
-		}
-
-		if (nickelCoroutine != null) {
-			StopCoroutine (nickelCoroutine);
-		}
-
-		if (dimeCoroutine != null) {
-			StopCoroutine (dimeCoroutine);
-		}
-
-		if (quarterCoroutine != null) {
-			StopCoroutine (quarterCoroutine);
-		}
 	}
 
 	// Public Methods
@@ -214,16 +183,12 @@ public class MoneyDispenser : MonoBehaviour
 	public void startDispensing ()
 	{
 		calculateCoinRates (salaryAmount);
-		// startSpawningAllCoinObjects();
-
 		dispensing = true;
 	}
 
 	public void stopDispensing ()
 	{
 		resetCoinRates ();
-		// StopAllCoroutines();
-
 		dispensing = false;
 	}
 
