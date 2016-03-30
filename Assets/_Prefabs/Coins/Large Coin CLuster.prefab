@@ -14,7 +14,7 @@ GameObject:
   - 54: {fileID: 5407714}
   - 65: {fileID: 6598412}
   m_Layer: 0
-  m_Name: Large Coin CLuster
+  m_Name: Large Coin Cluster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

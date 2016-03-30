@@ -28,16 +28,23 @@ namespace VRStandardAssets.Intro
 			yield return null;
 
              // In order, fade in the UI on how to use sliders, wait for the slider to be filled then fade out the UI.
+			if (m_HowToUseFader)
              yield return StartCoroutine (m_HowToUseFader.InteruptAndFadeIn ());
+			if (m_HowToUseSlider)
              yield return StartCoroutine (m_HowToUseSlider.WaitForBarToFill ());
+			if(m_HowToUseFader)
              yield return StartCoroutine (m_HowToUseFader.InteruptAndFadeOut ());
 
              // In order, fade in the UI on confirming the use of sliders, wait for the slider to be filled, then fade out the UI.
+			if (m_HowToUseConfirmFader)
              yield return StartCoroutine(m_HowToUseConfirmFader.InteruptAndFadeIn());
+			if (m_HowToUseConfirmSlider)
              yield return StartCoroutine(m_HowToUseConfirmSlider.WaitForBarToFill());
+			if (m_HowToUseConfirmFader)
              yield return StartCoroutine(m_HowToUseConfirmFader.InteruptAndFadeOut());
 
              // Fade in the final UI.
+			if (m_ReturnFader)
              yield return StartCoroutine (m_ReturnFader.InteruptAndFadeIn ());
         }
     }

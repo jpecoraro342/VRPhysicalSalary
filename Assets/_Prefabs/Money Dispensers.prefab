@@ -620,7 +620,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 183334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.27, y: 8.34, z: 8.45}
+  m_LocalPosition: {x: -4.27, y: 7.5, z: 12.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 479386}
@@ -646,7 +646,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 147258}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6, y: 8.34, z: 46.72}
+  m_LocalPosition: {x: 6, y: 7.5, z: 46.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 493706}
@@ -660,7 +660,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 180728}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.67, y: 8.34, z: 66.13}
+  m_LocalPosition: {x: -19.67, y: 7.5, z: 66.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 470554}
@@ -698,7 +698,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 179030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.34, y: 8.34, z: 46.72}
+  m_LocalPosition: {x: 32.34, y: 7.5, z: 46.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 445980}
@@ -772,7 +772,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174406}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.67, y: 8.34, z: 50.74}
+  m_LocalPosition: {x: -17.47, y: 7.5, z: 50.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 463900}
@@ -810,7 +810,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.7, y: 8.34, z: 46.72}
+  m_LocalPosition: {x: 47.7, y: 7.5, z: 46.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 442774}
@@ -884,7 +884,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 115358}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.5, y: 8.34, z: 8.13}
+  m_LocalPosition: {x: -34.5, y: 7.5, z: 12.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 458604}
@@ -910,7 +910,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 197856}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.42, y: 8.34, z: 8.5}
+  m_LocalPosition: {x: -19.83, y: 7.5, z: 12.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 446460}
@@ -924,7 +924,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 186906}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6, y: 8.34, z: 80.75}
+  m_LocalPosition: {x: 6, y: 7.5, z: 80.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 409710}
@@ -974,7 +974,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 105270}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.42, y: 8.34, z: 36.3}
+  m_LocalPosition: {x: -16.54, y: 7.5, z: 36.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 493710}
@@ -988,7 +988,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158838}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6, y: 8.34, z: 62.8}
+  m_LocalPosition: {x: 6, y: 7.5, z: 62.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 470664}
@@ -1370,9 +1370,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   salaryAmount: 500000
-  penny: {fileID: 133868, guid: 7e8e05c8fc4b1473eaa44d1b54fba4ae, type: 2}
-  smallCoinCluster: {fileID: 0}
-  largeCoinCluster: {fileID: 0}
+  penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
+  smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
+  largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
   containingWidth: 10
   containingLength: 10
   coinContainer: {fileID: 164892}
@@ -1388,9 +1388,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   salaryAmount: 500000
-  penny: {fileID: 133868, guid: 7e8e05c8fc4b1473eaa44d1b54fba4ae, type: 2}
-  smallCoinCluster: {fileID: 0}
-  largeCoinCluster: {fileID: 0}
+  penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
+  smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
+  largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
   containingWidth: 10
   containingLength: 10
   coinContainer: {fileID: 123800}
@@ -1405,12 +1405,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  salaryAmount: 500000
-  penny: {fileID: 133868, guid: 7e8e05c8fc4b1473eaa44d1b54fba4ae, type: 2}
-  smallCoinCluster: {fileID: 0}
-  largeCoinCluster: {fileID: 0}
-  containingWidth: 10
-  containingLength: 10
+  salaryAmount: 32000
+  penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
+  smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
+  largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
+  containingWidth: 5
+  containingLength: 1
   coinContainer: {fileID: 150562}
 --- !u!114 &11440522
 MonoBehaviour:
@@ -1424,9 +1424,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   salaryAmount: 500000
-  penny: {fileID: 133868, guid: 7e8e05c8fc4b1473eaa44d1b54fba4ae, type: 2}
-  smallCoinCluster: {fileID: 0}
-  largeCoinCluster: {fileID: 0}
+  penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
+  smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
+  largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
   containingWidth: 10
   containingLength: 10
   coinContainer: {fileID: 190984}
@@ -1441,12 +1441,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  salaryAmount: 500000
-  penny: {fileID: 133868, guid: 7e8e05c8fc4b1473eaa44d1b54fba4ae, type: 2}
-  smallCoinCluster: {fileID: 0}
-  largeCoinCluster: {fileID: 0}
-  containingWidth: 10
-  containingLength: 10
+  salaryAmount: 24000
+  penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
+  smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
+  largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
+  containingWidth: 5
+  containingLength: 1
   coinContainer: {fileID: 141282}
 --- !u!114 &11449038
 MonoBehaviour:
@@ -1460,9 +1460,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   salaryAmount: 500000
-  penny: {fileID: 133868, guid: 7e8e05c8fc4b1473eaa44d1b54fba4ae, type: 2}
-  smallCoinCluster: {fileID: 0}
-  largeCoinCluster: {fileID: 0}
+  penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
+  smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
+  largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
   containingWidth: 10
   containingLength: 10
   coinContainer: {fileID: 170708}
@@ -1478,11 +1478,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   salaryAmount: 500000
-  penny: {fileID: 133868, guid: 7e8e05c8fc4b1473eaa44d1b54fba4ae, type: 2}
-  smallCoinCluster: {fileID: 0}
-  largeCoinCluster: {fileID: 0}
-  containingWidth: 10
-  containingLength: 10
+  penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
+  smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
+  largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
+  containingWidth: 7
+  containingLength: 2
   coinContainer: {fileID: 145674}
 --- !u!114 &11476424
 MonoBehaviour:
@@ -1496,9 +1496,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   salaryAmount: 500000
-  penny: {fileID: 133868, guid: 7e8e05c8fc4b1473eaa44d1b54fba4ae, type: 2}
-  smallCoinCluster: {fileID: 0}
-  largeCoinCluster: {fileID: 0}
+  penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
+  smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
+  largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
   containingWidth: 10
   containingLength: 10
   coinContainer: {fileID: 120498}
@@ -1514,11 +1514,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   salaryAmount: 500000
-  penny: {fileID: 133868, guid: 7e8e05c8fc4b1473eaa44d1b54fba4ae, type: 2}
-  smallCoinCluster: {fileID: 0}
-  largeCoinCluster: {fileID: 0}
-  containingWidth: 10
-  containingLength: 10
+  penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
+  smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
+  largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
+  containingWidth: 8
+  containingLength: 8
   coinContainer: {fileID: 149650}
 --- !u!114 &11487168
 MonoBehaviour:
@@ -1535,8 +1535,8 @@ MonoBehaviour:
   penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
   smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
   largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
-  containingWidth: 10
-  containingLength: 10
+  containingWidth: 5
+  containingLength: 1
   coinContainer: {fileID: 165896}
 --- !u!114 &11492748
 MonoBehaviour:
@@ -1550,11 +1550,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   salaryAmount: 500000
-  penny: {fileID: 133868, guid: 7e8e05c8fc4b1473eaa44d1b54fba4ae, type: 2}
-  smallCoinCluster: {fileID: 0}
-  largeCoinCluster: {fileID: 0}
-  containingWidth: 10
-  containingLength: 10
+  penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
+  smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
+  largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
+  containingWidth: 8
+  containingLength: 5
   coinContainer: {fileID: 185384}
 --- !u!135 &13515458
 SphereCollider:
