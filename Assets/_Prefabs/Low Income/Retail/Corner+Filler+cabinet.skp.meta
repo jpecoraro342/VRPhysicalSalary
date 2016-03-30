@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: cd9838e42467b474d8a2b62db56a1f16
+timeCreated: 1459104332
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 3913eb429c752c7f80330b52d6555259
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 2.4581995, y: 0.23822288, z: -0.7866789}
+      lookAt: {x: 2.4581995, y: 0.23822288, z: 0.8569624}
+      up: {x: 0, y: 1, z: 0}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 65708
+    100002: arpa
+    100004: arpa#1
+    100006: arpa#2
+    100008: arpa#3
+    100010: arpa#4
+    100012: arpa#5
+    100014: arpa#6
+    100016: arpa#7
+    100018: Bird House 7
+    100020: Component#1
+    100022: Component#10
+    100024: Component#2
+    100026: Component#2 1
+    100028: Component#2 2
+    100030: Component#2 3
+    100032: Component#2 4
+    100034: Component#2 5
+    100036: Component#3
+    100038: Component#3 1
+    100040: Component#3 2
+    100042: Component#3 3
+    100044: Component#3 4
+    100046: Component#3 5
+    100048: Component#6
+    100050: Component#9
+    100052: corner shelf rack
+    100054: corner shelf rack 1
+    100056: Corner shlf shell
+    100058: //RootNode
+    100060: cuerda
+    100062: cuerda#1
+    100064: cuerda#2
+    100066: cuerda#2 1
+    100068: cuerda#3
+    100070: cuerda#4
+    100072: cuerda#5
+    100074: cuerda#6
+    100076: cuerda#7
+    100078: cuerda#7 1
+    100080: cuerda#7 2
+    100082: cuerda2
+    100084: cuerda2 1
+    100086: cuerda2#1
+    100088: cuerda2#1 1
+    100090: Cylinder01
+    100092: DancingHaniwa
+    100094: Egyptian fishin_ boat
+    100096: Group 103
+    100098: Group 105
+    100100: harp
+    100102: hold holes
+    100104: hold holes 1
+    100106: Image 1
+    100108: jade statue
+    100110: skpD0
+    100112: statuette horse
+    100114: sujecion
+    100116: sujecion#1
+    100118: sujecion#1 1
+    100120: sujecion2
+    400000: 65708
+    400002: arpa
+    400004: arpa#1
+    400006: arpa#2
+    400008: arpa#3
+    400010: arpa#4
+    400012: arpa#5
+    400014: arpa#6
+    400016: arpa#7
+    400018: Bird House 7
+    400020: Component#1
+    400022: Component#10
+    400024: Component#2
+    400026: Component#2 1
+    400028: Component#2 2
+    400030: Component#2 3
+    400032: Component#2 4
+    400034: Component#2 5
+    400036: Component#3
+    400038: Component#3 1
+    400040: Component#3 2
+    400042: Component#3 3
+    400044: Component#3 4
+    400046: Component#3 5
+    400048: Component#6
+    400050: Component#9
+    400052: corner shelf rack
+    400054: corner shelf rack 1
+    400056: Corner shlf shell
+    400058: //RootNode
+    400060: cuerda
+    400062: cuerda#1
+    400064: cuerda#2
+    400066: cuerda#2 1
+    400068: cuerda#3
+    400070: cuerda#4
+    400072: cuerda#5
+    400074: cuerda#6
+    400076: cuerda#7
+    400078: cuerda#7 1
+    400080: cuerda#7 2
+    400082: cuerda2
+    400084: cuerda2 1
+    400086: cuerda2#1
+    400088: cuerda2#1 1
+    400090: Cylinder01
+    400092: DancingHaniwa
+    400094: Egyptian fishin_ boat
+    400096: Group 103
+    400098: Group 105
+    400100: harp
+    400102: hold holes
+    400104: hold holes 1
+    400106: Image 1
+    400108: jade statue
+    400110: skpD0
+    400112: statuette horse
+    400114: sujecion
+    400116: sujecion#1
+    400118: sujecion#1 1
+    400120: sujecion2
+    2300000: arpa
+    2300002: arpa#2
+    2300004: arpa#3
+    2300006: arpa#4
+    2300008: arpa#5
+    2300010: arpa#6
+    2300012: arpa#7
+    2300014: Component#1
+    2300016: Component#10
+    2300018: Component#2
+    2300020: Component#2 1
+    2300022: Component#2 2
+    2300024: Component#2 3
+    2300026: Component#2 4
+    2300028: Component#2 5
+    2300030: Component#3
+    2300032: Component#3 1
+    2300034: Component#3 2
+    2300036: Component#3 3
+    2300038: Component#3 4
+    2300040: Component#3 5
+    2300042: Component#6
+    2300044: corner shelf rack
+    2300046: corner shelf rack 1
+    2300048: Corner shlf shell
+    2300050: cuerda
+    2300052: cuerda#1
+    2300054: cuerda#2
+    2300056: cuerda#2 1
+    2300058: cuerda#3
+    2300060: cuerda#4
+    2300062: cuerda#5
+    2300064: cuerda#6
+    2300066: cuerda#7
+    2300068: cuerda#7 1
+    2300070: cuerda#7 2
+    2300072: cuerda2
+    2300074: cuerda2 1
+    2300076: Cylinder01
+    2300078: Egyptian fishin_ boat
+    2300080: Group 103
+    2300082: Group 105
+    2300084: hold holes
+    2300086: hold holes 1
+    2300088: Image 1
+    2300090: jade statue
+    2300092: sujecion
+    2300094: sujecion#1
+    2300096: sujecion#1 1
+    3300000: arpa
+    3300002: arpa#2
+    3300004: arpa#3
+    3300006: arpa#4
+    3300008: arpa#5
+    3300010: arpa#6
+    3300012: arpa#7
+    3300014: Component#1
+    3300016: Component#10
+    3300018: Component#2
+    3300020: Component#2 1
+    3300022: Component#2 2
+    3300024: Component#2 3
+    3300026: Component#2 4
+    3300028: Component#2 5
+    3300030: Component#3
+    3300032: Component#3 1
+    3300034: Component#3 2
+    3300036: Component#3 3
+    3300038: Component#3 4
+    3300040: Component#3 5
+    3300042: Component#6
+    3300044: corner shelf rack
+    3300046: corner shelf rack 1
+    3300048: Corner shlf shell
+    3300050: cuerda
+    3300052: cuerda#1
+    3300054: cuerda#2
+    3300056: cuerda#2 1
+    3300058: cuerda#3
+    3300060: cuerda#4
+    3300062: cuerda#5
+    3300064: cuerda#6
+    3300066: cuerda#7
+    3300068: cuerda#7 1
+    3300070: cuerda#7 2
+    3300072: cuerda2
+    3300074: cuerda2 1
+    3300076: Cylinder01
+    3300078: Egyptian fishin_ boat
+    3300080: Group 103
+    3300082: Group 105
+    3300084: hold holes
+    3300086: hold holes 1
+    3300088: Image 1
+    3300090: jade statue
+    3300092: sujecion
+    3300094: sujecion#1
+    3300096: sujecion#1 1
+    4300000: Mesh Corner+Filler+cabinet
+    4300002: Mesh Corner shlf shell
+    4300004: Mesh hold holes
+    4300006: Mesh corner shelf rack
+    4300008: Mesh Component#1
+    4300010: Mesh Component#2
+    4300012: Mesh Component#3
+    4300014: Mesh Component#6
+    4300016: Mesh Component#10
+    4300018: Mesh Egyptian fishin_ boat
+    4300020: Mesh Cylinder01
+    4300022: Mesh arpa#7
+    4300024: Mesh arpa#6
+    4300026: Mesh arpa#5
+    4300028: Mesh arpa#4
+    4300030: Mesh arpa#3
+    4300032: Mesh arpa#2
+    4300034: Mesh arpa
+    4300036: Mesh cuerda
+    4300038: Mesh cuerda#1
+    4300040: Mesh cuerda#2
+    4300042: Mesh cuerda#3
+    4300044: Mesh cuerda#4
+    4300046: Mesh cuerda#5
+    4300048: Mesh cuerda#6
+    4300050: Mesh sujecion
+    4300052: Mesh cuerda#7
+    4300054: Mesh cuerda2
+    4300056: Mesh cuerda#7
+    4300058: Mesh cuerda2
+    4300060: Mesh sujecion#1
+    4300062: Mesh Group 103
+    4300064: Mesh Group 105
+    4300066: Mesh jade statue
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

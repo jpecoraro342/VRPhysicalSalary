@@ -1,0 +1,1864 @@
+fileFormatVersion: 2
+guid: 8bd64e17bca9f4f4896bcbc0700e6b9c
+timeCreated: 1459103949
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000aa010000ab010000ac010000ad010000ae010000af010000b0010000b1010000b2010000b3010000b4010000b5010000b6010000b7010000b8010000b9010000ba010000bb010000bc010000bd010000be010000bf010000c0010000c1010000c2010000c3010000c4010000c5010000c6010000c7010000c8010000c9010000ca010000cb010000cc010000cd010000ce010000cf010000d0010000d1010000d2010000d3010000d4010000d5010000d6010000d7010000d8010000d9010000da010000db010000dc010000dd010000de010000df010000e0010000e1010000e2010000e3010000e4010000e5010000e6010000e7010000e8010000e9010000ea010000eb010000ec010000ed010000ee010000ef010000f0010000f1010000f2010000f3010000f4010000f5010000f6010000f7010000f8010000f9010000fa010000fb010000fc010000fd010000fe010000ff010000000200000102000002020000030200000402000005020000060200000702000008020000090200000a0200000b0200000c0200000d0200000e0200000f020000100200001102000012020000130200001402000015020000160200001702000018020000190200001a0200001b0200001c0200001d0200001e0200001f020000200200002102000022020000230200002402000025020000260200002702000028020000290200002a0200002b0200002c0200002d0200002e0200002f020000300200003102000032020000330200003402000035020000360200003702000038020000390200003a0200003b0200003c0200003d0200003e0200003f020000400200004102000042020000430200004402000045020000460200004702000048020000490200004a0200004b0200004c0200004d0200004e0200004f020000500200005102000052020000530200005402000055020000560200005702000058020000590200005a0200005b0200005c0200005d0200005e0200005f020000600200006102000062020000630200006402000065020000660200006702000068020000690200006a0200006b0200006c0200006d0200006e0200006f020000700200007102000072020000730200007402000075020000760200007702000078020000790200007a0200007b0200007c0200007d0200007e0200007f020000800200008102000082020000830200008402000085020000860200008702000088020000890200008a0200008b0200008c0200008d0200008e0200008f020000900200009102000092020000930200009402000095020000960200009702000098020000990200009a0200009b0200009c0200009d0200009e0200009f020000a0020000a1020000a2020000a3020000a4020000a5020000a6020000a7020000a8020000a9020000aa020000ab020000ac020000ad020000ae020000af020000b0020000b1020000b2020000b3020000b4020000b5020000b6020000b7020000b8020000b9020000ba020000bb020000bc020000bd020000be020000bf020000c0020000c1020000c2020000c3020000c4020000c5020000c6020000c7020000c8020000c9020000ca020000cb020000cc020000cd020000ce020000cf020000d0020000d1020000d2020000d3020000d4020000d5020000d6020000d7020000d8020000d9020000da020000db020000dc020000dd020000de020000df020000e0020000e1020000e2020000e3020000e4020000e5020000e6020000e7020000e8020000e9020000ea020000eb020000ec020000ed020000ee020000ef020000f0020000f1020000f2020000f3020000f4020000f5020000f6020000f7020000f8020000f9020000fa020000fb020000fc020000fd020000fe020000ff020000000300000103000002030000030300000403000005030000060300000703000008030000090300000a0300000b0300000c0300000d0300000e0300000f030000100300001103000012030000130300001403000015030000160300001703000018030000190300001a0300001b0300001c0300001d0300001e0300001f030000200300002103000022030000230300002403000025030000260300002703000028030000290300002a0300002b0300002c0300002d0300002e0300002f030000300300003103000032030000330300003403000035030000360300003703000038030000390300003a0300003b0300003c0300003d0300003e0300003f030000400300004103000042030000430300004403000045030000460300004703000048030000490300004a0300004b0300004c0300004d0300004e0300004f03000050030000510300005203000053030000540300005503000056030000
+  assetHash:
+    serializedVersion: 2
+    Hash: 8abeae8d5622b14e31047f90bf47fe2b
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 3.1710386, y: 0.24669458, z: -0.7079577}
+      lookAt: {x: 3.1710386, y: 0.24669458, z: 1.6117357}
+      up: {x: 0, y: 1, z: 0}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 65562
+    100002: bluegreen vase
+    100004: bottle-blue
+    100006: bougies
+    100008: cadena
+    100010: cadena 1
+    100012: cadena 2
+    100014: cadena 3
+    100016: Candle
+    100018: Candle 1
+    100020: cmp shelf 10"
+    100022: cmp shelf 8"
+    100024: Component#1
+    100026: Component#4
+    100028: Component#4 1
+    100030: Component#4 10
+    100032: Component#4 11
+    100034: Component#4 12
+    100036: Component#4 13
+    100038: Component#4 14
+    100040: Component#4 15
+    100042: Component#4 16
+    100044: Component#4 17
+    100046: Component#4 18
+    100048: Component#4 2
+    100050: Component#4 3
+    100052: Component#4 4
+    100054: Component#4 5
+    100056: Component#4 6
+    100058: Component#4 7
+    100060: Component#4 8
+    100062: Component#4 9
+    100064: Component#5
+    100066: Cylinder01
+    100068: Cylinder01#1
+    100070: //RootNode
+    100072: eslava
+    100074: eslava 1
+    100076: eslava 10
+    100078: eslava 100
+    100080: eslava 101
+    100082: eslava 102
+    100084: eslava 103
+    100086: eslava 104
+    100088: eslava 105
+    100090: eslava 106
+    100092: eslava 107
+    100094: eslava 108
+    100096: eslava 109
+    100098: eslava 11
+    100100: eslava 110
+    100102: eslava 111
+    100104: eslava 112
+    100106: eslava 113
+    100108: eslava 114
+    100110: eslava 115
+    100112: eslava 116
+    100114: eslava 117
+    100116: eslava 118
+    100118: eslava 119
+    100120: eslava 12
+    100122: eslava 120
+    100124: eslava 121
+    100126: eslava 122
+    100128: eslava 123
+    100130: eslava 124
+    100132: eslava 125
+    100134: eslava 126
+    100136: eslava 127
+    100138: eslava 13
+    100140: eslava 14
+    100142: eslava 15
+    100144: eslava 16
+    100146: eslava 17
+    100148: eslava 18
+    100150: eslava 19
+    100152: eslava 2
+    100154: eslava 20
+    100156: eslava 21
+    100158: eslava 22
+    100160: eslava 23
+    100162: eslava 24
+    100164: eslava 25
+    100166: eslava 26
+    100168: eslava 27
+    100170: eslava 28
+    100172: eslava 29
+    100174: eslava 3
+    100176: eslava 30
+    100178: eslava 31
+    100180: eslava 32
+    100182: eslava 33
+    100184: eslava 34
+    100186: eslava 35
+    100188: eslava 36
+    100190: eslava 37
+    100192: eslava 38
+    100194: eslava 39
+    100196: eslava 4
+    100198: eslava 40
+    100200: eslava 41
+    100202: eslava 42
+    100204: eslava 43
+    100206: eslava 44
+    100208: eslava 45
+    100210: eslava 46
+    100212: eslava 47
+    100214: eslava 48
+    100216: eslava 49
+    100218: eslava 5
+    100220: eslava 50
+    100222: eslava 51
+    100224: eslava 52
+    100226: eslava 53
+    100228: eslava 54
+    100230: eslava 55
+    100232: eslava 56
+    100234: eslava 57
+    100236: eslava 58
+    100238: eslava 59
+    100240: eslava 6
+    100242: eslava 60
+    100244: eslava 61
+    100246: eslava 62
+    100248: eslava 63
+    100250: eslava 64
+    100252: eslava 65
+    100254: eslava 66
+    100256: eslava 67
+    100258: eslava 68
+    100260: eslava 69
+    100262: eslava 7
+    100264: eslava 70
+    100266: eslava 71
+    100268: eslava 72
+    100270: eslava 73
+    100272: eslava 74
+    100274: eslava 75
+    100276: eslava 76
+    100278: eslava 77
+    100280: eslava 78
+    100282: eslava 79
+    100284: eslava 8
+    100286: eslava 80
+    100288: eslava 81
+    100290: eslava 82
+    100292: eslava 83
+    100294: eslava 84
+    100296: eslava 85
+    100298: eslava 86
+    100300: eslava 87
+    100302: eslava 88
+    100304: eslava 89
+    100306: eslava 9
+    100308: eslava 90
+    100310: eslava 91
+    100312: eslava 92
+    100314: eslava 93
+    100316: eslava 94
+    100318: eslava 95
+    100320: eslava 96
+    100322: eslava 97
+    100324: eslava 98
+    100326: eslava 99
+    100328: eslava#1
+    100330: eslava#1 1
+    100332: eslava#1 10
+    100334: eslava#1 11
+    100336: eslava#1 12
+    100338: eslava#1 13
+    100340: eslava#1 14
+    100342: eslava#1 15
+    100344: eslava#1 16
+    100346: eslava#1 17
+    100348: eslava#1 18
+    100350: eslava#1 19
+    100352: eslava#1 2
+    100354: eslava#1 20
+    100356: eslava#1 21
+    100358: eslava#1 22
+    100360: eslava#1 23
+    100362: eslava#1 24
+    100364: eslava#1 25
+    100366: eslava#1 26
+    100368: eslava#1 27
+    100370: eslava#1 28
+    100372: eslava#1 29
+    100374: eslava#1 3
+    100376: eslava#1 30
+    100378: eslava#1 31
+    100380: eslava#1 32
+    100382: eslava#1 33
+    100384: eslava#1 34
+    100386: eslava#1 35
+    100388: eslava#1 36
+    100390: eslava#1 37
+    100392: eslava#1 38
+    100394: eslava#1 39
+    100396: eslava#1 4
+    100398: eslava#1 40
+    100400: eslava#1 41
+    100402: eslava#1 42
+    100404: eslava#1 43
+    100406: eslava#1 44
+    100408: eslava#1 45
+    100410: eslava#1 46
+    100412: eslava#1 47
+    100414: eslava#1 48
+    100416: eslava#1 49
+    100418: eslava#1 5
+    100420: eslava#1 50
+    100422: eslava#1 51
+    100424: eslava#1 52
+    100426: eslava#1 53
+    100428: eslava#1 54
+    100430: eslava#1 55
+    100432: eslava#1 56
+    100434: eslava#1 57
+    100436: eslava#1 58
+    100438: eslava#1 59
+    100440: eslava#1 6
+    100442: eslava#1 60
+    100444: eslava#1 61
+    100446: eslava#1 62
+    100448: eslava#1 63
+    100450: eslava#1 7
+    100452: eslava#1 8
+    100454: eslava#1 9
+    100456: eslava3
+    100458: eslava3 1
+    100460: eslava3 10
+    100462: eslava3 11
+    100464: eslava3 12
+    100466: eslava3 13
+    100468: eslava3 14
+    100470: eslava3 15
+    100472: eslava3 16
+    100474: eslava3 17
+    100476: eslava3 18
+    100478: eslava3 19
+    100480: eslava3 2
+    100482: eslava3 20
+    100484: eslava3 21
+    100486: eslava3 22
+    100488: eslava3 23
+    100490: eslava3 24
+    100492: eslava3 25
+    100494: eslava3 26
+    100496: eslava3 27
+    100498: eslava3 28
+    100500: eslava3 29
+    100502: eslava3 3
+    100504: eslava3 30
+    100506: eslava3 31
+    100508: eslava3 32
+    100510: eslava3 33
+    100512: eslava3 34
+    100514: eslava3 35
+    100516: eslava3 36
+    100518: eslava3 37
+    100520: eslava3 38
+    100522: eslava3 39
+    100524: eslava3 4
+    100526: eslava3 40
+    100528: eslava3 41
+    100530: eslava3 42
+    100532: eslava3 43
+    100534: eslava3 44
+    100536: eslava3 45
+    100538: eslava3 46
+    100540: eslava3 47
+    100542: eslava3 48
+    100544: eslava3 49
+    100546: eslava3 5
+    100548: eslava3 50
+    100550: eslava3 51
+    100552: eslava3 52
+    100554: eslava3 53
+    100556: eslava3 54
+    100558: eslava3 55
+    100560: eslava3 56
+    100562: eslava3 57
+    100564: eslava3 58
+    100566: eslava3 59
+    100568: eslava3 6
+    100570: eslava3 60
+    100572: eslava3 61
+    100574: eslava3 62
+    100576: eslava3 63
+    100578: eslava3 7
+    100580: eslava3 8
+    100582: eslava3 9
+    100584: eslava3#1
+    100586: eslava3#1 1
+    100588: eslava3#1 10
+    100590: eslava3#1 11
+    100592: eslava3#1 12
+    100594: eslava3#1 13
+    100596: eslava3#1 14
+    100598: eslava3#1 15
+    100600: eslava3#1 16
+    100602: eslava3#1 17
+    100604: eslava3#1 18
+    100606: eslava3#1 19
+    100608: eslava3#1 2
+    100610: eslava3#1 20
+    100612: eslava3#1 21
+    100614: eslava3#1 22
+    100616: eslava3#1 23
+    100618: eslava3#1 24
+    100620: eslava3#1 25
+    100622: eslava3#1 26
+    100624: eslava3#1 27
+    100626: eslava3#1 28
+    100628: eslava3#1 29
+    100630: eslava3#1 3
+    100632: eslava3#1 30
+    100634: eslava3#1 31
+    100636: eslava3#1 4
+    100638: eslava3#1 5
+    100640: eslava3#1 6
+    100642: eslava3#1 7
+    100644: eslava3#1 8
+    100646: eslava3#1 9
+    100648: eslava3#2
+    100650: eslava3#2 1
+    100652: eslava3#2 10
+    100654: eslava3#2 11
+    100656: eslava3#2 12
+    100658: eslava3#2 13
+    100660: eslava3#2 14
+    100662: eslava3#2 15
+    100664: eslava3#2 2
+    100666: eslava3#2 3
+    100668: eslava3#2 4
+    100670: eslava3#2 5
+    100672: eslava3#2 6
+    100674: eslava3#2 7
+    100676: eslava3#2 8
+    100678: eslava3#2 9
+    100680: eslava3#3
+    100682: eslava3#3 1
+    100684: eslava3#3 2
+    100686: eslava3#3 3
+    100688: eslava3#3 4
+    100690: eslava3#3 5
+    100692: eslava3#3 6
+    100694: eslava3#3 7
+    100696: eslava3#4
+    100698: eslava3#4 1
+    100700: eslava3#4 2
+    100702: eslava3#4 3
+    100704: fan - Copy
+    100706: flower
+    100708: flower 1
+    100710: flower 2
+    100712: flower 3
+    100714: flower 4
+    100716: flower 5
+    100718: flower 6
+    100720: flower 7
+    100722: Geometric Vase
+    100724: Globe
+    100726: globe base_quarter
+    100728: globe base_quarter 1
+    100730: globe base_quarter 2
+    100732: globe base_quarter 3
+    100734: globe_quarter
+    100736: globe_quarter 1
+    100738: globe_quarter 2
+    100740: globe_quarter 3
+    100742: globe_quarter 4
+    100744: globe_quarter 5
+    100746: globe_quarter 6
+    100748: globe_quarter 7
+    100750: gong
+    100752: gongg
+    100754: gongg#1
+    100756: gongg#2
+    100758: Group 43
+    100760: Group 46
+    100762: Group 49
+    100764: Group 51
+    100766: Group 54
+    100768: Group 59
+    100770: Group 611
+    100772: Group 612
+    100774: Group 613
+    100776: Group 615
+    100778: Group 616
+    100780: Group 618
+    100782: Group 62
+    100784: Group 620
+    100786: Group 622
+    100788: Group 624
+    100790: Group 626
+    100792: Group 627
+    100794: Group 629
+    100796: Group 632
+    100798: Group 633
+    100800: Group 634
+    100802: Group 636
+    100804: Group 637
+    100806: Group 639
+    100808: Group 641
+    100810: Group 643
+    100812: Group 645
+    100814: Group 647
+    100816: Group 648
+    100818: Group 65
+    100820: Group 650
+    100822: Group 653
+    100824: Group 656
+    100826: Group 658
+    100828: Group 661
+    100830: Group 663
+    100832: Group 665
+    100834: Group 667
+    100836: Group 669
+    100838: Group 678
+    100840: Group 68
+    100842: Group 680
+    100844: Group 684
+    100846: Group 685
+    100848: Group 687
+    100850: Group 688
+    100852: Group 690
+    100854: Group 692
+    100856: Group 694
+    100858: Group 696
+    100860: Group 699
+    100862: Group 71
+    100864: Group 74
+    100866: Group 763
+    100868: Group 77
+    100870: Group 81
+    100872: Group 82
+    100874: Group 99
+    100876: Ikebana 03
+    100878: Image 1
+    100880: leaf
+    100882: leaf 1
+    100884: leaf 10
+    100886: leaf 11
+    100888: leaf 12
+    100890: leaf 13
+    100892: leaf 2
+    100894: leaf 3
+    100896: leaf 4
+    100898: leaf 5
+    100900: leaf 6
+    100902: leaf 7
+    100904: leaf 8
+    100906: leaf 9
+    100908: leaf#1
+    100910: leaf#1 1
+    100912: leaf#1 2
+    100914: leaf#1 3
+    100916: leaf#1 4
+    100918: leaf#1 5
+    100920: petal#1
+    100922: petal#1 1
+    100924: petal#1 10
+    100926: petal#1 11
+    100928: petal#1 12
+    100930: petal#1 13
+    100932: petal#1 14
+    100934: petal#1 15
+    100936: petal#1 16
+    100938: petal#1 17
+    100940: petal#1 18
+    100942: petal#1 19
+    100944: petal#1 2
+    100946: petal#1 20
+    100948: petal#1 21
+    100950: petal#1 22
+    100952: petal#1 23
+    100954: petal#1 24
+    100956: petal#1 25
+    100958: petal#1 26
+    100960: petal#1 27
+    100962: petal#1 28
+    100964: petal#1 29
+    100966: petal#1 3
+    100968: petal#1 30
+    100970: petal#1 31
+    100972: petal#1 4
+    100974: petal#1 5
+    100976: petal#1 6
+    100978: petal#1 7
+    100980: petal#1 8
+    100982: petal#1 9
+    100984: pie soporte gonog
+    100986: pie soporte gonog 1
+    100988: Plant_flower
+    100990: Plant_flower 1
+    100992: Plant_flower 2
+    100994: Plant_flower 3
+    100996: Plant_flower 4
+    100998: Plant_flower 5
+    101000: Plant_flower2
+    101002: Plant_flower2 1
+    101004: Pottery-Hopi1
+    101006: Pottery-Hopi2
+    101008: shelf 10"
+    101010: shelf 10" 1
+    101012: Shelf base
+    101014: Shelf frame
+    101016: shelf glass
+    101018: Shelf holder
+    101020: Shelf holder 1
+    101022: Shelf holder 2
+    101024: shelf holder metal
+    101026: shelf holder metal 1
+    101028: shelf holder metal 2
+    101030: shelf holder metal#1
+    101032: shelf holder metal#1 1
+    101034: shelf holder metal#1 2
+    101036: SimpleDome02#1
+    101038: SimpleDome02#1 1
+    101040: ske1252
+    101042: skpD0
+    101044: skpD0#1
+    101046: soporte gong
+    101048: soporte gong#1
+    101050: statuette horse
+    101052: statuette horse#1
+    101054: stem
+    101056: stem 1
+    101058: stem 2
+    101060: stem 3
+    101062: stem 4
+    101064: stem 5
+    101066: stem2
+    101068: stem2 1
+    101070: Teelicht
+    101072: Teelicht 1
+    101074: Tutankhamon - Copy
+    101076: Untitled
+    101078: Untitled (2)
+    101080: Untitled 1
+    101082: v2
+    101084: v2 1
+    101086: v2 2
+    101088: vase noir
+    101090: vase-lunares1
+    101092: Vase-white1
+    101094: Vases-short-tall-1
+    101096: vaso decoracio tiago
+    101098: Wedge
+    101100: Wedge 1
+    101102: Wedge 2
+    101104: Wedge 3
+    101106: Wedge 4
+    101108: Wedge 5
+    101110: Wedge 6
+    400000: 65562
+    400002: bluegreen vase
+    400004: bottle-blue
+    400006: bougies
+    400008: cadena
+    400010: cadena 1
+    400012: cadena 2
+    400014: cadena 3
+    400016: Candle
+    400018: Candle 1
+    400020: cmp shelf 10"
+    400022: cmp shelf 8"
+    400024: Component#1
+    400026: Component#4
+    400028: Component#4 1
+    400030: Component#4 10
+    400032: Component#4 11
+    400034: Component#4 12
+    400036: Component#4 13
+    400038: Component#4 14
+    400040: Component#4 15
+    400042: Component#4 16
+    400044: Component#4 17
+    400046: Component#4 18
+    400048: Component#4 2
+    400050: Component#4 3
+    400052: Component#4 4
+    400054: Component#4 5
+    400056: Component#4 6
+    400058: Component#4 7
+    400060: Component#4 8
+    400062: Component#4 9
+    400064: Component#5
+    400066: Cylinder01
+    400068: Cylinder01#1
+    400070: //RootNode
+    400072: eslava
+    400074: eslava 1
+    400076: eslava 10
+    400078: eslava 100
+    400080: eslava 101
+    400082: eslava 102
+    400084: eslava 103
+    400086: eslava 104
+    400088: eslava 105
+    400090: eslava 106
+    400092: eslava 107
+    400094: eslava 108
+    400096: eslava 109
+    400098: eslava 11
+    400100: eslava 110
+    400102: eslava 111
+    400104: eslava 112
+    400106: eslava 113
+    400108: eslava 114
+    400110: eslava 115
+    400112: eslava 116
+    400114: eslava 117
+    400116: eslava 118
+    400118: eslava 119
+    400120: eslava 12
+    400122: eslava 120
+    400124: eslava 121
+    400126: eslava 122
+    400128: eslava 123
+    400130: eslava 124
+    400132: eslava 125
+    400134: eslava 126
+    400136: eslava 127
+    400138: eslava 13
+    400140: eslava 14
+    400142: eslava 15
+    400144: eslava 16
+    400146: eslava 17
+    400148: eslava 18
+    400150: eslava 19
+    400152: eslava 2
+    400154: eslava 20
+    400156: eslava 21
+    400158: eslava 22
+    400160: eslava 23
+    400162: eslava 24
+    400164: eslava 25
+    400166: eslava 26
+    400168: eslava 27
+    400170: eslava 28
+    400172: eslava 29
+    400174: eslava 3
+    400176: eslava 30
+    400178: eslava 31
+    400180: eslava 32
+    400182: eslava 33
+    400184: eslava 34
+    400186: eslava 35
+    400188: eslava 36
+    400190: eslava 37
+    400192: eslava 38
+    400194: eslava 39
+    400196: eslava 4
+    400198: eslava 40
+    400200: eslava 41
+    400202: eslava 42
+    400204: eslava 43
+    400206: eslava 44
+    400208: eslava 45
+    400210: eslava 46
+    400212: eslava 47
+    400214: eslava 48
+    400216: eslava 49
+    400218: eslava 5
+    400220: eslava 50
+    400222: eslava 51
+    400224: eslava 52
+    400226: eslava 53
+    400228: eslava 54
+    400230: eslava 55
+    400232: eslava 56
+    400234: eslava 57
+    400236: eslava 58
+    400238: eslava 59
+    400240: eslava 6
+    400242: eslava 60
+    400244: eslava 61
+    400246: eslava 62
+    400248: eslava 63
+    400250: eslava 64
+    400252: eslava 65
+    400254: eslava 66
+    400256: eslava 67
+    400258: eslava 68
+    400260: eslava 69
+    400262: eslava 7
+    400264: eslava 70
+    400266: eslava 71
+    400268: eslava 72
+    400270: eslava 73
+    400272: eslava 74
+    400274: eslava 75
+    400276: eslava 76
+    400278: eslava 77
+    400280: eslava 78
+    400282: eslava 79
+    400284: eslava 8
+    400286: eslava 80
+    400288: eslava 81
+    400290: eslava 82
+    400292: eslava 83
+    400294: eslava 84
+    400296: eslava 85
+    400298: eslava 86
+    400300: eslava 87
+    400302: eslava 88
+    400304: eslava 89
+    400306: eslava 9
+    400308: eslava 90
+    400310: eslava 91
+    400312: eslava 92
+    400314: eslava 93
+    400316: eslava 94
+    400318: eslava 95
+    400320: eslava 96
+    400322: eslava 97
+    400324: eslava 98
+    400326: eslava 99
+    400328: eslava#1
+    400330: eslava#1 1
+    400332: eslava#1 10
+    400334: eslava#1 11
+    400336: eslava#1 12
+    400338: eslava#1 13
+    400340: eslava#1 14
+    400342: eslava#1 15
+    400344: eslava#1 16
+    400346: eslava#1 17
+    400348: eslava#1 18
+    400350: eslava#1 19
+    400352: eslava#1 2
+    400354: eslava#1 20
+    400356: eslava#1 21
+    400358: eslava#1 22
+    400360: eslava#1 23
+    400362: eslava#1 24
+    400364: eslava#1 25
+    400366: eslava#1 26
+    400368: eslava#1 27
+    400370: eslava#1 28
+    400372: eslava#1 29
+    400374: eslava#1 3
+    400376: eslava#1 30
+    400378: eslava#1 31
+    400380: eslava#1 32
+    400382: eslava#1 33
+    400384: eslava#1 34
+    400386: eslava#1 35
+    400388: eslava#1 36
+    400390: eslava#1 37
+    400392: eslava#1 38
+    400394: eslava#1 39
+    400396: eslava#1 4
+    400398: eslava#1 40
+    400400: eslava#1 41
+    400402: eslava#1 42
+    400404: eslava#1 43
+    400406: eslava#1 44
+    400408: eslava#1 45
+    400410: eslava#1 46
+    400412: eslava#1 47
+    400414: eslava#1 48
+    400416: eslava#1 49
+    400418: eslava#1 5
+    400420: eslava#1 50
+    400422: eslava#1 51
+    400424: eslava#1 52
+    400426: eslava#1 53
+    400428: eslava#1 54
+    400430: eslava#1 55
+    400432: eslava#1 56
+    400434: eslava#1 57
+    400436: eslava#1 58
+    400438: eslava#1 59
+    400440: eslava#1 6
+    400442: eslava#1 60
+    400444: eslava#1 61
+    400446: eslava#1 62
+    400448: eslava#1 63
+    400450: eslava#1 7
+    400452: eslava#1 8
+    400454: eslava#1 9
+    400456: eslava3
+    400458: eslava3 1
+    400460: eslava3 10
+    400462: eslava3 11
+    400464: eslava3 12
+    400466: eslava3 13
+    400468: eslava3 14
+    400470: eslava3 15
+    400472: eslava3 16
+    400474: eslava3 17
+    400476: eslava3 18
+    400478: eslava3 19
+    400480: eslava3 2
+    400482: eslava3 20
+    400484: eslava3 21
+    400486: eslava3 22
+    400488: eslava3 23
+    400490: eslava3 24
+    400492: eslava3 25
+    400494: eslava3 26
+    400496: eslava3 27
+    400498: eslava3 28
+    400500: eslava3 29
+    400502: eslava3 3
+    400504: eslava3 30
+    400506: eslava3 31
+    400508: eslava3 32
+    400510: eslava3 33
+    400512: eslava3 34
+    400514: eslava3 35
+    400516: eslava3 36
+    400518: eslava3 37
+    400520: eslava3 38
+    400522: eslava3 39
+    400524: eslava3 4
+    400526: eslava3 40
+    400528: eslava3 41
+    400530: eslava3 42
+    400532: eslava3 43
+    400534: eslava3 44
+    400536: eslava3 45
+    400538: eslava3 46
+    400540: eslava3 47
+    400542: eslava3 48
+    400544: eslava3 49
+    400546: eslava3 5
+    400548: eslava3 50
+    400550: eslava3 51
+    400552: eslava3 52
+    400554: eslava3 53
+    400556: eslava3 54
+    400558: eslava3 55
+    400560: eslava3 56
+    400562: eslava3 57
+    400564: eslava3 58
+    400566: eslava3 59
+    400568: eslava3 6
+    400570: eslava3 60
+    400572: eslava3 61
+    400574: eslava3 62
+    400576: eslava3 63
+    400578: eslava3 7
+    400580: eslava3 8
+    400582: eslava3 9
+    400584: eslava3#1
+    400586: eslava3#1 1
+    400588: eslava3#1 10
+    400590: eslava3#1 11
+    400592: eslava3#1 12
+    400594: eslava3#1 13
+    400596: eslava3#1 14
+    400598: eslava3#1 15
+    400600: eslava3#1 16
+    400602: eslava3#1 17
+    400604: eslava3#1 18
+    400606: eslava3#1 19
+    400608: eslava3#1 2
+    400610: eslava3#1 20
+    400612: eslava3#1 21
+    400614: eslava3#1 22
+    400616: eslava3#1 23
+    400618: eslava3#1 24
+    400620: eslava3#1 25
+    400622: eslava3#1 26
+    400624: eslava3#1 27
+    400626: eslava3#1 28
+    400628: eslava3#1 29
+    400630: eslava3#1 3
+    400632: eslava3#1 30
+    400634: eslava3#1 31
+    400636: eslava3#1 4
+    400638: eslava3#1 5
+    400640: eslava3#1 6
+    400642: eslava3#1 7
+    400644: eslava3#1 8
+    400646: eslava3#1 9
+    400648: eslava3#2
+    400650: eslava3#2 1
+    400652: eslava3#2 10
+    400654: eslava3#2 11
+    400656: eslava3#2 12
+    400658: eslava3#2 13
+    400660: eslava3#2 14
+    400662: eslava3#2 15
+    400664: eslava3#2 2
+    400666: eslava3#2 3
+    400668: eslava3#2 4
+    400670: eslava3#2 5
+    400672: eslava3#2 6
+    400674: eslava3#2 7
+    400676: eslava3#2 8
+    400678: eslava3#2 9
+    400680: eslava3#3
+    400682: eslava3#3 1
+    400684: eslava3#3 2
+    400686: eslava3#3 3
+    400688: eslava3#3 4
+    400690: eslava3#3 5
+    400692: eslava3#3 6
+    400694: eslava3#3 7
+    400696: eslava3#4
+    400698: eslava3#4 1
+    400700: eslava3#4 2
+    400702: eslava3#4 3
+    400704: fan - Copy
+    400706: flower
+    400708: flower 1
+    400710: flower 2
+    400712: flower 3
+    400714: flower 4
+    400716: flower 5
+    400718: flower 6
+    400720: flower 7
+    400722: Geometric Vase
+    400724: Globe
+    400726: globe base_quarter
+    400728: globe base_quarter 1
+    400730: globe base_quarter 2
+    400732: globe base_quarter 3
+    400734: globe_quarter
+    400736: globe_quarter 1
+    400738: globe_quarter 2
+    400740: globe_quarter 3
+    400742: globe_quarter 4
+    400744: globe_quarter 5
+    400746: globe_quarter 6
+    400748: globe_quarter 7
+    400750: gong
+    400752: gongg
+    400754: gongg#1
+    400756: gongg#2
+    400758: Group 43
+    400760: Group 46
+    400762: Group 49
+    400764: Group 51
+    400766: Group 54
+    400768: Group 59
+    400770: Group 611
+    400772: Group 612
+    400774: Group 613
+    400776: Group 615
+    400778: Group 616
+    400780: Group 618
+    400782: Group 62
+    400784: Group 620
+    400786: Group 622
+    400788: Group 624
+    400790: Group 626
+    400792: Group 627
+    400794: Group 629
+    400796: Group 632
+    400798: Group 633
+    400800: Group 634
+    400802: Group 636
+    400804: Group 637
+    400806: Group 639
+    400808: Group 641
+    400810: Group 643
+    400812: Group 645
+    400814: Group 647
+    400816: Group 648
+    400818: Group 65
+    400820: Group 650
+    400822: Group 653
+    400824: Group 656
+    400826: Group 658
+    400828: Group 661
+    400830: Group 663
+    400832: Group 665
+    400834: Group 667
+    400836: Group 669
+    400838: Group 678
+    400840: Group 68
+    400842: Group 680
+    400844: Group 684
+    400846: Group 685
+    400848: Group 687
+    400850: Group 688
+    400852: Group 690
+    400854: Group 692
+    400856: Group 694
+    400858: Group 696
+    400860: Group 699
+    400862: Group 71
+    400864: Group 74
+    400866: Group 763
+    400868: Group 77
+    400870: Group 81
+    400872: Group 82
+    400874: Group 99
+    400876: Ikebana 03
+    400878: Image 1
+    400880: leaf
+    400882: leaf 1
+    400884: leaf 10
+    400886: leaf 11
+    400888: leaf 12
+    400890: leaf 13
+    400892: leaf 2
+    400894: leaf 3
+    400896: leaf 4
+    400898: leaf 5
+    400900: leaf 6
+    400902: leaf 7
+    400904: leaf 8
+    400906: leaf 9
+    400908: leaf#1
+    400910: leaf#1 1
+    400912: leaf#1 2
+    400914: leaf#1 3
+    400916: leaf#1 4
+    400918: leaf#1 5
+    400920: petal#1
+    400922: petal#1 1
+    400924: petal#1 10
+    400926: petal#1 11
+    400928: petal#1 12
+    400930: petal#1 13
+    400932: petal#1 14
+    400934: petal#1 15
+    400936: petal#1 16
+    400938: petal#1 17
+    400940: petal#1 18
+    400942: petal#1 19
+    400944: petal#1 2
+    400946: petal#1 20
+    400948: petal#1 21
+    400950: petal#1 22
+    400952: petal#1 23
+    400954: petal#1 24
+    400956: petal#1 25
+    400958: petal#1 26
+    400960: petal#1 27
+    400962: petal#1 28
+    400964: petal#1 29
+    400966: petal#1 3
+    400968: petal#1 30
+    400970: petal#1 31
+    400972: petal#1 4
+    400974: petal#1 5
+    400976: petal#1 6
+    400978: petal#1 7
+    400980: petal#1 8
+    400982: petal#1 9
+    400984: pie soporte gonog
+    400986: pie soporte gonog 1
+    400988: Plant_flower
+    400990: Plant_flower 1
+    400992: Plant_flower 2
+    400994: Plant_flower 3
+    400996: Plant_flower 4
+    400998: Plant_flower 5
+    401000: Plant_flower2
+    401002: Plant_flower2 1
+    401004: Pottery-Hopi1
+    401006: Pottery-Hopi2
+    401008: shelf 10"
+    401010: shelf 10" 1
+    401012: Shelf base
+    401014: Shelf frame
+    401016: shelf glass
+    401018: Shelf holder
+    401020: Shelf holder 1
+    401022: Shelf holder 2
+    401024: shelf holder metal
+    401026: shelf holder metal 1
+    401028: shelf holder metal 2
+    401030: shelf holder metal#1
+    401032: shelf holder metal#1 1
+    401034: shelf holder metal#1 2
+    401036: SimpleDome02#1
+    401038: SimpleDome02#1 1
+    401040: ske1252
+    401042: skpD0
+    401044: skpD0#1
+    401046: soporte gong
+    401048: soporte gong#1
+    401050: statuette horse
+    401052: statuette horse#1
+    401054: stem
+    401056: stem 1
+    401058: stem 2
+    401060: stem 3
+    401062: stem 4
+    401064: stem 5
+    401066: stem2
+    401068: stem2 1
+    401070: Teelicht
+    401072: Teelicht 1
+    401074: Tutankhamon - Copy
+    401076: Untitled
+    401078: Untitled (2)
+    401080: Untitled 1
+    401082: v2
+    401084: v2 1
+    401086: v2 2
+    401088: vase noir
+    401090: vase-lunares1
+    401092: Vase-white1
+    401094: Vases-short-tall-1
+    401096: vaso decoracio tiago
+    401098: Wedge
+    401100: Wedge 1
+    401102: Wedge 2
+    401104: Wedge 3
+    401106: Wedge 4
+    401108: Wedge 5
+    401110: Wedge 6
+    2300000: Component#1
+    2300002: Component#4
+    2300004: Component#4 1
+    2300006: Component#4 10
+    2300008: Component#4 11
+    2300010: Component#4 12
+    2300012: Component#4 13
+    2300014: Component#4 14
+    2300016: Component#4 15
+    2300018: Component#4 16
+    2300020: Component#4 17
+    2300022: Component#4 18
+    2300024: Component#4 2
+    2300026: Component#4 3
+    2300028: Component#4 4
+    2300030: Component#4 5
+    2300032: Component#4 6
+    2300034: Component#4 7
+    2300036: Component#4 8
+    2300038: Component#4 9
+    2300040: Component#5
+    2300042: Cylinder01
+    2300044: Cylinder01#1
+    2300046: eslava
+    2300048: eslava 1
+    2300050: eslava 10
+    2300052: eslava 100
+    2300054: eslava 101
+    2300056: eslava 102
+    2300058: eslava 103
+    2300060: eslava 104
+    2300062: eslava 105
+    2300064: eslava 106
+    2300066: eslava 107
+    2300068: eslava 108
+    2300070: eslava 109
+    2300072: eslava 11
+    2300074: eslava 110
+    2300076: eslava 111
+    2300078: eslava 112
+    2300080: eslava 113
+    2300082: eslava 114
+    2300084: eslava 115
+    2300086: eslava 116
+    2300088: eslava 117
+    2300090: eslava 118
+    2300092: eslava 119
+    2300094: eslava 12
+    2300096: eslava 120
+    2300098: eslava 121
+    2300100: eslava 122
+    2300102: eslava 123
+    2300104: eslava 124
+    2300106: eslava 125
+    2300108: eslava 126
+    2300110: eslava 127
+    2300112: eslava 13
+    2300114: eslava 14
+    2300116: eslava 15
+    2300118: eslava 16
+    2300120: eslava 17
+    2300122: eslava 18
+    2300124: eslava 19
+    2300126: eslava 2
+    2300128: eslava 20
+    2300130: eslava 21
+    2300132: eslava 22
+    2300134: eslava 23
+    2300136: eslava 24
+    2300138: eslava 25
+    2300140: eslava 26
+    2300142: eslava 27
+    2300144: eslava 28
+    2300146: eslava 29
+    2300148: eslava 3
+    2300150: eslava 30
+    2300152: eslava 31
+    2300154: eslava 32
+    2300156: eslava 33
+    2300158: eslava 34
+    2300160: eslava 35
+    2300162: eslava 36
+    2300164: eslava 37
+    2300166: eslava 38
+    2300168: eslava 39
+    2300170: eslava 4
+    2300172: eslava 40
+    2300174: eslava 41
+    2300176: eslava 42
+    2300178: eslava 43
+    2300180: eslava 44
+    2300182: eslava 45
+    2300184: eslava 46
+    2300186: eslava 47
+    2300188: eslava 48
+    2300190: eslava 49
+    2300192: eslava 5
+    2300194: eslava 50
+    2300196: eslava 51
+    2300198: eslava 52
+    2300200: eslava 53
+    2300202: eslava 54
+    2300204: eslava 55
+    2300206: eslava 56
+    2300208: eslava 57
+    2300210: eslava 58
+    2300212: eslava 59
+    2300214: eslava 6
+    2300216: eslava 60
+    2300218: eslava 61
+    2300220: eslava 62
+    2300222: eslava 63
+    2300224: eslava 64
+    2300226: eslava 65
+    2300228: eslava 66
+    2300230: eslava 67
+    2300232: eslava 68
+    2300234: eslava 69
+    2300236: eslava 7
+    2300238: eslava 70
+    2300240: eslava 71
+    2300242: eslava 72
+    2300244: eslava 73
+    2300246: eslava 74
+    2300248: eslava 75
+    2300250: eslava 76
+    2300252: eslava 77
+    2300254: eslava 78
+    2300256: eslava 79
+    2300258: eslava 8
+    2300260: eslava 80
+    2300262: eslava 81
+    2300264: eslava 82
+    2300266: eslava 83
+    2300268: eslava 84
+    2300270: eslava 85
+    2300272: eslava 86
+    2300274: eslava 87
+    2300276: eslava 88
+    2300278: eslava 89
+    2300280: eslava 9
+    2300282: eslava 90
+    2300284: eslava 91
+    2300286: eslava 92
+    2300288: eslava 93
+    2300290: eslava 94
+    2300292: eslava 95
+    2300294: eslava 96
+    2300296: eslava 97
+    2300298: eslava 98
+    2300300: eslava 99
+    2300302: Globe
+    2300304: globe base_quarter
+    2300306: globe base_quarter 1
+    2300308: globe base_quarter 2
+    2300310: globe base_quarter 3
+    2300312: globe_quarter
+    2300314: globe_quarter 1
+    2300316: globe_quarter 2
+    2300318: globe_quarter 3
+    2300320: globe_quarter 4
+    2300322: globe_quarter 5
+    2300324: globe_quarter 6
+    2300326: globe_quarter 7
+    2300328: gongg
+    2300330: Group 43
+    2300332: Group 46
+    2300334: Group 49
+    2300336: Group 51
+    2300338: Group 54
+    2300340: Group 59
+    2300342: Group 613
+    2300344: Group 616
+    2300346: Group 618
+    2300348: Group 62
+    2300350: Group 620
+    2300352: Group 622
+    2300354: Group 624
+    2300356: Group 627
+    2300358: Group 629
+    2300360: Group 634
+    2300362: Group 637
+    2300364: Group 639
+    2300366: Group 641
+    2300368: Group 643
+    2300370: Group 645
+    2300372: Group 648
+    2300374: Group 65
+    2300376: Group 650
+    2300378: Group 653
+    2300380: Group 656
+    2300382: Group 658
+    2300384: Group 661
+    2300386: Group 663
+    2300388: Group 665
+    2300390: Group 667
+    2300392: Group 669
+    2300394: Group 678
+    2300396: Group 68
+    2300398: Group 680
+    2300400: Group 685
+    2300402: Group 688
+    2300404: Group 690
+    2300406: Group 692
+    2300408: Group 694
+    2300410: Group 696
+    2300412: Group 71
+    2300414: Group 74
+    2300416: Group 77
+    2300418: Group 99
+    2300420: Ikebana 03
+    2300422: Image 1
+    2300424: leaf
+    2300426: leaf 1
+    2300428: leaf 10
+    2300430: leaf 11
+    2300432: leaf 12
+    2300434: leaf 13
+    2300436: leaf 2
+    2300438: leaf 3
+    2300440: leaf 4
+    2300442: leaf 5
+    2300444: leaf 6
+    2300446: leaf 7
+    2300448: leaf 8
+    2300450: leaf 9
+    2300452: petal#1
+    2300454: petal#1 1
+    2300456: petal#1 10
+    2300458: petal#1 11
+    2300460: petal#1 12
+    2300462: petal#1 13
+    2300464: petal#1 14
+    2300466: petal#1 15
+    2300468: petal#1 16
+    2300470: petal#1 17
+    2300472: petal#1 18
+    2300474: petal#1 19
+    2300476: petal#1 2
+    2300478: petal#1 20
+    2300480: petal#1 21
+    2300482: petal#1 22
+    2300484: petal#1 23
+    2300486: petal#1 24
+    2300488: petal#1 25
+    2300490: petal#1 26
+    2300492: petal#1 27
+    2300494: petal#1 28
+    2300496: petal#1 29
+    2300498: petal#1 3
+    2300500: petal#1 30
+    2300502: petal#1 31
+    2300504: petal#1 4
+    2300506: petal#1 5
+    2300508: petal#1 6
+    2300510: petal#1 7
+    2300512: petal#1 8
+    2300514: petal#1 9
+    2300516: pie soporte gonog
+    2300518: pie soporte gonog 1
+    2300520: Pottery-Hopi1
+    2300522: Pottery-Hopi2
+    2300524: shelf 10"
+    2300526: shelf 10" 1
+    2300528: Shelf base
+    2300530: Shelf frame
+    2300532: shelf glass
+    2300534: Shelf holder
+    2300536: Shelf holder 1
+    2300538: Shelf holder 2
+    2300540: shelf holder metal
+    2300542: shelf holder metal 1
+    2300544: shelf holder metal 2
+    2300546: shelf holder metal#1
+    2300548: shelf holder metal#1 1
+    2300550: shelf holder metal#1 2
+    2300552: SimpleDome02#1
+    2300554: SimpleDome02#1 1
+    2300556: soporte gong
+    2300558: stem
+    2300560: stem 1
+    2300562: stem 2
+    2300564: stem 3
+    2300566: stem 4
+    2300568: stem 5
+    2300570: stem2
+    2300572: stem2 1
+    2300574: Tutankhamon - Copy
+    2300576: v2
+    2300578: v2 1
+    2300580: v2 2
+    2300582: vase noir
+    2300584: vase-lunares1
+    2300586: Wedge
+    2300588: Wedge 1
+    2300590: Wedge 2
+    2300592: Wedge 3
+    2300594: Wedge 4
+    2300596: Wedge 5
+    2300598: Wedge 6
+    3300000: Component#1
+    3300002: Component#4
+    3300004: Component#4 1
+    3300006: Component#4 10
+    3300008: Component#4 11
+    3300010: Component#4 12
+    3300012: Component#4 13
+    3300014: Component#4 14
+    3300016: Component#4 15
+    3300018: Component#4 16
+    3300020: Component#4 17
+    3300022: Component#4 18
+    3300024: Component#4 2
+    3300026: Component#4 3
+    3300028: Component#4 4
+    3300030: Component#4 5
+    3300032: Component#4 6
+    3300034: Component#4 7
+    3300036: Component#4 8
+    3300038: Component#4 9
+    3300040: Component#5
+    3300042: Cylinder01
+    3300044: Cylinder01#1
+    3300046: eslava
+    3300048: eslava 1
+    3300050: eslava 10
+    3300052: eslava 100
+    3300054: eslava 101
+    3300056: eslava 102
+    3300058: eslava 103
+    3300060: eslava 104
+    3300062: eslava 105
+    3300064: eslava 106
+    3300066: eslava 107
+    3300068: eslava 108
+    3300070: eslava 109
+    3300072: eslava 11
+    3300074: eslava 110
+    3300076: eslava 111
+    3300078: eslava 112
+    3300080: eslava 113
+    3300082: eslava 114
+    3300084: eslava 115
+    3300086: eslava 116
+    3300088: eslava 117
+    3300090: eslava 118
+    3300092: eslava 119
+    3300094: eslava 12
+    3300096: eslava 120
+    3300098: eslava 121
+    3300100: eslava 122
+    3300102: eslava 123
+    3300104: eslava 124
+    3300106: eslava 125
+    3300108: eslava 126
+    3300110: eslava 127
+    3300112: eslava 13
+    3300114: eslava 14
+    3300116: eslava 15
+    3300118: eslava 16
+    3300120: eslava 17
+    3300122: eslava 18
+    3300124: eslava 19
+    3300126: eslava 2
+    3300128: eslava 20
+    3300130: eslava 21
+    3300132: eslava 22
+    3300134: eslava 23
+    3300136: eslava 24
+    3300138: eslava 25
+    3300140: eslava 26
+    3300142: eslava 27
+    3300144: eslava 28
+    3300146: eslava 29
+    3300148: eslava 3
+    3300150: eslava 30
+    3300152: eslava 31
+    3300154: eslava 32
+    3300156: eslava 33
+    3300158: eslava 34
+    3300160: eslava 35
+    3300162: eslava 36
+    3300164: eslava 37
+    3300166: eslava 38
+    3300168: eslava 39
+    3300170: eslava 4
+    3300172: eslava 40
+    3300174: eslava 41
+    3300176: eslava 42
+    3300178: eslava 43
+    3300180: eslava 44
+    3300182: eslava 45
+    3300184: eslava 46
+    3300186: eslava 47
+    3300188: eslava 48
+    3300190: eslava 49
+    3300192: eslava 5
+    3300194: eslava 50
+    3300196: eslava 51
+    3300198: eslava 52
+    3300200: eslava 53
+    3300202: eslava 54
+    3300204: eslava 55
+    3300206: eslava 56
+    3300208: eslava 57
+    3300210: eslava 58
+    3300212: eslava 59
+    3300214: eslava 6
+    3300216: eslava 60
+    3300218: eslava 61
+    3300220: eslava 62
+    3300222: eslava 63
+    3300224: eslava 64
+    3300226: eslava 65
+    3300228: eslava 66
+    3300230: eslava 67
+    3300232: eslava 68
+    3300234: eslava 69
+    3300236: eslava 7
+    3300238: eslava 70
+    3300240: eslava 71
+    3300242: eslava 72
+    3300244: eslava 73
+    3300246: eslava 74
+    3300248: eslava 75
+    3300250: eslava 76
+    3300252: eslava 77
+    3300254: eslava 78
+    3300256: eslava 79
+    3300258: eslava 8
+    3300260: eslava 80
+    3300262: eslava 81
+    3300264: eslava 82
+    3300266: eslava 83
+    3300268: eslava 84
+    3300270: eslava 85
+    3300272: eslava 86
+    3300274: eslava 87
+    3300276: eslava 88
+    3300278: eslava 89
+    3300280: eslava 9
+    3300282: eslava 90
+    3300284: eslava 91
+    3300286: eslava 92
+    3300288: eslava 93
+    3300290: eslava 94
+    3300292: eslava 95
+    3300294: eslava 96
+    3300296: eslava 97
+    3300298: eslava 98
+    3300300: eslava 99
+    3300302: Globe
+    3300304: globe base_quarter
+    3300306: globe base_quarter 1
+    3300308: globe base_quarter 2
+    3300310: globe base_quarter 3
+    3300312: globe_quarter
+    3300314: globe_quarter 1
+    3300316: globe_quarter 2
+    3300318: globe_quarter 3
+    3300320: globe_quarter 4
+    3300322: globe_quarter 5
+    3300324: globe_quarter 6
+    3300326: globe_quarter 7
+    3300328: gongg
+    3300330: Group 43
+    3300332: Group 46
+    3300334: Group 49
+    3300336: Group 51
+    3300338: Group 54
+    3300340: Group 59
+    3300342: Group 613
+    3300344: Group 616
+    3300346: Group 618
+    3300348: Group 62
+    3300350: Group 620
+    3300352: Group 622
+    3300354: Group 624
+    3300356: Group 627
+    3300358: Group 629
+    3300360: Group 634
+    3300362: Group 637
+    3300364: Group 639
+    3300366: Group 641
+    3300368: Group 643
+    3300370: Group 645
+    3300372: Group 648
+    3300374: Group 65
+    3300376: Group 650
+    3300378: Group 653
+    3300380: Group 656
+    3300382: Group 658
+    3300384: Group 661
+    3300386: Group 663
+    3300388: Group 665
+    3300390: Group 667
+    3300392: Group 669
+    3300394: Group 678
+    3300396: Group 68
+    3300398: Group 680
+    3300400: Group 685
+    3300402: Group 688
+    3300404: Group 690
+    3300406: Group 692
+    3300408: Group 694
+    3300410: Group 696
+    3300412: Group 71
+    3300414: Group 74
+    3300416: Group 77
+    3300418: Group 99
+    3300420: Ikebana 03
+    3300422: Image 1
+    3300424: leaf
+    3300426: leaf 1
+    3300428: leaf 10
+    3300430: leaf 11
+    3300432: leaf 12
+    3300434: leaf 13
+    3300436: leaf 2
+    3300438: leaf 3
+    3300440: leaf 4
+    3300442: leaf 5
+    3300444: leaf 6
+    3300446: leaf 7
+    3300448: leaf 8
+    3300450: leaf 9
+    3300452: petal#1
+    3300454: petal#1 1
+    3300456: petal#1 10
+    3300458: petal#1 11
+    3300460: petal#1 12
+    3300462: petal#1 13
+    3300464: petal#1 14
+    3300466: petal#1 15
+    3300468: petal#1 16
+    3300470: petal#1 17
+    3300472: petal#1 18
+    3300474: petal#1 19
+    3300476: petal#1 2
+    3300478: petal#1 20
+    3300480: petal#1 21
+    3300482: petal#1 22
+    3300484: petal#1 23
+    3300486: petal#1 24
+    3300488: petal#1 25
+    3300490: petal#1 26
+    3300492: petal#1 27
+    3300494: petal#1 28
+    3300496: petal#1 29
+    3300498: petal#1 3
+    3300500: petal#1 30
+    3300502: petal#1 31
+    3300504: petal#1 4
+    3300506: petal#1 5
+    3300508: petal#1 6
+    3300510: petal#1 7
+    3300512: petal#1 8
+    3300514: petal#1 9
+    3300516: pie soporte gonog
+    3300518: pie soporte gonog 1
+    3300520: Pottery-Hopi1
+    3300522: Pottery-Hopi2
+    3300524: shelf 10"
+    3300526: shelf 10" 1
+    3300528: Shelf base
+    3300530: Shelf frame
+    3300532: shelf glass
+    3300534: Shelf holder
+    3300536: Shelf holder 1
+    3300538: Shelf holder 2
+    3300540: shelf holder metal
+    3300542: shelf holder metal 1
+    3300544: shelf holder metal 2
+    3300546: shelf holder metal#1
+    3300548: shelf holder metal#1 1
+    3300550: shelf holder metal#1 2
+    3300552: SimpleDome02#1
+    3300554: SimpleDome02#1 1
+    3300556: soporte gong
+    3300558: stem
+    3300560: stem 1
+    3300562: stem 2
+    3300564: stem 3
+    3300566: stem 4
+    3300568: stem 5
+    3300570: stem2
+    3300572: stem2 1
+    3300574: Tutankhamon - Copy
+    3300576: v2
+    3300578: v2 1
+    3300580: v2 2
+    3300582: vase noir
+    3300584: vase-lunares1
+    3300586: Wedge
+    3300588: Wedge 1
+    3300590: Wedge 2
+    3300592: Wedge 3
+    3300594: Wedge 4
+    3300596: Wedge 5
+    3300598: Wedge 6
+    4300000: Mesh Display+case+Full
+    4300002: Mesh shelf holder metal#1
+    4300004: Mesh shelf 10"
+    4300006: Mesh shelf glass
+    4300008: Mesh Shelf base
+    4300010: Mesh Shelf frame
+    4300012: Mesh Shelf holder
+    4300014: Mesh Shelf holder
+    4300016: Mesh shelf holder metal
+    4300018: Mesh Component#1
+    4300020: Mesh vase noir
+    4300022: Mesh Pottery-Hopi2
+    4300024: Mesh Pottery-Hopi1
+    4300026: Mesh Group 43
+    4300028: Mesh Group 46
+    4300030: Mesh Group 49
+    4300032: Mesh Group 51
+    4300034: Mesh Group 54
+    4300036: Mesh vase-lunares1
+    4300038: Mesh Group 59
+    4300040: Mesh Group 62
+    4300042: Mesh Globe
+    4300044: Mesh globe_quarter
+    4300046: Mesh Group 99
+    4300048: Mesh globe base_quarter
+    4300050: Mesh Component#5
+    4300052: Mesh Component#4
+    4300054: Mesh soporte gong
+    4300056: Mesh pie soporte gonog
+    4300058: Mesh gongg
+    4300060: Mesh eslava
+    4300062: Mesh Group 613
+    4300064: Mesh Group 616
+    4300066: Mesh Group 618
+    4300068: Mesh Group 622
+    4300070: Mesh Group 624
+    4300072: Mesh Group 627
+    4300074: Mesh Group 629
+    4300076: Mesh Group 653
+    4300078: Mesh Group 656
+    4300080: Mesh Group 658
+    4300082: Mesh Group 663
+    4300084: Mesh Group 665
+    4300086: Mesh Group 667
+    4300088: Mesh Group 669
+    4300090: Mesh Tutankhamon - Copy
+    4300092: Mesh SimpleDome02#1
+    4300094: Mesh Group 678
+    4300096: Mesh Group 680
+    4300098: Mesh Ikebana 03
+    4300100: Mesh Group 685
+    4300102: Mesh Group 688
+    4300104: Mesh Group 696
+    4300106: Mesh stem2
+    4300108: Mesh petal#1
+    4300110: Mesh leaf
+    4300112: Mesh stem
+    4300114: Mesh Cylinder01
+    4300116: Mesh Cylinder01#1
+    4300118: Mesh Wedge
+    4300120: Mesh v2
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
