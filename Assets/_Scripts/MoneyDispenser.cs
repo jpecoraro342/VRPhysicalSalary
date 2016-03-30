@@ -172,7 +172,9 @@ public class MoneyDispenser : MonoBehaviour
 
 	public void restartDispensingWithSalary (float salary)
 	{
-		stopDispensing ();
+		if (dispensing) {
+			stopDispensing ();
+		}
 		salaryAmount = salary;
 		startDispensing ();
 	}
@@ -201,6 +203,8 @@ public class MoneyDispenser : MonoBehaviour
 
 	public void removeAllCoins ()
 	{
+		dollarsEarned = 0f;
+
 		Transform[] childTransforms = coinContainer.GetComponentsInChildren<Transform> ();
 
 		foreach (Transform coin in childTransforms) {
