@@ -11,6 +11,7 @@ public class MoneyDispenser : MonoBehaviour
 	[SerializeField] GameObject nickel;
 	[SerializeField] GameObject dime;
 	[SerializeField] GameObject quarter;
+	[SerializeField] GameObject coinCluster;
 
 	// What is the maximum x and z that we can spawn the coins in around the central dispensing game object?
 	[SerializeField] float containingWidth;
@@ -50,7 +51,7 @@ public class MoneyDispenser : MonoBehaviour
 
 		dispensing = false;
 		timeSinceLastSpawn = 0;
-		// startDispensing ();
+		startDispensing ();
 	}
 	
 	// Update is called once per frame
@@ -61,10 +62,18 @@ public class MoneyDispenser : MonoBehaviour
 			var pennySpawnTime = 60 / coinRate [penny];
 
 			float numberOfItemsToSpawn = timeSinceLastSpawn / pennySpawnTime;
-			if (numberOfItemsToSpawn >= 1) {
-				Debug.Log("Time since last spawn = " + timeSinceLastSpawn + " Spawning " + numberOfItemsToSpawn + " pennies");
+			if (numberOfItemsToSpawn >= 100) {
 				timeSinceLastSpawn = 0;
-				for (var i = 0; i < numberOfItemsToSpawn; i++) {
+				for (var i = 0; i < Mathf.Round(numberOfItemsToSpawn/100); i++) {
+					spawnCoinInRandomLocation (coinCluster);
+					dollarsEarned += 1f;
+					Debug.Log("Dollars Earned " + dollarsEarned);
+				}
+			}
+			else if (numberOfItemsToSpawn >= 1) {
+				// Debug.Log("Time since last spawn = " + timeSinceLastSpawn + " Spawning " + numberOfItemsToSpawn + " pennies");
+				timeSinceLastSpawn = 0;
+				for (var i = 0; i < Mathf.Round(numberOfItemsToSpawn); i++) {
 					spawnCoinInRandomLocation (penny);
 					dollarsEarned += 0.01f;
 					Debug.Log("Dollars Earned " + dollarsEarned);
@@ -155,10 +164,13 @@ public class MoneyDispenser : MonoBehaviour
 
 	private void spawnCoinAtLocation (GameObject coin, Vector3 location)
 	{
-		// TODO: 
+		var eulerAngles = new Vector3(90, 0, 90);
 		var newCoin = Instantiate (coin, location, Quaternion.identity) as GameObject;
 		newCoin.transform.parent = coinContainer.transform;
 		newCoin.transform.localPosition = location;
+
+		newCoin.transform.localEulerAngles = eulerAngles;
+		Debug.Log(newCoin.transform.rotation);
 	}
 
 	private void StopAllCoroutines ()

@@ -136,6 +136,7 @@ MonoBehaviour:
   nickel: {fileID: 167272, guid: ab1200fe13b314986a696b3d2d0f4ed1, type: 2}
   dime: {fileID: 165510, guid: 832a8231050154569af9ce5ed8820abd, type: 2}
   quarter: {fileID: 132106, guid: 8e10eb03daaee4bbbaed49b8a2a57fc5, type: 2}
+  coinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
   containingWidth: 10
   containingLength: 10
   coinContainer: {fileID: 109510}
@@ -182,6 +183,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: coinCluster
+      value: 
+      objectReference: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 173874}
