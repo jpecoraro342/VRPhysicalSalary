@@ -25,18 +25,20 @@ namespace VRStandardAssets.Intro
             
             m_Radial.Hide ();
 
-            // In order, fade in the UI on how to use sliders, wait for the slider to be filled then fade out the UI.
-            yield return StartCoroutine (m_HowToUseFader.InteruptAndFadeIn ());
-            yield return StartCoroutine (m_HowToUseSlider.WaitForBarToFill ());
-            yield return StartCoroutine (m_HowToUseFader.InteruptAndFadeOut ());
+			yield return null;
 
-            // In order, fade in the UI on confirming the use of sliders, wait for the slider to be filled, then fade out the UI.
-            yield return StartCoroutine(m_HowToUseConfirmFader.InteruptAndFadeIn());
-            yield return StartCoroutine(m_HowToUseConfirmSlider.WaitForBarToFill());
-            yield return StartCoroutine(m_HowToUseConfirmFader.InteruptAndFadeOut());
+             // In order, fade in the UI on how to use sliders, wait for the slider to be filled then fade out the UI.
+             yield return StartCoroutine (m_HowToUseFader.InteruptAndFadeIn ());
+             yield return StartCoroutine (m_HowToUseSlider.WaitForBarToFill ());
+             yield return StartCoroutine (m_HowToUseFader.InteruptAndFadeOut ());
 
-            // Fade in the final UI.
-            yield return StartCoroutine (m_ReturnFader.InteruptAndFadeIn ());
+             // In order, fade in the UI on confirming the use of sliders, wait for the slider to be filled, then fade out the UI.
+             yield return StartCoroutine(m_HowToUseConfirmFader.InteruptAndFadeIn());
+             yield return StartCoroutine(m_HowToUseConfirmSlider.WaitForBarToFill());
+             yield return StartCoroutine(m_HowToUseConfirmFader.InteruptAndFadeOut());
+
+             // Fade in the final UI.
+             yield return StartCoroutine (m_ReturnFader.InteruptAndFadeIn ());
         }
     }
 }

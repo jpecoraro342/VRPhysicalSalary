@@ -44,7 +44,7 @@ public class MoneyDispenser : MonoBehaviour
 		timeSinceLastPennySpawn = 0;
 		timeSinceLastPennySmallClusterSpawn = 0;
 		timeSinceLastPennyClusterSpawn = 0;
-		startDispensing ();
+		// startDispensing ();
 	}
 	
 	// Update is called once per frame
