@@ -33,6 +33,8 @@ namespace VRStandardAssets.Utils
         [SerializeField] private bool m_IsComparorObject;
 		[SerializeField] private MoneyDispenser money;
 
+		[SerializeField] private Autowalk walkingScript;
+
 
 		private bool m_BarFilled;                                           // Whether the bar is currently filled.
 		private bool m_GazeOver;                                            // Whether the user is currently looking at the bar.
@@ -168,8 +170,9 @@ namespace VRStandardAssets.Utils
 		{
 			// The user is now looking at the bar.
 			m_GazeOver = true;
-
-			// TODO: Adjust tint?
+			if (walkingScript != null) {
+				walkingScript.setCanWalk(false);
+			}
 
 			// Play the clip appropriate for when the user starts looking at the bar.
 			m_Audio.clip = m_OnOverClip;
@@ -180,13 +183,22 @@ namespace VRStandardAssets.Utils
 		private void HandleOut ()
 		{
 			m_GazeOver = false;
+			if (walkingScript != null) {
+				walkingScript.setCanWalk(true);
+			}
 		}
 
 		private void ToggleSelection() {
 			Debug.Log("Toggle Button");
 
 			ToggleSliderValue();
-			money.toggleDispensing();
+			if (m_IsComparorObject) {
+
+			}
+			else {
+				// TODO: Call the toggle on the managing script
+				money.toggleDispensing();
+			}
 
 			// Play the clip for when the bar is filled.
 			m_Audio.clip = m_OnFilledClip;

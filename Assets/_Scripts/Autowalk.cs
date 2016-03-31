@@ -44,6 +44,8 @@ public class Autowalk : MonoBehaviour
 	
 	[Tooltip("This is the fixed y-coordinate.")]
 	public float yOffset;
+
+	private bool canToggleWalking = true;
 	
 	void Start () 
 	{
@@ -53,6 +55,10 @@ public class Autowalk : MonoBehaviour
 	
 	void Update () 
 	{
+		if (!canToggleWalking) {
+			return;
+		}
+
         // Walk when the Cardboard Trigger is used 
         if (walkWhenTriggered && !walkWhenLookDown && !isWalking && Cardboard.SDK.CardboardTriggered) 
 		{
@@ -113,6 +119,10 @@ public class Autowalk : MonoBehaviour
 			transform.position = new Vector3(transform.position.x, yOffset, transform.position.z);
 		}
     }
+
+	public void setCanWalk(bool canWalk) {
+		canToggleWalking = canWalk;
+	}
     
     void OnCollisionEnter(Collision col)
     {

@@ -1459,18 +1459,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 27585782}
   m_Mesh: {fileID: 4300060, guid: 8bd64e17bca9f4f4896bcbc0700e6b9c, type: 3}
---- !u!114 &28715576 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11447628, guid: b7da972ac03044b00b51057640fa43af,
-    type: 2}
-  m_PrefabInternal: {fileID: 1496132449}
-  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
---- !u!114 &31310882 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11411806, guid: b7da972ac03044b00b51057640fa43af,
-    type: 2}
-  m_PrefabInternal: {fileID: 1496132449}
-  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!4 &33685835 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 1776d9801f13c6e499b66d77a48ea65b, type: 3}
@@ -3765,6 +3753,28 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 79972128}
   m_Mesh: {fileID: 4300160, guid: a2070271474bfac4c8ad0d9264438e7a, type: 3}
+--- !u!1 &82026214 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 572279090}
+--- !u!114 &82026215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 82026214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c052ee3a9db7b43d4b7fc2f321f4dfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioFile: {fileID: 0}
+  speed: 4
+  walkWhenTriggered: 1
+  walkWhenLookDown: 0
+  thresholdAngle: 0
+  freezeYPosition: 0
+  yOffset: 0
 --- !u!1 &82683554
 GameObject:
   m_ObjectHideFlags: 0
@@ -5537,12 +5547,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 126178986}
   m_Mesh: {fileID: 4300060, guid: 8bd64e17bca9f4f4896bcbc0700e6b9c, type: 3}
---- !u!114 &130436048 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11449978, guid: b7da972ac03044b00b51057640fa43af,
-    type: 2}
-  m_PrefabInternal: {fileID: 1496132449}
-  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &131605297
 GameObject:
   m_ObjectHideFlags: 0
@@ -8925,6 +8929,12 @@ Transform:
   - {fileID: 290414234}
   m_Father: {fileID: 661226455}
   m_RootOrder: 1
+--- !u!114 &204001759 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11483762, guid: b7da972ac03044b00b51057640fa43af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1496132449}
+  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &206593691
 GameObject:
   m_ObjectHideFlags: 0
@@ -11333,7 +11343,9 @@ MonoBehaviour:
   m_Collider: {fileID: 246154845}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 0}
+  walkingScript: {fileID: 0}
 --- !u!65 &246154845
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17435,7 +17447,9 @@ MonoBehaviour:
   m_Collider: {fileID: 394040129}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 514630664}
+  m_IsComparorObject: 0
+  money: {fileID: 1385622201}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &394040129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22092,12 +22106,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 513368117}
   m_Mesh: {fileID: 4300080, guid: c61c76e54e3674410bf15fc8fa71c70f, type: 3}
---- !u!114 &514630664 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11449038, guid: b7da972ac03044b00b51057640fa43af,
-    type: 2}
-  m_PrefabInternal: {fileID: 1496132449}
-  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &516702379
 GameObject:
   m_ObjectHideFlags: 0
@@ -22454,7 +22462,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400886, guid: 8bd64e17bca9f4f4896bcbc0700e6b9c, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 522899073}
-  m_LocalRotation: {x: 0.7760263, y: -0.21955487, z: 0.5794116, w: 0.117733344}
+  m_LocalRotation: {x: 0.7760262, y: -0.21955484, z: 0.57941157, w: 0.11773333}
   m_LocalPosition: {x: 0.09706359, y: 1.240608, z: -0.16563584}
   m_LocalScale: {x: 0.4283786, y: 0.481, z: 0.62048995}
   m_Children: []
@@ -22874,7 +22882,9 @@ MonoBehaviour:
   m_Collider: {fileID: 529949394}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 740974315}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &529949394
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24432,7 +24442,9 @@ MonoBehaviour:
   m_Collider: {fileID: 569875002}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 2144063542}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &569875002
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24676,6 +24688,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -24853,7 +24869,9 @@ MonoBehaviour:
   m_Collider: {fileID: 573127336}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 130436048}
+  m_IsComparorObject: 0
+  money: {fileID: 1899059100}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &573127336
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27315,7 +27333,9 @@ MonoBehaviour:
   m_Collider: {fileID: 617900499}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 0}
+  walkingScript: {fileID: 0}
 --- !u!65 &617900499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27837,7 +27857,9 @@ MonoBehaviour:
   m_Collider: {fileID: 624334444}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 740974315}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &624334444
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28887,7 +28909,9 @@ MonoBehaviour:
   m_Collider: {fileID: 646882812}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 0}
+  walkingScript: {fileID: 0}
 --- !u!65 &646882812
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29450,7 +29474,9 @@ MonoBehaviour:
   m_Collider: {fileID: 658253261}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 0}
+  walkingScript: {fileID: 0}
 --- !u!65 &658253261
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31702,7 +31728,9 @@ MonoBehaviour:
   m_Collider: {fileID: 705138214}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 0}
+  walkingScript: {fileID: 0}
 --- !u!65 &705138214
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33228,6 +33256,12 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 739658521}
+--- !u!114 &740974315 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11440522, guid: b7da972ac03044b00b51057640fa43af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1496132449}
+  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &741873694
 GameObject:
   m_ObjectHideFlags: 0
@@ -33316,7 +33350,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400880, guid: 8bd64e17bca9f4f4896bcbc0700e6b9c, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 742559538}
-  m_LocalRotation: {x: 0.7760263, y: -0.21955487, z: 0.5794116, w: 0.117733344}
+  m_LocalRotation: {x: 0.7760262, y: -0.21955484, z: 0.57941157, w: 0.11773333}
   m_LocalPosition: {x: 0.09706359, y: 1.240608, z: -0.16563584}
   m_LocalScale: {x: 0.4283786, y: 0.481, z: 0.62048995}
   m_Children: []
@@ -33691,7 +33725,9 @@ MonoBehaviour:
   m_Collider: {fileID: 747447502}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 28715576}
+  m_IsComparorObject: 0
+  money: {fileID: 834739808}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &747447502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35490,7 +35526,9 @@ MonoBehaviour:
   m_Collider: {fileID: 795846644}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 740974315}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &795846644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37118,6 +37156,12 @@ Transform:
   - {fileID: 1639361776}
   m_Father: {fileID: 1698383974}
   m_RootOrder: 0
+--- !u!114 &834739808 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11447628, guid: b7da972ac03044b00b51057640fa43af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1496132449}
+  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &835015126
 GameObject:
   m_ObjectHideFlags: 0
@@ -37590,6 +37634,12 @@ RectTransform:
   m_AnchoredPosition: {x: -4.9190087, y: 5.58}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &841361587 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11476424, guid: b7da972ac03044b00b51057640fa43af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1496132449}
+  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &842147455
 GameObject:
   m_ObjectHideFlags: 0
@@ -41528,12 +41578,6 @@ Transform:
   - {fileID: 705570431}
   m_Father: {fileID: 803258809}
   m_RootOrder: 1
---- !u!114 &945810193 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11476424, guid: b7da972ac03044b00b51057640fa43af,
-    type: 2}
-  m_PrefabInternal: {fileID: 1496132449}
-  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &945889079
 GameObject:
   m_ObjectHideFlags: 0
@@ -43388,7 +43432,9 @@ MonoBehaviour:
   m_Collider: {fileID: 982011545}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 2144063542}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &982011545
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45713,7 +45759,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1031532798}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 2144063542}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1031532798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47735,7 +47783,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1065671724}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 740974315}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1065671724
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48940,7 +48990,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400906, guid: 8bd64e17bca9f4f4896bcbc0700e6b9c, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1085430482}
-  m_LocalRotation: {x: 0.7760263, y: -0.21955487, z: 0.5794116, w: 0.117733344}
+  m_LocalRotation: {x: 0.7760262, y: -0.21955484, z: 0.57941157, w: 0.11773333}
   m_LocalPosition: {x: 0.09706359, y: 1.240608, z: -0.16563584}
   m_LocalScale: {x: 0.4283786, y: 0.481, z: 0.62048995}
   m_Children: []
@@ -50812,12 +50862,6 @@ Transform:
   - {fileID: 1499831080}
   m_Father: {fileID: 915717758}
   m_RootOrder: 0
---- !u!114 &1129857057 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11492748, guid: b7da972ac03044b00b51057640fa43af,
-    type: 2}
-  m_PrefabInternal: {fileID: 1496132449}
-  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &1130347478
 GameObject:
   m_ObjectHideFlags: 0
@@ -54419,6 +54463,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1224027032}
   m_Mesh: {fileID: 4300116, guid: a2070271474bfac4c8ad0d9264438e7a, type: 3}
+--- !u!114 &1224564425 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11492748, guid: b7da972ac03044b00b51057640fa43af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1496132449}
+  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &1224695623
 GameObject:
   m_ObjectHideFlags: 0
@@ -55638,7 +55688,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1249056520}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 1577254228}
+  m_IsComparorObject: 0
+  money: {fileID: 1375989248}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1249056520
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57061,7 +57113,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1269071448}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 0}
+  walkingScript: {fileID: 0}
 --- !u!65 &1269071448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58104,7 +58158,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1284063294}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 740974315}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1284063294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59695,7 +59751,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1301445130}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 740974315}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1301445130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61591,7 +61649,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1338165350}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 740974315}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1338165350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63159,7 +63219,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1362778868}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 2144063542}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1362778868
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63585,6 +63647,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1372557955}
   m_Mesh: {fileID: 4300108, guid: 8bd64e17bca9f4f4896bcbc0700e6b9c, type: 3}
+--- !u!114 &1375989248 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11403730, guid: b7da972ac03044b00b51057640fa43af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1496132449}
+  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &1377418046
 GameObject:
   m_ObjectHideFlags: 0
@@ -64166,6 +64234,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1385572248}
   m_Mesh: {fileID: 4300074, guid: c61c76e54e3674410bf15fc8fa71c70f, type: 3}
+--- !u!114 &1385622201 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11449038, guid: b7da972ac03044b00b51057640fa43af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1496132449}
+  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &1386664985
 GameObject:
   m_ObjectHideFlags: 0
@@ -65549,7 +65623,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1417823176}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 2036240817}
+  m_IsComparorObject: 0
+  money: {fileID: 204001759}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1417823176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66945,7 +67021,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1453969638}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 740974315}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1453969638
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67473,7 +67551,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1466708437}
   m_DisableOnBarFill: 1
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 0}
+  walkingScript: {fileID: 0}
 --- !u!65 &1466708437
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67638,6 +67718,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1469163779}
   m_Mesh: {fileID: 4300026, guid: 8bd64e17bca9f4f4896bcbc0700e6b9c, type: 3}
+--- !u!114 &1470529473 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11411806, guid: b7da972ac03044b00b51057640fa43af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1496132449}
+  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &1472644295
 GameObject:
   m_ObjectHideFlags: 0
@@ -68229,7 +68315,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1487773014}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 2144063542}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1487773014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68722,6 +68810,30 @@ Prefab:
       propertyPath: earningsText
       value: 
       objectReference: {fileID: 1625275755}
+    - target: {fileID: 472062, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 474294, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 414802, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422936, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 461078, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 496888, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b7da972ac03044b00b51057640fa43af, type: 2}
   m_IsPrefabParent: 0
@@ -71103,7 +71215,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400882, guid: 8bd64e17bca9f4f4896bcbc0700e6b9c, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1548199089}
-  m_LocalRotation: {x: 0.7760263, y: -0.21955487, z: 0.5794116, w: 0.117733344}
+  m_LocalRotation: {x: 0.7760262, y: -0.21955484, z: 0.57941157, w: 0.11773333}
   m_LocalPosition: {x: 0.09706359, y: 1.240608, z: -0.16563584}
   m_LocalScale: {x: 0.4283786, y: 0.481, z: 0.62048995}
   m_Children: []
@@ -72367,12 +72479,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1577253693}
---- !u!114 &1577254228 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11403730, guid: b7da972ac03044b00b51057640fa43af,
-    type: 2}
-  m_PrefabInternal: {fileID: 1496132449}
-  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &1577790705
 GameObject:
   m_ObjectHideFlags: 0
@@ -73411,7 +73517,7 @@ Prefab:
       objectReference: {fileID: 1575402359}
     - target: {fileID: 22415538, guid: 5fbc0682870cb4686b049e44c87dae7b, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 180780, guid: 5fbc0682870cb4686b049e44c87dae7b, type: 2}
       propertyPath: m_Name
@@ -73427,6 +73533,14 @@ Prefab:
 
         Simulation'
       objectReference: {fileID: 0}
+    - target: {fileID: 11490992, guid: 5fbc0682870cb4686b049e44c87dae7b, type: 2}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 1575402359}
+    - target: {fileID: 11490992, guid: 5fbc0682870cb4686b049e44c87dae7b, type: 2}
+      propertyPath: walkingScript
+      value: 
+      objectReference: {fileID: 82026215}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5fbc0682870cb4686b049e44c87dae7b, type: 2}
   m_IsPrefabParent: 0
@@ -75112,7 +75226,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1629769272}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 0}
+  walkingScript: {fileID: 0}
 --- !u!65 &1629769272
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77711,7 +77827,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1680220806}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 31310882}
+  m_IsComparorObject: 0
+  money: {fileID: 1470529473}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1680220806
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -80569,7 +80687,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400896, guid: 8bd64e17bca9f4f4896bcbc0700e6b9c, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1740297839}
-  m_LocalRotation: {x: 0.7760263, y: -0.21955487, z: 0.5794116, w: 0.117733344}
+  m_LocalRotation: {x: 0.7760262, y: -0.21955484, z: 0.57941157, w: 0.11773333}
   m_LocalPosition: {x: 0.09706359, y: 1.240608, z: -0.16563584}
   m_LocalScale: {x: 0.4283786, y: 0.481, z: 0.62048995}
   m_Children: []
@@ -82988,7 +83106,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1789498898}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 2144063542}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1789498898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -83225,7 +83345,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1790691535}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 1129857057}
+  m_IsComparorObject: 0
+  money: {fileID: 1224564425}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1790691535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -86852,7 +86974,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1866691221}
   m_DisableOnBarFill: 1
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 0}
+  walkingScript: {fileID: 0}
 --- !u!65 &1866691221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -87441,7 +87565,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1878540888}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 2144063542}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1878540888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -87937,6 +88063,12 @@ Transform:
   - {fileID: 1288946873}
   m_Father: {fileID: 412405222}
   m_RootOrder: 1
+--- !u!114 &1899059100 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11449978, guid: b7da972ac03044b00b51057640fa43af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1496132449}
+  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &1899889320
 GameObject:
   m_ObjectHideFlags: 0
@@ -89753,7 +89885,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1945703567}
   m_DisableOnBarFill: 1
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 0}
+  walkingScript: {fileID: 0}
 --- !u!65 &1945703567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -90662,7 +90796,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1956283730}
   m_DisableOnBarFill: 1
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 0}
+  walkingScript: {fileID: 0}
 --- !u!65 &1956283730
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -92445,7 +92581,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1990863944}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 945810193}
+  m_IsComparorObject: 0
+  money: {fileID: 841361587}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &1990863944
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -92608,7 +92746,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400902, guid: 8bd64e17bca9f4f4896bcbc0700e6b9c, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1991700554}
-  m_LocalRotation: {x: 0.7760263, y: -0.21955487, z: 0.5794116, w: 0.117733344}
+  m_LocalRotation: {x: 0.7760262, y: -0.21955484, z: 0.57941157, w: 0.11773333}
   m_LocalPosition: {x: 0.09706359, y: 1.240608, z: -0.16563584}
   m_LocalScale: {x: 0.4283786, y: 0.481, z: 0.62048995}
   m_Children: []
@@ -94008,7 +94146,9 @@ MonoBehaviour:
   m_Collider: {fileID: 2027627050}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 740974315}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &2027627050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -94811,12 +94951,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2036080693}
   m_Mesh: {fileID: 4300052, guid: 8bd64e17bca9f4f4896bcbc0700e6b9c, type: 3}
---- !u!114 &2036240817 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11483762, guid: b7da972ac03044b00b51057640fa43af,
-    type: 2}
-  m_PrefabInternal: {fileID: 1496132449}
-  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &2036896974
 GameObject:
   m_ObjectHideFlags: 0
@@ -98269,7 +98403,9 @@ MonoBehaviour:
   m_Collider: {fileID: 2115778916}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 2144063542}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &2115778916
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -98506,7 +98642,9 @@ MonoBehaviour:
   m_Collider: {fileID: 2117711274}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  moneyyyyy: {fileID: 0}
+  m_IsComparorObject: 0
+  money: {fileID: 2144063542}
+  walkingScript: {fileID: 82026215}
 --- !u!65 &2117711274
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -99854,6 +99992,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2141622443}
   m_Mesh: {fileID: 4300060, guid: 8bd64e17bca9f4f4896bcbc0700e6b9c, type: 3}
+--- !u!114 &2144063542 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11411420, guid: b7da972ac03044b00b51057640fa43af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1496132449}
+  m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
 --- !u!1 &2145117886
 GameObject:
   m_ObjectHideFlags: 0
