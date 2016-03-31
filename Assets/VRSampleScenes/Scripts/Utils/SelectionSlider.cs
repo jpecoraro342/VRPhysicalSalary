@@ -30,7 +30,8 @@ namespace VRStandardAssets.Utils
 		[SerializeField] private bool m_DisableOnBarFill;                   // Whether the bar should stop reacting once it's been filled (for single use bars).
 		[SerializeField] private bool m_DisappearOnBarFill;                 // Whether the bar should disappear instantly once it's been filled.
 
-		[SerializeField] private MoneyDispenser moneyyyyy;
+        [SerializeField] private bool m_IsComparorObject;
+		[SerializeField] private MoneyDispenser money;
 
 
 		private bool m_BarFilled;                                           // Whether the bar is currently filled.
@@ -185,7 +186,7 @@ namespace VRStandardAssets.Utils
 			Debug.Log("Toggle Button");
 
 			ToggleSliderValue();
-			moneyyyyy.toggleDispensing();
+			money.toggleDispensing();
 
 			// Play the clip for when the bar is filled.
 			m_Audio.clip = m_OnFilledClip;
