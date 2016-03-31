@@ -131,7 +131,15 @@ public class Autowalk : MonoBehaviour
     
     void OnCollisionEnter(Collision col)
     {
+		Debug.Log(col.gameObject.tag);
+		Debug.Log(col.gameObject);
+		if (col.gameObject.tag == "floor") {
+			return;
+		}
         isWalking = false;
+		if (AudioFile != null) {
+			AudioFile.Stop();
+		}
         //Application.LoadLevel("DungeonScene");
         //SceneManager.LoadScene("DungeonScene", LoadSceneMode.Single);
 
