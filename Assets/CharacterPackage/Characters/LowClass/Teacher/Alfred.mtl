@@ -1,0 +1,13 @@
+# Blender3D MTL File: Alfred.blend
+# Material Count: 1
+newmtl Alfred_Mat_alfred_dif.png
+Ns 37.254902
+Ka 0.023880 0.023313 0.035319
+Kd 0.640000 0.640000 0.640000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd alfred_dif.png
+
+

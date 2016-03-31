@@ -22,9 +22,9 @@ public class PanelDispenserHandler : MonoBehaviour {
 	void Start () {
         titles = new List<string>();
         titles.Add("Fast Food Worker");
-        titles.Add("Janitor/Custodian");
         titles.Add("Retail Salesperson");
         titles.Add("Public School Teacher");
+        titles.Add("Police Officer");
         titles.Add("Hospital Nurse");
         titles.Add("Software Engineer");
         titles.Add("NFL Player");
@@ -33,9 +33,9 @@ public class PanelDispenserHandler : MonoBehaviour {
 
         salaries = new List<float>();
         salaries.Add(16000);
-        salaries.Add(24000);
         salaries.Add(32000);
         salaries.Add(37000);
+        salaries.Add(45000);
         salaries.Add(68000);
         salaries.Add(80000);
         salaries.Add(1800000);

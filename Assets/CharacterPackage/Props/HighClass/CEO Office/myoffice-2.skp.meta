@@ -1,0 +1,1381 @@
+fileFormatVersion: 2
+guid: 6e195982773e648c1ab8dd372ac78ce5
+timeCreated: 1459288306
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d00000098000000b0000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f900000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000aa010000ab010000ac010000ad010000ae010000af010000b0010000b1010000b2010000b3010000b4010000b5010000b6010000b7010000b8010000b9010000ba010000bb010000bc010000bd010000be010000bf010000c0010000c1010000c2010000c3010000c4010000c5010000c6010000c7010000c8010000c9010000ca010000cb010000cc010000cd010000ce010000cf010000d0010000d1010000d2010000d3010000d4010000d5010000d6010000d7010000d8010000d9010000da010000db010000dc010000dd010000de010000df010000e0010000e1010000e2010000e3010000e4010000e5010000e6010000e7010000e8010000e9010000ea010000eb010000ec010000ed010000ee010000ef010000f0010000f1010000f2010000f3010000f4010000f5010000f6010000f7010000f8010000f9010000fa010000fb010000fc010000fd010000fe010000ff010000000200000102000002020000030200000402000005020000060200000702000008020000090200000a0200000b0200000c0200000d0200000e0200000f020000100200001102000012020000130200001402000015020000160200001702000018020000190200001a0200001b0200001c0200001d0200001e0200001f020000200200002102000022020000230200002402000025020000260200002702000028020000290200002a0200002b0200002c0200002d0200002e0200002f020000300200003102000032020000330200003402000035020000360200003702000038020000390200003a0200003b0200003c0200003d0200003e0200003f020000400200004102000042020000430200004402000045020000460200004702000048020000490200004a0200004b0200004c0200004d0200004e0200004f020000500200005102000052020000530200005402000055020000560200005702000058020000590200005a0200005b0200005c0200005d0200005e0200005f020000600200006102000062020000630200006402000065020000660200006702000068020000690200006a0200006b0200006c0200006d0200006e0200006f020000700200007102000072020000730200007402000075020000760200007702000078020000790200007a0200007b0200007c0200007d0200007e0200007f020000800200008102000082020000830200008402000085020000860200008702000088020000890200008a0200008b0200008c0200008d0200008e0200008f020000900200009102000092020000930200009402000095020000960200009702000098020000990200009a0200009b0200009c0200009d0200009e0200009f020000a0020000a1020000a2020000a3020000a4020000a5020000a6020000a7020000a8020000a9020000aa020000
+  assetHash:
+    serializedVersion: 2
+    Hash: ce38bd6d2ffbe7bf0435a3d6044c5bce
+  longitude: -1.3619235828393785
+  latitude: 51.841119762671745
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 4.3118696, y: 2.8109932, z: 16.88156}
+      lookAt: {x: 37.112217, y: 1.4701062, z: 37.585472}
+      up: {x: 0.029215593, y: 0.999403, z: 0.018441178}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 26621RB
+    100002: Apple Wireless Keyboard (New Model)
+    100004: Attach
+    100006: Barcelona Couch by Ludwig Mies van der Rohe
+    100008: Barcelona Couch by Ludwig Mies van der Rohe 1
+    100010: Body
+    100012: CameraCoverageAttachJoined#2
+    100014: CameraCoverageJoined#2
+    100016: CI - Patton Sofa 84" Duck White
+    100018: Component#1
+    100020: Component#1 1
+    100022: Component#1 2
+    100024: Component#1 3
+    100026: Component#2
+    100028: Component#2 1
+    100030: Component#2 2
+    100032: Component#2 3
+    100034: Component#3
+    100036: Component#3 1
+    100038: Component#3 2
+    100040: Component#3 3
+    100042: Component#30
+    100044: Component#30 1
+    100046: Component#5
+    100048: Componente
+    100050: Componente#86
+    100052: door handle
+    100054: door handle 1
+    100056: Eames_Aluminium_Arms
+    100058: Eames_Aluminium_Arms 1
+    100060: Eames_Aluminium_Arms 10
+    100062: Eames_Aluminium_Arms 11
+    100064: Eames_Aluminium_Arms 12
+    100066: Eames_Aluminium_Arms 13
+    100068: Eames_Aluminium_Arms 14
+    100070: Eames_Aluminium_Arms 15
+    100072: Eames_Aluminium_Arms 16
+    100074: Eames_Aluminium_Arms 17
+    100076: Eames_Aluminium_Arms 18
+    100078: Eames_Aluminium_Arms 19
+    100080: Eames_Aluminium_Arms 2
+    100082: Eames_Aluminium_Arms 20
+    100084: Eames_Aluminium_Arms 21
+    100086: Eames_Aluminium_Arms 22
+    100088: Eames_Aluminium_Arms 23
+    100090: Eames_Aluminium_Arms 3
+    100092: Eames_Aluminium_Arms 4
+    100094: Eames_Aluminium_Arms 5
+    100096: Eames_Aluminium_Arms 6
+    100098: Eames_Aluminium_Arms 7
+    100100: Eames_Aluminium_Arms 8
+    100102: Eames_Aluminium_Arms 9
+    100104: Eames_Aluminium_Arms_BaseCylinder
+    100106: Eames_Aluminium_Arms_BaseCylinder 1
+    100108: Eames_Aluminium_Arms_BaseCylinder 10
+    100110: Eames_Aluminium_Arms_BaseCylinder 11
+    100112: Eames_Aluminium_Arms_BaseCylinder 2
+    100114: Eames_Aluminium_Arms_BaseCylinder 3
+    100116: Eames_Aluminium_Arms_BaseCylinder 4
+    100118: Eames_Aluminium_Arms_BaseCylinder 5
+    100120: Eames_Aluminium_Arms_BaseCylinder 6
+    100122: Eames_Aluminium_Arms_BaseCylinder 7
+    100124: Eames_Aluminium_Arms_BaseCylinder 8
+    100126: Eames_Aluminium_Arms_BaseCylinder 9
+    100128: Eames_Aluminium_Legs
+    100130: Eames_Aluminium_Legs 1
+    100132: Eames_Aluminium_Legs 10
+    100134: Eames_Aluminium_Legs 11
+    100136: Eames_Aluminium_Legs 12
+    100138: Eames_Aluminium_Legs 13
+    100140: Eames_Aluminium_Legs 14
+    100142: Eames_Aluminium_Legs 15
+    100144: Eames_Aluminium_Legs 16
+    100146: Eames_Aluminium_Legs 17
+    100148: Eames_Aluminium_Legs 18
+    100150: Eames_Aluminium_Legs 19
+    100152: Eames_Aluminium_Legs 2
+    100154: Eames_Aluminium_Legs 20
+    100156: Eames_Aluminium_Legs 21
+    100158: Eames_Aluminium_Legs 22
+    100160: Eames_Aluminium_Legs 23
+    100162: Eames_Aluminium_Legs 24
+    100164: Eames_Aluminium_Legs 25
+    100166: Eames_Aluminium_Legs 26
+    100168: Eames_Aluminium_Legs 27
+    100170: Eames_Aluminium_Legs 28
+    100172: Eames_Aluminium_Legs 29
+    100174: Eames_Aluminium_Legs 3
+    100176: Eames_Aluminium_Legs 30
+    100178: Eames_Aluminium_Legs 31
+    100180: Eames_Aluminium_Legs 32
+    100182: Eames_Aluminium_Legs 33
+    100184: Eames_Aluminium_Legs 34
+    100186: Eames_Aluminium_Legs 35
+    100188: Eames_Aluminium_Legs 36
+    100190: Eames_Aluminium_Legs 37
+    100192: Eames_Aluminium_Legs 38
+    100194: Eames_Aluminium_Legs 39
+    100196: Eames_Aluminium_Legs 4
+    100198: Eames_Aluminium_Legs 40
+    100200: Eames_Aluminium_Legs 41
+    100202: Eames_Aluminium_Legs 42
+    100204: Eames_Aluminium_Legs 43
+    100206: Eames_Aluminium_Legs 44
+    100208: Eames_Aluminium_Legs 45
+    100210: Eames_Aluminium_Legs 46
+    100212: Eames_Aluminium_Legs 47
+    100214: Eames_Aluminium_Legs 48
+    100216: Eames_Aluminium_Legs 49
+    100218: Eames_Aluminium_Legs 5
+    100220: Eames_Aluminium_Legs 50
+    100222: Eames_Aluminium_Legs 51
+    100224: Eames_Aluminium_Legs 52
+    100226: Eames_Aluminium_Legs 53
+    100228: Eames_Aluminium_Legs 54
+    100230: Eames_Aluminium_Legs 55
+    100232: Eames_Aluminium_Legs 56
+    100234: Eames_Aluminium_Legs 57
+    100236: Eames_Aluminium_Legs 58
+    100238: Eames_Aluminium_Legs 59
+    100240: Eames_Aluminium_Legs 6
+    100242: Eames_Aluminium_Legs 7
+    100244: Eames_Aluminium_Legs 8
+    100246: Eames_Aluminium_Legs 9
+    100248: GERRY
+    100250: GERRY Hocker CKID
+    100252: GERRY Sessel CKID
+    100254: Glass
+    100256: Group 103
+    100258: Group 104
+    100260: Group 106
+    100262: Group 108
+    100264: Group 11
+    100266: Group 110
+    100268: Group 112
+    100270: Group 114
+    100272: Group 116
+    100274: Group 118
+    100276: Group 120
+    100278: Group 122
+    100280: Group 123
+    100282: Group 125
+    100284: Group 127
+    100286: Group 129
+    100288: Group 131
+    100290: Group 133
+    100292: Group 135
+    100294: Group 137
+    100296: Group 139
+    100298: Group 141
+    100300: Group 15
+    100302: Group 152
+    100304: Group 17
+    100306: Group 176
+    100308: Group 185
+    100310: Group 196
+    100312: Group 20
+    100314: Group 205
+    100316: Group 209
+    100318: Group 211
+    100320: Group 213
+    100322: Group 215
+    100324: Group 22
+    100326: Group 23
+    100328: Group 23_MeshPart0
+    100330: Group 23_MeshPart1
+    100332: Group 260
+    100334: Group 262
+    100336: Group 264
+    100338: Group 266
+    100340: Group 270
+    100342: Group 272
+    100344: Group 274
+    100346: Group 276
+    100348: Group 279
+    100350: Group 280
+    100352: Group 282
+    100354: Group 284
+    100356: Group 286
+    100358: Group 288
+    100360: Group 290
+    100362: Group 292
+    100364: Group 3
+    100366: Group 5
+    100368: Group 511
+    100370: Group 512
+    100372: Group 514
+    100374: Group 516
+    100376: Group 518
+    100378: Group 520
+    100380: Group 522
+    100382: Group 524
+    100384: Group 528
+    100386: Group 530
+    100388: Group 532
+    100390: Group 534
+    100392: Group 536
+    100394: Group 538
+    100396: Group 561
+    100398: Group 563
+    100400: Group 565
+    100402: Group 566
+    100404: Group 567
+    100406: Group 572
+    100408: Group 577
+    100410: Group 579
+    100412: Group 580
+    100414: Group 582
+    100416: Group 584
+    100418: Group 585
+    100420: Group 587
+    100422: Group 590
+    100424: Group 591
+    100426: Group 601
+    100428: Group 602
+    100430: Group 603
+    100432: Group 605
+    100434: Group 607
+    100436: Group 608
+    100438: Group 610
+    100440: Group 613
+    100442: Group 615
+    100444: Group 617
+    100446: Group 628
+    100448: Group 630
+    100450: Group 632
+    100452: Group 634
+    100454: Group 638
+    100456: Group 640
+    100458: Group 642
+    100460: Group 644
+    100462: Group 655
+    100464: Group 657
+    100466: Group 659
+    100468: Group 661
+    100470: Group 663
+    100472: Group 665
+    100474: Group 667
+    100476: Group 669
+    100478: Group 671
+    100480: Group 673
+    100482: Group 676
+    100484: Group 680
+    100486: Group 7
+    100488: Group 70
+    100490: Group 72
+    100492: Group 73
+    100494: Group 75
+    100496: Group 77
+    100498: Group 79
+    100500: Group 81
+    100502: Group 83
+    100504: Group 85
+    100506: Group 87
+    100508: Group 89
+    100510: Group 9
+    100512: Group 91
+    100514: Group 94
+    100516: Group 96
+    100518: Group 97
+    100520: Group 97_MeshPart0
+    100522: Group 97_MeshPart1
+    100524: Image 2
+    100526: Image 678
+    100528: Image 682
+    100530: keyboard
+    100532: lamp, abajur
+    100534: lampara de mesa
+    100536: Laptop
+    100538: Lens
+    100540: LevelFoV#2
+    100542: modern door handle
+    100544: modern door handle 1
+    100546: modern door handle 2
+    100548: modern door handle 3
+    100550: Mojave Cocktail Table
+    100552: Mojave Cocktail Table 1
+    100554: MojaveTable
+    100556: MojaveTable 1
+    100558: MojaveTable_BaseLegs
+    100560: MojaveTable_BaseLegs 1
+    100562: MojaveTable_BaseLegs 2
+    100564: MojaveTable_BaseLegs 3
+    100566: MojaveTable_BottomShelf
+    100568: MojaveTable_BottomShelf 1
+    100570: MojaveTable_Legs
+    100572: MojaveTable_Legs 1
+    100574: MojaveTable_Legs 2
+    100576: MojaveTable_Legs 3
+    100578: MojaveTable_Top
+    100580: MojaveTable_Top 1
+    100582: //RootNode
+    100584: NEW 2012 iMac
+    100586: Novo Apple Imac 2012 27''
+    100588: Novo Apple Imac 2012 27'' 1
+    100590: Novo Apple Imac 2012 27''#1
+    100592: Pearson Chair
+    100594: Pearson Chair 1
+    100596: Pearson Chair 2
+    100598: Pearson Chair 3
+    100600: Podium Browser Eames Aluminium office chair
+    100602: Podium Browser Eames Aluminium office chair 1
+    100604: Podium Browser Eames Aluminium office chair 10
+    100606: Podium Browser Eames Aluminium office chair 11
+    100608: Podium Browser Eames Aluminium office chair 2
+    100610: Podium Browser Eames Aluminium office chair 3
+    100612: Podium Browser Eames Aluminium office chair 4
+    100614: Podium Browser Eames Aluminium office chair 5
+    100616: Podium Browser Eames Aluminium office chair 6
+    100618: Podium Browser Eames Aluminium office chair 7
+    100620: Podium Browser Eames Aluminium office chair 8
+    100622: Podium Browser Eames Aluminium office chair 9
+    100624: Q193X
+    100626: "Quadro Leila Nishi - Paet\xEA Ouro"
+    100628: "Quadro Leila Nishi - S\xE9rie P\xE9talas Degrad\xEA 02"
+    100630: Round Ottoman
+    100632: Round Ottoman 1
+    100634: Shade
+    100636: ske8C
+    100638: ske8C 1
+    100640: Start
+    100642: Steve
+    100644: The New 2010 Apple iMac 27" w/ New Magic Mouse
+    100646: The New 2010 Apple iMac 27" w/ New Magic Mouse#1
+    100648: TheCam
+    100650: TOSHIBA
+    100652: Zoom
+    400000: 26621RB
+    400002: Apple Wireless Keyboard (New Model)
+    400004: Attach
+    400006: Barcelona Couch by Ludwig Mies van der Rohe
+    400008: Barcelona Couch by Ludwig Mies van der Rohe 1
+    400010: Body
+    400012: CameraCoverageAttachJoined#2
+    400014: CameraCoverageJoined#2
+    400016: CI - Patton Sofa 84" Duck White
+    400018: Component#1
+    400020: Component#1 1
+    400022: Component#1 2
+    400024: Component#1 3
+    400026: Component#2
+    400028: Component#2 1
+    400030: Component#2 2
+    400032: Component#2 3
+    400034: Component#3
+    400036: Component#3 1
+    400038: Component#3 2
+    400040: Component#3 3
+    400042: Component#30
+    400044: Component#30 1
+    400046: Component#5
+    400048: Componente
+    400050: Componente#86
+    400052: door handle
+    400054: door handle 1
+    400056: Eames_Aluminium_Arms
+    400058: Eames_Aluminium_Arms 1
+    400060: Eames_Aluminium_Arms 10
+    400062: Eames_Aluminium_Arms 11
+    400064: Eames_Aluminium_Arms 12
+    400066: Eames_Aluminium_Arms 13
+    400068: Eames_Aluminium_Arms 14
+    400070: Eames_Aluminium_Arms 15
+    400072: Eames_Aluminium_Arms 16
+    400074: Eames_Aluminium_Arms 17
+    400076: Eames_Aluminium_Arms 18
+    400078: Eames_Aluminium_Arms 19
+    400080: Eames_Aluminium_Arms 2
+    400082: Eames_Aluminium_Arms 20
+    400084: Eames_Aluminium_Arms 21
+    400086: Eames_Aluminium_Arms 22
+    400088: Eames_Aluminium_Arms 23
+    400090: Eames_Aluminium_Arms 3
+    400092: Eames_Aluminium_Arms 4
+    400094: Eames_Aluminium_Arms 5
+    400096: Eames_Aluminium_Arms 6
+    400098: Eames_Aluminium_Arms 7
+    400100: Eames_Aluminium_Arms 8
+    400102: Eames_Aluminium_Arms 9
+    400104: Eames_Aluminium_Arms_BaseCylinder
+    400106: Eames_Aluminium_Arms_BaseCylinder 1
+    400108: Eames_Aluminium_Arms_BaseCylinder 10
+    400110: Eames_Aluminium_Arms_BaseCylinder 11
+    400112: Eames_Aluminium_Arms_BaseCylinder 2
+    400114: Eames_Aluminium_Arms_BaseCylinder 3
+    400116: Eames_Aluminium_Arms_BaseCylinder 4
+    400118: Eames_Aluminium_Arms_BaseCylinder 5
+    400120: Eames_Aluminium_Arms_BaseCylinder 6
+    400122: Eames_Aluminium_Arms_BaseCylinder 7
+    400124: Eames_Aluminium_Arms_BaseCylinder 8
+    400126: Eames_Aluminium_Arms_BaseCylinder 9
+    400128: Eames_Aluminium_Legs
+    400130: Eames_Aluminium_Legs 1
+    400132: Eames_Aluminium_Legs 10
+    400134: Eames_Aluminium_Legs 11
+    400136: Eames_Aluminium_Legs 12
+    400138: Eames_Aluminium_Legs 13
+    400140: Eames_Aluminium_Legs 14
+    400142: Eames_Aluminium_Legs 15
+    400144: Eames_Aluminium_Legs 16
+    400146: Eames_Aluminium_Legs 17
+    400148: Eames_Aluminium_Legs 18
+    400150: Eames_Aluminium_Legs 19
+    400152: Eames_Aluminium_Legs 2
+    400154: Eames_Aluminium_Legs 20
+    400156: Eames_Aluminium_Legs 21
+    400158: Eames_Aluminium_Legs 22
+    400160: Eames_Aluminium_Legs 23
+    400162: Eames_Aluminium_Legs 24
+    400164: Eames_Aluminium_Legs 25
+    400166: Eames_Aluminium_Legs 26
+    400168: Eames_Aluminium_Legs 27
+    400170: Eames_Aluminium_Legs 28
+    400172: Eames_Aluminium_Legs 29
+    400174: Eames_Aluminium_Legs 3
+    400176: Eames_Aluminium_Legs 30
+    400178: Eames_Aluminium_Legs 31
+    400180: Eames_Aluminium_Legs 32
+    400182: Eames_Aluminium_Legs 33
+    400184: Eames_Aluminium_Legs 34
+    400186: Eames_Aluminium_Legs 35
+    400188: Eames_Aluminium_Legs 36
+    400190: Eames_Aluminium_Legs 37
+    400192: Eames_Aluminium_Legs 38
+    400194: Eames_Aluminium_Legs 39
+    400196: Eames_Aluminium_Legs 4
+    400198: Eames_Aluminium_Legs 40
+    400200: Eames_Aluminium_Legs 41
+    400202: Eames_Aluminium_Legs 42
+    400204: Eames_Aluminium_Legs 43
+    400206: Eames_Aluminium_Legs 44
+    400208: Eames_Aluminium_Legs 45
+    400210: Eames_Aluminium_Legs 46
+    400212: Eames_Aluminium_Legs 47
+    400214: Eames_Aluminium_Legs 48
+    400216: Eames_Aluminium_Legs 49
+    400218: Eames_Aluminium_Legs 5
+    400220: Eames_Aluminium_Legs 50
+    400222: Eames_Aluminium_Legs 51
+    400224: Eames_Aluminium_Legs 52
+    400226: Eames_Aluminium_Legs 53
+    400228: Eames_Aluminium_Legs 54
+    400230: Eames_Aluminium_Legs 55
+    400232: Eames_Aluminium_Legs 56
+    400234: Eames_Aluminium_Legs 57
+    400236: Eames_Aluminium_Legs 58
+    400238: Eames_Aluminium_Legs 59
+    400240: Eames_Aluminium_Legs 6
+    400242: Eames_Aluminium_Legs 7
+    400244: Eames_Aluminium_Legs 8
+    400246: Eames_Aluminium_Legs 9
+    400248: GERRY
+    400250: GERRY Hocker CKID
+    400252: GERRY Sessel CKID
+    400254: Glass
+    400256: Group 103
+    400258: Group 104
+    400260: Group 106
+    400262: Group 108
+    400264: Group 11
+    400266: Group 110
+    400268: Group 112
+    400270: Group 114
+    400272: Group 116
+    400274: Group 118
+    400276: Group 120
+    400278: Group 122
+    400280: Group 123
+    400282: Group 125
+    400284: Group 127
+    400286: Group 129
+    400288: Group 131
+    400290: Group 133
+    400292: Group 135
+    400294: Group 137
+    400296: Group 139
+    400298: Group 141
+    400300: Group 15
+    400302: Group 152
+    400304: Group 17
+    400306: Group 176
+    400308: Group 185
+    400310: Group 196
+    400312: Group 20
+    400314: Group 205
+    400316: Group 209
+    400318: Group 211
+    400320: Group 213
+    400322: Group 215
+    400324: Group 22
+    400326: Group 23
+    400328: Group 23_MeshPart0
+    400330: Group 23_MeshPart1
+    400332: Group 260
+    400334: Group 262
+    400336: Group 264
+    400338: Group 266
+    400340: Group 270
+    400342: Group 272
+    400344: Group 274
+    400346: Group 276
+    400348: Group 279
+    400350: Group 280
+    400352: Group 282
+    400354: Group 284
+    400356: Group 286
+    400358: Group 288
+    400360: Group 290
+    400362: Group 292
+    400364: Group 3
+    400366: Group 5
+    400368: Group 511
+    400370: Group 512
+    400372: Group 514
+    400374: Group 516
+    400376: Group 518
+    400378: Group 520
+    400380: Group 522
+    400382: Group 524
+    400384: Group 528
+    400386: Group 530
+    400388: Group 532
+    400390: Group 534
+    400392: Group 536
+    400394: Group 538
+    400396: Group 561
+    400398: Group 563
+    400400: Group 565
+    400402: Group 566
+    400404: Group 567
+    400406: Group 572
+    400408: Group 577
+    400410: Group 579
+    400412: Group 580
+    400414: Group 582
+    400416: Group 584
+    400418: Group 585
+    400420: Group 587
+    400422: Group 590
+    400424: Group 591
+    400426: Group 601
+    400428: Group 602
+    400430: Group 603
+    400432: Group 605
+    400434: Group 607
+    400436: Group 608
+    400438: Group 610
+    400440: Group 613
+    400442: Group 615
+    400444: Group 617
+    400446: Group 628
+    400448: Group 630
+    400450: Group 632
+    400452: Group 634
+    400454: Group 638
+    400456: Group 640
+    400458: Group 642
+    400460: Group 644
+    400462: Group 655
+    400464: Group 657
+    400466: Group 659
+    400468: Group 661
+    400470: Group 663
+    400472: Group 665
+    400474: Group 667
+    400476: Group 669
+    400478: Group 671
+    400480: Group 673
+    400482: Group 676
+    400484: Group 680
+    400486: Group 7
+    400488: Group 70
+    400490: Group 72
+    400492: Group 73
+    400494: Group 75
+    400496: Group 77
+    400498: Group 79
+    400500: Group 81
+    400502: Group 83
+    400504: Group 85
+    400506: Group 87
+    400508: Group 89
+    400510: Group 9
+    400512: Group 91
+    400514: Group 94
+    400516: Group 96
+    400518: Group 97
+    400520: Group 97_MeshPart0
+    400522: Group 97_MeshPart1
+    400524: Image 2
+    400526: Image 678
+    400528: Image 682
+    400530: keyboard
+    400532: lamp, abajur
+    400534: lampara de mesa
+    400536: Laptop
+    400538: Lens
+    400540: LevelFoV#2
+    400542: modern door handle
+    400544: modern door handle 1
+    400546: modern door handle 2
+    400548: modern door handle 3
+    400550: Mojave Cocktail Table
+    400552: Mojave Cocktail Table 1
+    400554: MojaveTable
+    400556: MojaveTable 1
+    400558: MojaveTable_BaseLegs
+    400560: MojaveTable_BaseLegs 1
+    400562: MojaveTable_BaseLegs 2
+    400564: MojaveTable_BaseLegs 3
+    400566: MojaveTable_BottomShelf
+    400568: MojaveTable_BottomShelf 1
+    400570: MojaveTable_Legs
+    400572: MojaveTable_Legs 1
+    400574: MojaveTable_Legs 2
+    400576: MojaveTable_Legs 3
+    400578: MojaveTable_Top
+    400580: MojaveTable_Top 1
+    400582: //RootNode
+    400584: NEW 2012 iMac
+    400586: Novo Apple Imac 2012 27''
+    400588: Novo Apple Imac 2012 27'' 1
+    400590: Novo Apple Imac 2012 27''#1
+    400592: Pearson Chair
+    400594: Pearson Chair 1
+    400596: Pearson Chair 2
+    400598: Pearson Chair 3
+    400600: Podium Browser Eames Aluminium office chair
+    400602: Podium Browser Eames Aluminium office chair 1
+    400604: Podium Browser Eames Aluminium office chair 10
+    400606: Podium Browser Eames Aluminium office chair 11
+    400608: Podium Browser Eames Aluminium office chair 2
+    400610: Podium Browser Eames Aluminium office chair 3
+    400612: Podium Browser Eames Aluminium office chair 4
+    400614: Podium Browser Eames Aluminium office chair 5
+    400616: Podium Browser Eames Aluminium office chair 6
+    400618: Podium Browser Eames Aluminium office chair 7
+    400620: Podium Browser Eames Aluminium office chair 8
+    400622: Podium Browser Eames Aluminium office chair 9
+    400624: Q193X
+    400626: "Quadro Leila Nishi - Paet\xEA Ouro"
+    400628: "Quadro Leila Nishi - S\xE9rie P\xE9talas Degrad\xEA 02"
+    400630: Round Ottoman
+    400632: Round Ottoman 1
+    400634: Shade
+    400636: ske8C
+    400638: ske8C 1
+    400640: Start
+    400642: Steve
+    400644: The New 2010 Apple iMac 27" w/ New Magic Mouse
+    400646: The New 2010 Apple iMac 27" w/ New Magic Mouse#1
+    400648: TheCam
+    400650: TOSHIBA
+    400652: Zoom
+    2300000: Attach
+    2300002: Body
+    2300004: CI - Patton Sofa 84" Duck White
+    2300006: Component#1
+    2300008: Component#1 1
+    2300010: Component#1 2
+    2300012: Component#1 3
+    2300014: Component#2
+    2300016: Component#2 1
+    2300018: Component#2 2
+    2300020: Component#2 3
+    2300022: Component#3
+    2300024: Component#3 1
+    2300026: Component#3 2
+    2300028: Component#3 3
+    2300030: Component#30
+    2300032: Component#30 1
+    2300034: Component#5
+    2300036: Componente
+    2300038: Componente#86
+    2300040: door handle
+    2300042: door handle 1
+    2300044: Eames_Aluminium_Arms
+    2300046: Eames_Aluminium_Arms 1
+    2300048: Eames_Aluminium_Arms 10
+    2300050: Eames_Aluminium_Arms 11
+    2300052: Eames_Aluminium_Arms 12
+    2300054: Eames_Aluminium_Arms 13
+    2300056: Eames_Aluminium_Arms 14
+    2300058: Eames_Aluminium_Arms 15
+    2300060: Eames_Aluminium_Arms 16
+    2300062: Eames_Aluminium_Arms 17
+    2300064: Eames_Aluminium_Arms 18
+    2300066: Eames_Aluminium_Arms 19
+    2300068: Eames_Aluminium_Arms 2
+    2300070: Eames_Aluminium_Arms 20
+    2300072: Eames_Aluminium_Arms 21
+    2300074: Eames_Aluminium_Arms 22
+    2300076: Eames_Aluminium_Arms 23
+    2300078: Eames_Aluminium_Arms 3
+    2300080: Eames_Aluminium_Arms 4
+    2300082: Eames_Aluminium_Arms 5
+    2300084: Eames_Aluminium_Arms 6
+    2300086: Eames_Aluminium_Arms 7
+    2300088: Eames_Aluminium_Arms 8
+    2300090: Eames_Aluminium_Arms 9
+    2300092: Eames_Aluminium_Arms_BaseCylinder
+    2300094: Eames_Aluminium_Arms_BaseCylinder 1
+    2300096: Eames_Aluminium_Arms_BaseCylinder 10
+    2300098: Eames_Aluminium_Arms_BaseCylinder 11
+    2300100: Eames_Aluminium_Arms_BaseCylinder 2
+    2300102: Eames_Aluminium_Arms_BaseCylinder 3
+    2300104: Eames_Aluminium_Arms_BaseCylinder 4
+    2300106: Eames_Aluminium_Arms_BaseCylinder 5
+    2300108: Eames_Aluminium_Arms_BaseCylinder 6
+    2300110: Eames_Aluminium_Arms_BaseCylinder 7
+    2300112: Eames_Aluminium_Arms_BaseCylinder 8
+    2300114: Eames_Aluminium_Arms_BaseCylinder 9
+    2300116: Eames_Aluminium_Legs
+    2300118: Eames_Aluminium_Legs 1
+    2300120: Eames_Aluminium_Legs 10
+    2300122: Eames_Aluminium_Legs 11
+    2300124: Eames_Aluminium_Legs 12
+    2300126: Eames_Aluminium_Legs 13
+    2300128: Eames_Aluminium_Legs 14
+    2300130: Eames_Aluminium_Legs 15
+    2300132: Eames_Aluminium_Legs 16
+    2300134: Eames_Aluminium_Legs 17
+    2300136: Eames_Aluminium_Legs 18
+    2300138: Eames_Aluminium_Legs 19
+    2300140: Eames_Aluminium_Legs 2
+    2300142: Eames_Aluminium_Legs 20
+    2300144: Eames_Aluminium_Legs 21
+    2300146: Eames_Aluminium_Legs 22
+    2300148: Eames_Aluminium_Legs 23
+    2300150: Eames_Aluminium_Legs 24
+    2300152: Eames_Aluminium_Legs 25
+    2300154: Eames_Aluminium_Legs 26
+    2300156: Eames_Aluminium_Legs 27
+    2300158: Eames_Aluminium_Legs 28
+    2300160: Eames_Aluminium_Legs 29
+    2300162: Eames_Aluminium_Legs 3
+    2300164: Eames_Aluminium_Legs 30
+    2300166: Eames_Aluminium_Legs 31
+    2300168: Eames_Aluminium_Legs 32
+    2300170: Eames_Aluminium_Legs 33
+    2300172: Eames_Aluminium_Legs 34
+    2300174: Eames_Aluminium_Legs 35
+    2300176: Eames_Aluminium_Legs 36
+    2300178: Eames_Aluminium_Legs 37
+    2300180: Eames_Aluminium_Legs 38
+    2300182: Eames_Aluminium_Legs 39
+    2300184: Eames_Aluminium_Legs 4
+    2300186: Eames_Aluminium_Legs 40
+    2300188: Eames_Aluminium_Legs 41
+    2300190: Eames_Aluminium_Legs 42
+    2300192: Eames_Aluminium_Legs 43
+    2300194: Eames_Aluminium_Legs 44
+    2300196: Eames_Aluminium_Legs 45
+    2300198: Eames_Aluminium_Legs 46
+    2300200: Eames_Aluminium_Legs 47
+    2300202: Eames_Aluminium_Legs 48
+    2300204: Eames_Aluminium_Legs 49
+    2300206: Eames_Aluminium_Legs 5
+    2300208: Eames_Aluminium_Legs 50
+    2300210: Eames_Aluminium_Legs 51
+    2300212: Eames_Aluminium_Legs 52
+    2300214: Eames_Aluminium_Legs 53
+    2300216: Eames_Aluminium_Legs 54
+    2300218: Eames_Aluminium_Legs 55
+    2300220: Eames_Aluminium_Legs 56
+    2300222: Eames_Aluminium_Legs 57
+    2300224: Eames_Aluminium_Legs 58
+    2300226: Eames_Aluminium_Legs 59
+    2300228: Eames_Aluminium_Legs 6
+    2300230: Eames_Aluminium_Legs 7
+    2300232: Eames_Aluminium_Legs 8
+    2300234: Eames_Aluminium_Legs 9
+    2300236: Glass
+    2300238: Group 104
+    2300240: Group 106
+    2300242: Group 108
+    2300244: Group 11
+    2300246: Group 110
+    2300248: Group 112
+    2300250: Group 114
+    2300252: Group 116
+    2300254: Group 118
+    2300256: Group 120
+    2300258: Group 123
+    2300260: Group 125
+    2300262: Group 127
+    2300264: Group 129
+    2300266: Group 131
+    2300268: Group 133
+    2300270: Group 135
+    2300272: Group 137
+    2300274: Group 139
+    2300276: Group 15
+    2300278: Group 17
+    2300280: Group 185
+    2300282: Group 196
+    2300284: Group 20
+    2300286: Group 205
+    2300288: Group 209
+    2300290: Group 211
+    2300292: Group 213
+    2300294: Group 215
+    2300296: Group 23_MeshPart0
+    2300298: Group 23_MeshPart1
+    2300300: Group 260
+    2300302: Group 262
+    2300304: Group 264
+    2300306: Group 266
+    2300308: Group 270
+    2300310: Group 272
+    2300312: Group 274
+    2300314: Group 276
+    2300316: Group 280
+    2300318: Group 282
+    2300320: Group 284
+    2300322: Group 286
+    2300324: Group 288
+    2300326: Group 290
+    2300328: Group 292
+    2300330: Group 3
+    2300332: Group 5
+    2300334: Group 512
+    2300336: Group 514
+    2300338: Group 516
+    2300340: Group 518
+    2300342: Group 520
+    2300344: Group 522
+    2300346: Group 524
+    2300348: Group 528
+    2300350: Group 530
+    2300352: Group 532
+    2300354: Group 534
+    2300356: Group 536
+    2300358: Group 538
+    2300360: Group 563
+    2300362: Group 577
+    2300364: Group 580
+    2300366: Group 582
+    2300368: Group 585
+    2300370: Group 587
+    2300372: Group 591
+    2300374: Group 603
+    2300376: Group 605
+    2300378: Group 608
+    2300380: Group 610
+    2300382: Group 613
+    2300384: Group 615
+    2300386: Group 617
+    2300388: Group 628
+    2300390: Group 630
+    2300392: Group 632
+    2300394: Group 634
+    2300396: Group 638
+    2300398: Group 640
+    2300400: Group 642
+    2300402: Group 644
+    2300404: Group 655
+    2300406: Group 657
+    2300408: Group 659
+    2300410: Group 661
+    2300412: Group 663
+    2300414: Group 665
+    2300416: Group 667
+    2300418: Group 669
+    2300420: Group 671
+    2300422: Group 673
+    2300424: Group 676
+    2300426: Group 680
+    2300428: Group 7
+    2300430: Group 70
+    2300432: Group 73
+    2300434: Group 75
+    2300436: Group 77
+    2300438: Group 79
+    2300440: Group 81
+    2300442: Group 83
+    2300444: Group 85
+    2300446: Group 87
+    2300448: Group 89
+    2300450: Group 9
+    2300452: Group 91
+    2300454: Group 94
+    2300456: Group 97_MeshPart0
+    2300458: Group 97_MeshPart1
+    2300460: Image 2
+    2300462: Image 678
+    2300464: Image 682
+    2300466: lampara de mesa
+    2300468: Lens
+    2300470: MojaveTable_BaseLegs
+    2300472: MojaveTable_BaseLegs 1
+    2300474: MojaveTable_BaseLegs 2
+    2300476: MojaveTable_BaseLegs 3
+    2300478: MojaveTable_BottomShelf
+    2300480: MojaveTable_BottomShelf 1
+    2300482: MojaveTable_Legs
+    2300484: MojaveTable_Legs 1
+    2300486: MojaveTable_Legs 2
+    2300488: MojaveTable_Legs 3
+    2300490: MojaveTable_Top
+    2300492: MojaveTable_Top 1
+    2300494: //RootNode
+    2300496: Pearson Chair
+    2300498: Pearson Chair 1
+    2300500: Pearson Chair 2
+    2300502: Pearson Chair 3
+    2300504: Podium Browser Eames Aluminium office chair
+    2300506: Podium Browser Eames Aluminium office chair 1
+    2300508: Podium Browser Eames Aluminium office chair 10
+    2300510: Podium Browser Eames Aluminium office chair 11
+    2300512: Podium Browser Eames Aluminium office chair 2
+    2300514: Podium Browser Eames Aluminium office chair 3
+    2300516: Podium Browser Eames Aluminium office chair 4
+    2300518: Podium Browser Eames Aluminium office chair 5
+    2300520: Podium Browser Eames Aluminium office chair 6
+    2300522: Podium Browser Eames Aluminium office chair 7
+    2300524: Podium Browser Eames Aluminium office chair 8
+    2300526: Podium Browser Eames Aluminium office chair 9
+    2300528: Shade
+    2300530: Start
+    2300532: Steve
+    2300534: The New 2010 Apple iMac 27" w/ New Magic Mouse
+    2300536: The New 2010 Apple iMac 27" w/ New Magic Mouse#1
+    2300538: TOSHIBA
+    2300540: Zoom
+    3300000: Attach
+    3300002: Body
+    3300004: CI - Patton Sofa 84" Duck White
+    3300006: Component#1
+    3300008: Component#1 1
+    3300010: Component#1 2
+    3300012: Component#1 3
+    3300014: Component#2
+    3300016: Component#2 1
+    3300018: Component#2 2
+    3300020: Component#2 3
+    3300022: Component#3
+    3300024: Component#3 1
+    3300026: Component#3 2
+    3300028: Component#3 3
+    3300030: Component#30
+    3300032: Component#30 1
+    3300034: Component#5
+    3300036: Componente
+    3300038: Componente#86
+    3300040: door handle
+    3300042: door handle 1
+    3300044: Eames_Aluminium_Arms
+    3300046: Eames_Aluminium_Arms 1
+    3300048: Eames_Aluminium_Arms 10
+    3300050: Eames_Aluminium_Arms 11
+    3300052: Eames_Aluminium_Arms 12
+    3300054: Eames_Aluminium_Arms 13
+    3300056: Eames_Aluminium_Arms 14
+    3300058: Eames_Aluminium_Arms 15
+    3300060: Eames_Aluminium_Arms 16
+    3300062: Eames_Aluminium_Arms 17
+    3300064: Eames_Aluminium_Arms 18
+    3300066: Eames_Aluminium_Arms 19
+    3300068: Eames_Aluminium_Arms 2
+    3300070: Eames_Aluminium_Arms 20
+    3300072: Eames_Aluminium_Arms 21
+    3300074: Eames_Aluminium_Arms 22
+    3300076: Eames_Aluminium_Arms 23
+    3300078: Eames_Aluminium_Arms 3
+    3300080: Eames_Aluminium_Arms 4
+    3300082: Eames_Aluminium_Arms 5
+    3300084: Eames_Aluminium_Arms 6
+    3300086: Eames_Aluminium_Arms 7
+    3300088: Eames_Aluminium_Arms 8
+    3300090: Eames_Aluminium_Arms 9
+    3300092: Eames_Aluminium_Arms_BaseCylinder
+    3300094: Eames_Aluminium_Arms_BaseCylinder 1
+    3300096: Eames_Aluminium_Arms_BaseCylinder 10
+    3300098: Eames_Aluminium_Arms_BaseCylinder 11
+    3300100: Eames_Aluminium_Arms_BaseCylinder 2
+    3300102: Eames_Aluminium_Arms_BaseCylinder 3
+    3300104: Eames_Aluminium_Arms_BaseCylinder 4
+    3300106: Eames_Aluminium_Arms_BaseCylinder 5
+    3300108: Eames_Aluminium_Arms_BaseCylinder 6
+    3300110: Eames_Aluminium_Arms_BaseCylinder 7
+    3300112: Eames_Aluminium_Arms_BaseCylinder 8
+    3300114: Eames_Aluminium_Arms_BaseCylinder 9
+    3300116: Eames_Aluminium_Legs
+    3300118: Eames_Aluminium_Legs 1
+    3300120: Eames_Aluminium_Legs 10
+    3300122: Eames_Aluminium_Legs 11
+    3300124: Eames_Aluminium_Legs 12
+    3300126: Eames_Aluminium_Legs 13
+    3300128: Eames_Aluminium_Legs 14
+    3300130: Eames_Aluminium_Legs 15
+    3300132: Eames_Aluminium_Legs 16
+    3300134: Eames_Aluminium_Legs 17
+    3300136: Eames_Aluminium_Legs 18
+    3300138: Eames_Aluminium_Legs 19
+    3300140: Eames_Aluminium_Legs 2
+    3300142: Eames_Aluminium_Legs 20
+    3300144: Eames_Aluminium_Legs 21
+    3300146: Eames_Aluminium_Legs 22
+    3300148: Eames_Aluminium_Legs 23
+    3300150: Eames_Aluminium_Legs 24
+    3300152: Eames_Aluminium_Legs 25
+    3300154: Eames_Aluminium_Legs 26
+    3300156: Eames_Aluminium_Legs 27
+    3300158: Eames_Aluminium_Legs 28
+    3300160: Eames_Aluminium_Legs 29
+    3300162: Eames_Aluminium_Legs 3
+    3300164: Eames_Aluminium_Legs 30
+    3300166: Eames_Aluminium_Legs 31
+    3300168: Eames_Aluminium_Legs 32
+    3300170: Eames_Aluminium_Legs 33
+    3300172: Eames_Aluminium_Legs 34
+    3300174: Eames_Aluminium_Legs 35
+    3300176: Eames_Aluminium_Legs 36
+    3300178: Eames_Aluminium_Legs 37
+    3300180: Eames_Aluminium_Legs 38
+    3300182: Eames_Aluminium_Legs 39
+    3300184: Eames_Aluminium_Legs 4
+    3300186: Eames_Aluminium_Legs 40
+    3300188: Eames_Aluminium_Legs 41
+    3300190: Eames_Aluminium_Legs 42
+    3300192: Eames_Aluminium_Legs 43
+    3300194: Eames_Aluminium_Legs 44
+    3300196: Eames_Aluminium_Legs 45
+    3300198: Eames_Aluminium_Legs 46
+    3300200: Eames_Aluminium_Legs 47
+    3300202: Eames_Aluminium_Legs 48
+    3300204: Eames_Aluminium_Legs 49
+    3300206: Eames_Aluminium_Legs 5
+    3300208: Eames_Aluminium_Legs 50
+    3300210: Eames_Aluminium_Legs 51
+    3300212: Eames_Aluminium_Legs 52
+    3300214: Eames_Aluminium_Legs 53
+    3300216: Eames_Aluminium_Legs 54
+    3300218: Eames_Aluminium_Legs 55
+    3300220: Eames_Aluminium_Legs 56
+    3300222: Eames_Aluminium_Legs 57
+    3300224: Eames_Aluminium_Legs 58
+    3300226: Eames_Aluminium_Legs 59
+    3300228: Eames_Aluminium_Legs 6
+    3300230: Eames_Aluminium_Legs 7
+    3300232: Eames_Aluminium_Legs 8
+    3300234: Eames_Aluminium_Legs 9
+    3300236: Glass
+    3300238: Group 104
+    3300240: Group 106
+    3300242: Group 108
+    3300244: Group 11
+    3300246: Group 110
+    3300248: Group 112
+    3300250: Group 114
+    3300252: Group 116
+    3300254: Group 118
+    3300256: Group 120
+    3300258: Group 123
+    3300260: Group 125
+    3300262: Group 127
+    3300264: Group 129
+    3300266: Group 131
+    3300268: Group 133
+    3300270: Group 135
+    3300272: Group 137
+    3300274: Group 139
+    3300276: Group 15
+    3300278: Group 17
+    3300280: Group 185
+    3300282: Group 196
+    3300284: Group 20
+    3300286: Group 205
+    3300288: Group 209
+    3300290: Group 211
+    3300292: Group 213
+    3300294: Group 215
+    3300296: Group 23_MeshPart0
+    3300298: Group 23_MeshPart1
+    3300300: Group 260
+    3300302: Group 262
+    3300304: Group 264
+    3300306: Group 266
+    3300308: Group 270
+    3300310: Group 272
+    3300312: Group 274
+    3300314: Group 276
+    3300316: Group 280
+    3300318: Group 282
+    3300320: Group 284
+    3300322: Group 286
+    3300324: Group 288
+    3300326: Group 290
+    3300328: Group 292
+    3300330: Group 3
+    3300332: Group 5
+    3300334: Group 512
+    3300336: Group 514
+    3300338: Group 516
+    3300340: Group 518
+    3300342: Group 520
+    3300344: Group 522
+    3300346: Group 524
+    3300348: Group 528
+    3300350: Group 530
+    3300352: Group 532
+    3300354: Group 534
+    3300356: Group 536
+    3300358: Group 538
+    3300360: Group 563
+    3300362: Group 577
+    3300364: Group 580
+    3300366: Group 582
+    3300368: Group 585
+    3300370: Group 587
+    3300372: Group 591
+    3300374: Group 603
+    3300376: Group 605
+    3300378: Group 608
+    3300380: Group 610
+    3300382: Group 613
+    3300384: Group 615
+    3300386: Group 617
+    3300388: Group 628
+    3300390: Group 630
+    3300392: Group 632
+    3300394: Group 634
+    3300396: Group 638
+    3300398: Group 640
+    3300400: Group 642
+    3300402: Group 644
+    3300404: Group 655
+    3300406: Group 657
+    3300408: Group 659
+    3300410: Group 661
+    3300412: Group 663
+    3300414: Group 665
+    3300416: Group 667
+    3300418: Group 669
+    3300420: Group 671
+    3300422: Group 673
+    3300424: Group 676
+    3300426: Group 680
+    3300428: Group 7
+    3300430: Group 70
+    3300432: Group 73
+    3300434: Group 75
+    3300436: Group 77
+    3300438: Group 79
+    3300440: Group 81
+    3300442: Group 83
+    3300444: Group 85
+    3300446: Group 87
+    3300448: Group 89
+    3300450: Group 9
+    3300452: Group 91
+    3300454: Group 94
+    3300456: Group 97_MeshPart0
+    3300458: Group 97_MeshPart1
+    3300460: Image 2
+    3300462: Image 678
+    3300464: Image 682
+    3300466: lampara de mesa
+    3300468: Lens
+    3300470: MojaveTable_BaseLegs
+    3300472: MojaveTable_BaseLegs 1
+    3300474: MojaveTable_BaseLegs 2
+    3300476: MojaveTable_BaseLegs 3
+    3300478: MojaveTable_BottomShelf
+    3300480: MojaveTable_BottomShelf 1
+    3300482: MojaveTable_Legs
+    3300484: MojaveTable_Legs 1
+    3300486: MojaveTable_Legs 2
+    3300488: MojaveTable_Legs 3
+    3300490: MojaveTable_Top
+    3300492: MojaveTable_Top 1
+    3300494: //RootNode
+    3300496: Pearson Chair
+    3300498: Pearson Chair 1
+    3300500: Pearson Chair 2
+    3300502: Pearson Chair 3
+    3300504: Podium Browser Eames Aluminium office chair
+    3300506: Podium Browser Eames Aluminium office chair 1
+    3300508: Podium Browser Eames Aluminium office chair 10
+    3300510: Podium Browser Eames Aluminium office chair 11
+    3300512: Podium Browser Eames Aluminium office chair 2
+    3300514: Podium Browser Eames Aluminium office chair 3
+    3300516: Podium Browser Eames Aluminium office chair 4
+    3300518: Podium Browser Eames Aluminium office chair 5
+    3300520: Podium Browser Eames Aluminium office chair 6
+    3300522: Podium Browser Eames Aluminium office chair 7
+    3300524: Podium Browser Eames Aluminium office chair 8
+    3300526: Podium Browser Eames Aluminium office chair 9
+    3300528: Shade
+    3300530: Start
+    3300532: Steve
+    3300534: The New 2010 Apple iMac 27" w/ New Magic Mouse
+    3300536: The New 2010 Apple iMac 27" w/ New Magic Mouse#1
+    3300538: TOSHIBA
+    3300540: Zoom
+    4300000: Mesh myoffice-2
+    4300002: Mesh myoffice-2
+    4300004: Mesh Group 3
+    4300006: Mesh Group 11
+    4300008: Mesh Group 15
+    4300010: Mesh Group 17
+    4300012: Mesh Group 20
+    4300014: Mesh Group 23_MeshPart0
+    4300016: Mesh Group 23_MeshPart1
+    4300018: Mesh Component#2
+    4300020: Mesh Group 70
+    4300022: Mesh Group 73
+    4300024: Mesh Group 75
+    4300026: Mesh Group 79
+    4300028: Mesh Group 81
+    4300030: Mesh Group 85
+    4300032: Mesh Group 87
+    4300034: Mesh Group 185
+    4300036: Mesh Steve
+    4300038: Mesh lampara de mesa
+    4300040: Mesh The New 2010 Apple iMac 27" w/ New Magic Mouse#1
+    4300042: Mesh Group 196
+    4300044: Mesh Componente
+    4300046: Mesh Componente#86
+    4300048: Mesh The New 2010 Apple iMac 27" w/ New Magic Mouse
+    4300050: Mesh Group 205
+    4300052: Mesh Group 209
+    4300054: Mesh Group 211
+    4300056: Mesh Group 213
+    4300058: Mesh Group 215
+    4300060: Mesh MojaveTable_BottomShelf
+    4300062: Mesh MojaveTable_Legs
+    4300064: Mesh MojaveTable_BaseLegs
+    4300066: Mesh MojaveTable_Top
+    4300068: Mesh Attach
+    4300070: Mesh Glass
+    4300072: Mesh Lens
+    4300074: Mesh Body
+    4300076: Mesh Shade
+    4300078: Mesh Zoom
+    4300080: Mesh Pearson Chair
+    4300082: Mesh Group 260
+    4300084: Mesh Group 262
+    4300086: Mesh Group 264
+    4300088: Mesh Group 266
+    4300090: Mesh Group 280
+    4300092: Mesh Group 288
+    4300094: Mesh Group 290
+    4300096: Mesh Group 292
+    4300098: Mesh Podium Browser Eames Aluminium office chair
+    4300100: Mesh Eames_Aluminium_Arms_BaseCylinder
+    4300102: Mesh Eames_Aluminium_Legs
+    4300104: Mesh Eames_Aluminium_Arms
+    4300106: Mesh CI - Patton Sofa 84" Duck White
+    4300108: Mesh Group 528
+    4300110: Mesh Group 530
+    4300112: Mesh Group 532
+    4300114: Mesh Group 534
+    4300116: Mesh Group 536
+    4300118: Mesh Group 538
+    4300120: Mesh Component#30
+    4300122: Mesh Group 563
+    4300124: Mesh Component#1
+    4300126: Mesh Group 577
+    4300128: Mesh Group 580
+    4300130: Mesh Group 582
+    4300132: Mesh Group 585
+    4300134: Mesh Group 587
+    4300136: Mesh Group 591
+    4300138: Mesh Component#3
+    4300140: Mesh Group 603
+    4300142: Mesh Group 605
+    4300144: Mesh Group 608
+    4300146: Mesh Group 610
+    4300148: Mesh Group 613
+    4300150: Mesh Group 617
+    4300152: Mesh Component#5
+    4300154: Mesh TOSHIBA
+    4300156: Mesh Start
+    4300158: Mesh door handle
+    4300160: Mesh Group 655
+    4300162: Mesh Group 657
+    4300164: Mesh Group 659
+    4300166: Mesh Group 661
+    4300168: Mesh Group 663
+    4300170: Mesh Group 665
+    4300172: Mesh Group 667
+    4300174: Mesh Group 669
+    4300176: Mesh Group 671
+    4300178: Mesh Group 673
+    4300180: Mesh Group 676
+    4300182: Mesh Group 676
+    4300184: Mesh Group 680
+    4300186: Mesh Group 680
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

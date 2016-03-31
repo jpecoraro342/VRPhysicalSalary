@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 7daf4c35b46a84d37918edcd6e997b8d
+timeCreated: 1459310626
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000
+  assetHash:
+    serializedVersion: 2
+    Hash: a7ed564d189c311e9b201a21af3b51a9
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -2.5015419, y: 2.1265662, z: -3.7971392}
+      lookAt: {x: 0.59129775, y: 1.4387375, z: 0.14920346}
+      up: {x: 0.08383709, y: 0.99072105, z: 0.10697286}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cam1
+    100002: Cam2
+    100004: Cam3
+    100006: Component#12
+    100008: Component#13
+    100010: Component#14
+    100012: Component#15
+    100014: Component#16
+    100016: Image 2
+    100018: //RootNode
+    100020: P1
+    100022: P2
+    100024: STG1
+    400000: Cam1
+    400002: Cam2
+    400004: Cam3
+    400006: Component#12
+    400008: Component#13
+    400010: Component#14
+    400012: Component#15
+    400014: Component#16
+    400016: Image 2
+    400018: //RootNode
+    400020: P1
+    400022: P2
+    400024: STG1
+    2300000: Cam1
+    2300002: Cam2
+    2300004: Cam3
+    2300006: Component#12
+    2300008: Component#13
+    2300010: Component#14
+    2300012: Component#15
+    2300014: Component#16
+    2300016: Image 2
+    2300018: //RootNode
+    2300020: P1
+    2300022: P2
+    2300024: STG1
+    3300000: Cam1
+    3300002: Cam2
+    3300004: Cam3
+    3300006: Component#12
+    3300008: Component#13
+    3300010: Component#14
+    3300012: Component#15
+    3300014: Component#16
+    3300016: Image 2
+    3300018: //RootNode
+    3300020: P1
+    3300022: P2
+    3300024: STG1
+    4300000: 'Mesh iPhone 5s '
+    4300002: 'Mesh iPhone 5s '
+    4300004: Mesh P1
+    4300006: Mesh Component#15
+    4300008: Mesh P2
+    4300010: Mesh Cam1
+    4300012: Mesh STG1
+    4300014: Mesh Component#13
+    4300016: Mesh Cam3
+    4300018: Mesh Cam2
+    4300020: Mesh Component#16
+    4300022: Mesh Component#14
+    4300024: Mesh Component#12
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
