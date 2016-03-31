@@ -10,7 +10,7 @@ namespace VRStandardAssets.Utils
     // either a UI slider or a mesh with the SlidingUV shader.  The
     // functions as a bar that fills up whilst the user looks at it
     // and holds down the Fire1 button.
-    public class SelectionSlider : MonoBehaviour
+	public class SelectionSlider : MonoBehaviour
     {
 		public event Action OnBarFilled;                                    // This event is triggered when the bar finishes filling.
 
@@ -207,7 +207,7 @@ namespace VRStandardAssets.Utils
 			m_Audio.Play();
 		}
 
-		private void ToggleSliderValue() {
+		public void ToggleSliderValue() {
 			if (m_Slider.value == m_Slider.maxValue) {
 				m_Slider.value = m_Slider.minValue;
 			}
@@ -215,6 +215,5 @@ namespace VRStandardAssets.Utils
 				m_Slider.value = m_Slider.maxValue;
 			}
 		}
-
 	}
 }

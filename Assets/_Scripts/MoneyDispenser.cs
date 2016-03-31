@@ -83,7 +83,7 @@ public class MoneyDispenser : MonoBehaviour
 
 			dollarsEarned += amountJustEarned;
 
-			Debug.Log("Total Dollars Earned " + dollarsEarned + "\nAdditional amount earned " + amountJustEarned);
+			// Debug.Log("Total Dollars Earned " + dollarsEarned + "\nAdditional amount earned " + amountJustEarned);
 			if (earningsText) {
 				earningsText.text = "Simulation Earnings: $" + dollarsEarned.ToString("F2");
 			}

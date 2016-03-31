@@ -15,6 +15,9 @@ public class PanelDispenserHandler : MonoBehaviour {
 	[SerializeField] private Text leftSalaryText;
 	[SerializeField] private Text rightSalaryText;
 
+	private GameObject previousLeftPanel;
+	private GameObject previousRightPanel;
+
 	// Use this for initialization
 	void Start () {
         titles = new List<string>();
@@ -54,13 +57,26 @@ public class PanelDispenserHandler : MonoBehaviour {
         var salary = salaries[index % 9];
         var title = titles[index % 9];
         
+		var newSlider = panelItem.GetComponent<VRStandardAssets.Utils.SelectionSlider>();
 		if (index > 8) {
 			leftTitleText.text = title;
 			leftSalaryText.text = string.Format("Average Salary: {0:C}", salary);
+		
+			if (previousLeftPanel != null && !previousLeftPanel.Equals(panelItem)) {
+				var oldSlider = previousLeftPanel.GetComponent<VRStandardAssets.Utils.SelectionSlider>();
+				oldSlider.ToggleSliderValue();
+			}
+			previousLeftPanel = panelItem;
 		}
 		else {
 			rightTitleText.text = title;
 			rightSalaryText.text = string.Format("Average Salary: {0:C}", salary);
+
+			if (previousRightPanel != null && !previousRightPanel.Equals(panelItem)) {
+				var oldSlider = previousRightPanel.GetComponent<VRStandardAssets.Utils.SelectionSlider>();
+				oldSlider.ToggleSliderValue();
+			}
+			previousRightPanel = panelItem;
 		}
 
         md.restartDispensingWithSalary(salary);
