@@ -175,6 +175,9 @@ public class MoneyDispenser : MonoBehaviour
 		if (dispensing) {
 			stopDispensing ();
 		}
+		if (salaryAmount.Equals(salary)) {
+			return;
+		}
 		salaryAmount = salary;
 		startDispensing ();
 	}

@@ -564,12 +564,12 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 496888}
-  - {fileID: 461078}
-  - {fileID: 422936}
   - {fileID: 414802}
   - {fileID: 474294}
   - {fileID: 472062}
+  - {fileID: 496888}
+  - {fileID: 461078}
+  - {fileID: 422936}
   - {fileID: 421702}
   - {fileID: 497054}
   - {fileID: 476094}
@@ -626,7 +626,7 @@ Transform:
   - {fileID: 479386}
   - {fileID: 431638}
   m_Father: {fileID: 402146}
-  m_RootOrder: 3
+  m_RootOrder: 0
 --- !u!4 &421194
 Transform:
   m_ObjectHideFlags: 1
@@ -666,7 +666,7 @@ Transform:
   - {fileID: 470554}
   - {fileID: 424920}
   m_Father: {fileID: 402146}
-  m_RootOrder: 2
+  m_RootOrder: 5
 --- !u!4 &424920
 Transform:
   m_ObjectHideFlags: 1
@@ -778,7 +778,7 @@ Transform:
   - {fileID: 463900}
   - {fileID: 408546}
   m_Father: {fileID: 402146}
-  m_RootOrder: 1
+  m_RootOrder: 4
 --- !u!4 &461302
 Transform:
   m_ObjectHideFlags: 1
@@ -890,7 +890,7 @@ Transform:
   - {fileID: 458604}
   - {fileID: 473122}
   m_Father: {fileID: 402146}
-  m_RootOrder: 5
+  m_RootOrder: 2
 --- !u!4 &473122
 Transform:
   m_ObjectHideFlags: 1
@@ -916,7 +916,7 @@ Transform:
   - {fileID: 446460}
   - {fileID: 459730}
   m_Father: {fileID: 402146}
-  m_RootOrder: 4
+  m_RootOrder: 1
 --- !u!4 &476094
 Transform:
   m_ObjectHideFlags: 1
@@ -980,7 +980,7 @@ Transform:
   - {fileID: 493710}
   - {fileID: 462300}
   m_Father: {fileID: 402146}
-  m_RootOrder: 0
+  m_RootOrder: 3
 --- !u!4 &497054
 Transform:
   m_ObjectHideFlags: 1
@@ -1369,13 +1369,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  salaryAmount: 500000
+  salaryAmount: 5000000
   penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
   smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
   largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
   containingWidth: 10
   containingLength: 10
   coinContainer: {fileID: 164892}
+  earningsText: {fileID: 0}
 --- !u!114 &11411420
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1394,6 +1395,7 @@ MonoBehaviour:
   containingWidth: 10
   containingLength: 10
   coinContainer: {fileID: 123800}
+  earningsText: {fileID: 0}
 --- !u!114 &11411806
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1412,6 +1414,7 @@ MonoBehaviour:
   containingWidth: 5
   containingLength: 1
   coinContainer: {fileID: 150562}
+  earningsText: {fileID: 0}
 --- !u!114 &11440522
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1430,6 +1433,7 @@ MonoBehaviour:
   containingWidth: 10
   containingLength: 10
   coinContainer: {fileID: 190984}
+  earningsText: {fileID: 0}
 --- !u!114 &11447628
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1448,6 +1452,7 @@ MonoBehaviour:
   containingWidth: 5
   containingLength: 1
   coinContainer: {fileID: 141282}
+  earningsText: {fileID: 0}
 --- !u!114 &11449038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1459,13 +1464,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  salaryAmount: 500000
+  salaryAmount: 50000000
   penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
   smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
   largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
   containingWidth: 10
   containingLength: 10
   coinContainer: {fileID: 170708}
+  earningsText: {fileID: 0}
 --- !u!114 &11449978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1477,13 +1483,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  salaryAmount: 500000
+  salaryAmount: 40000
   penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
   smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
   largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
   containingWidth: 7
   containingLength: 2
   coinContainer: {fileID: 145674}
+  earningsText: {fileID: 0}
 --- !u!114 &11476424
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1495,13 +1502,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  salaryAmount: 500000
+  salaryAmount: 1e+10
   penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
   smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
   largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
   containingWidth: 10
   containingLength: 10
   coinContainer: {fileID: 120498}
+  earningsText: {fileID: 0}
 --- !u!114 &11483762
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1520,6 +1528,7 @@ MonoBehaviour:
   containingWidth: 8
   containingLength: 8
   coinContainer: {fileID: 149650}
+  earningsText: {fileID: 0}
 --- !u!114 &11487168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1538,6 +1547,7 @@ MonoBehaviour:
   containingWidth: 5
   containingLength: 1
   coinContainer: {fileID: 165896}
+  earningsText: {fileID: 0}
 --- !u!114 &11492748
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1549,13 +1559,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc293c9e3f66a44fdb26cd93a87aad6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  salaryAmount: 500000
+  salaryAmount: 150000
   penny: {fileID: 172222, guid: 45d735f8f451b4ddf9786f1c967f5ad7, type: 2}
   smallCoinCluster: {fileID: 130258, guid: 47147379e086648978622308f9a0e675, type: 2}
   largeCoinCluster: {fileID: 169314, guid: c352775456b09473b979418c44763fd8, type: 2}
   containingWidth: 8
   containingLength: 5
   coinContainer: {fileID: 185384}
+  earningsText: {fileID: 0}
 --- !u!135 &13515458
 SphereCollider:
   m_ObjectHideFlags: 1

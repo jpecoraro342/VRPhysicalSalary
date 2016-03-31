@@ -3763,13 +3763,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 82026214}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c052ee3a9db7b43d4b7fc2f321f4dfbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AudioFile: {fileID: 0}
-  speed: 4
+  speed: 8
   walkWhenTriggered: 1
   walkWhenLookDown: 0
   thresholdAngle: 0
@@ -4508,7 +4508,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Average Salary: $$$$$'
+  m_Text: 'Average Salary: $0.00'
 --- !u!222 &105602757
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11345,6 +11345,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 0}
+  dispenserHandler: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &246154845
 BoxCollider:
@@ -17449,6 +17450,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 1385622201}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &394040129
 BoxCollider:
@@ -22882,8 +22884,9 @@ MonoBehaviour:
   m_Collider: {fileID: 529949394}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 740974315}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &529949394
 BoxCollider:
@@ -24442,8 +24445,9 @@ MonoBehaviour:
   m_Collider: {fileID: 569875002}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 2144063542}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &569875002
 BoxCollider:
@@ -24682,7 +24686,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_WalkSpeed
-      value: 7
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_Enabled
@@ -24690,7 +24694,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -24871,6 +24875,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 1899059100}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &573127336
 BoxCollider:
@@ -27335,6 +27340,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 0}
+  dispenserHandler: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &617900499
 BoxCollider:
@@ -27857,8 +27863,9 @@ MonoBehaviour:
   m_Collider: {fileID: 624334444}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 740974315}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &624334444
 BoxCollider:
@@ -28911,6 +28918,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 0}
+  dispenserHandler: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &646882812
 BoxCollider:
@@ -29476,6 +29484,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 0}
+  dispenserHandler: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &658253261
 BoxCollider:
@@ -31730,6 +31739,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 0}
+  dispenserHandler: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &705138214
 BoxCollider:
@@ -33727,6 +33737,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 834739808}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &747447502
 BoxCollider:
@@ -35526,8 +35537,9 @@ MonoBehaviour:
   m_Collider: {fileID: 795846644}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 740974315}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &795846644
 BoxCollider:
@@ -43432,8 +43444,9 @@ MonoBehaviour:
   m_Collider: {fileID: 982011545}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 2144063542}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &982011545
 BoxCollider:
@@ -45759,8 +45772,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1031532798}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 2144063542}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1031532798
 BoxCollider:
@@ -47783,8 +47797,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1065671724}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 740974315}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1065671724
 BoxCollider:
@@ -55690,6 +55705,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 1375989248}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1249056520
 BoxCollider:
@@ -57115,6 +57131,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 0}
+  dispenserHandler: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &1269071448
 BoxCollider:
@@ -58158,8 +58175,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1284063294}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 740974315}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1284063294
 BoxCollider:
@@ -59751,8 +59769,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1301445130}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 740974315}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1301445130
 BoxCollider:
@@ -61649,8 +61668,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1338165350}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 740974315}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1338165350
 BoxCollider:
@@ -63219,8 +63239,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1362778868}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 2144063542}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1362778868
 BoxCollider:
@@ -65625,6 +65646,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 204001759}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1417823176
 BoxCollider:
@@ -67021,8 +67043,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1453969638}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 740974315}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1453969638
 BoxCollider:
@@ -67553,6 +67576,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 0}
+  dispenserHandler: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &1466708437
 BoxCollider:
@@ -68315,8 +68339,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1487773014}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 2144063542}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1487773014
 BoxCollider:
@@ -68746,94 +68771,50 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 11476424, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: salaryAmount
-      value: 1e+10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11449038, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: salaryAmount
-      value: 50000000
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403730, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: salaryAmount
-      value: 5000000
-      objectReference: {fileID: 0}
-    - target: {fileID: 11449978, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: salaryAmount
-      value: 40000
-      objectReference: {fileID: 0}
-    - target: {fileID: 11492748, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: salaryAmount
-      value: 150000
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487168, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: earningsText
-      value: 
-      objectReference: {fileID: 1369410809}
-    - target: {fileID: 11403730, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: earningsText
-      value: 
-      objectReference: {fileID: 1970044411}
-    - target: {fileID: 11449978, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: earningsText
-      value: 
-      objectReference: {fileID: 2047357880}
-    - target: {fileID: 11492748, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: earningsText
-      value: 
-      objectReference: {fileID: 1611252791}
     - target: {fileID: 11483762, guid: b7da972ac03044b00b51057640fa43af, type: 2}
       propertyPath: earningsText
       value: 
       objectReference: {fileID: 266403760}
-    - target: {fileID: 11447628, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: earningsText
-      value: 
-      objectReference: {fileID: 1278644676}
-    - target: {fileID: 11411806, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: earningsText
-      value: 
-      objectReference: {fileID: 419711511}
-    - target: {fileID: 11449038, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: earningsText
-      value: 
-      objectReference: {fileID: 1313523735}
-    - target: {fileID: 11476424, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: earningsText
-      value: 
-      objectReference: {fileID: 1624014935}
-    - target: {fileID: 11411420, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: earningsText
-      value: 
-      objectReference: {fileID: 187783486}
     - target: {fileID: 11440522, guid: b7da972ac03044b00b51057640fa43af, type: 2}
       propertyPath: earningsText
       value: 
       objectReference: {fileID: 1625275755}
-    - target: {fileID: 472062, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 474294, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 414802, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422936, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 461078, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 496888, guid: b7da972ac03044b00b51057640fa43af, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
+    - target: {fileID: 11447628, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: earningsText
+      value: 
+      objectReference: {fileID: 1278644676}
+    - target: {fileID: 11476424, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: earningsText
+      value: 
+      objectReference: {fileID: 1624014935}
+    - target: {fileID: 11492748, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: earningsText
+      value: 
+      objectReference: {fileID: 1611252791}
+    - target: {fileID: 11403730, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: earningsText
+      value: 
+      objectReference: {fileID: 1970044411}
+    - target: {fileID: 11449038, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: earningsText
+      value: 
+      objectReference: {fileID: 1313523735}
+    - target: {fileID: 11411806, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: earningsText
+      value: 
+      objectReference: {fileID: 419711511}
+    - target: {fileID: 11487168, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: earningsText
+      value: 
+      objectReference: {fileID: 1369410809}
+    - target: {fileID: 11449978, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: earningsText
+      value: 
+      objectReference: {fileID: 2047357880}
+    - target: {fileID: 11411420, guid: b7da972ac03044b00b51057640fa43af, type: 2}
+      propertyPath: earningsText
+      value: 
+      objectReference: {fileID: 187783486}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b7da972ac03044b00b51057640fa43af, type: 2}
   m_IsPrefabParent: 0
@@ -73517,7 +73498,7 @@ Prefab:
       objectReference: {fileID: 1575402359}
     - target: {fileID: 22415538, guid: 5fbc0682870cb4686b049e44c87dae7b, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 180780, guid: 5fbc0682870cb4686b049e44c87dae7b, type: 2}
       propertyPath: m_Name
@@ -73541,6 +73522,10 @@ Prefab:
       propertyPath: walkingScript
       value: 
       objectReference: {fileID: 82026215}
+    - target: {fileID: 11490992, guid: 5fbc0682870cb4686b049e44c87dae7b, type: 2}
+      propertyPath: dispenserHandler
+      value: 
+      objectReference: {fileID: 1776419811}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5fbc0682870cb4686b049e44c87dae7b, type: 2}
   m_IsPrefabParent: 0
@@ -75228,6 +75213,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 0}
+  dispenserHandler: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &1629769272
 BoxCollider:
@@ -77829,6 +77815,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 1470529473}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1680220806
 BoxCollider:
@@ -82184,6 +82171,70 @@ Transform:
   - {fileID: 412405222}
   m_Father: {fileID: 726018506}
   m_RootOrder: 1
+--- !u!1 &1776419810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1776419812}
+  - 114: {fileID: 1776419811}
+  m_Layer: 0
+  m_Name: Scripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1776419811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1776419810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25909ed89c642d24ea237c159dd4e26a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 795846638}
+  - {fileID: 1338165344}
+  - {fileID: 1065671718}
+  - {fileID: 2027627044}
+  - {fileID: 529949388}
+  - {fileID: 1284063288}
+  - {fileID: 624334438}
+  - {fileID: 1301445124}
+  - {fileID: 1453969632}
+  - {fileID: 569874996}
+  - {fileID: 1031532792}
+  - {fileID: 2115778910}
+  - {fileID: 982011539}
+  - {fileID: 1362778862}
+  - {fileID: 1878540882}
+  - {fileID: 1487773008}
+  - {fileID: 2117711268}
+  - {fileID: 1789498892}
+  titles: []
+  salaries: []
+  leftTitleText: {fileID: 431337076}
+  rightTitleText: {fileID: 339829128}
+  leftSalaryText: {fileID: 2005513416}
+  rightSalaryText: {fileID: 105602756}
+--- !u!4 &1776419812
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1776419810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 39.19103, y: 5.78375, z: 30.215567}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
 --- !u!1 &1777816418
 GameObject:
   m_ObjectHideFlags: 0
@@ -83106,8 +83157,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1789498898}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 2144063542}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1789498898
 BoxCollider:
@@ -83347,6 +83399,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 1224564425}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1790691535
 BoxCollider:
@@ -86976,6 +87029,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 0}
+  dispenserHandler: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &1866691221
 BoxCollider:
@@ -87565,8 +87619,9 @@ MonoBehaviour:
   m_Collider: {fileID: 1878540888}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 2144063542}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1878540888
 BoxCollider:
@@ -89887,6 +89942,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 0}
+  dispenserHandler: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &1945703567
 BoxCollider:
@@ -90798,6 +90854,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 0}
+  dispenserHandler: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &1956283730
 BoxCollider:
@@ -92583,6 +92640,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_IsComparorObject: 0
   money: {fileID: 841361587}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &1990863944
 BoxCollider:
@@ -93042,7 +93100,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Average Salary: $$$$$'
+  m_Text: 'Average Salary: $0.00'
 --- !u!222 &2005513417
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -94146,8 +94204,9 @@ MonoBehaviour:
   m_Collider: {fileID: 2027627050}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 740974315}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &2027627050
 BoxCollider:
@@ -98403,8 +98462,9 @@ MonoBehaviour:
   m_Collider: {fileID: 2115778916}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 2144063542}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &2115778916
 BoxCollider:
@@ -98642,8 +98702,9 @@ MonoBehaviour:
   m_Collider: {fileID: 2117711274}
   m_DisableOnBarFill: 0
   m_DisappearOnBarFill: 0
-  m_IsComparorObject: 0
+  m_IsComparorObject: 1
   money: {fileID: 2144063542}
+  dispenserHandler: {fileID: 1776419811}
   walkingScript: {fileID: 82026215}
 --- !u!65 &2117711274
 BoxCollider:

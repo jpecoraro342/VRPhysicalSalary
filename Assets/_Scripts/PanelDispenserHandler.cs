@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic; 
 
@@ -7,6 +8,12 @@ public class PanelDispenserHandler : MonoBehaviour {
     [SerializeField] private List<GameObject> panels;
     public List<string> titles;
     public List<float> salaries;
+
+	[SerializeField] private Text leftTitleText;
+	[SerializeField] private Text rightTitleText;
+
+	[SerializeField] private Text leftSalaryText;
+	[SerializeField] private Text rightSalaryText;
 
 	// Use this for initialization
 	void Start () {
@@ -47,7 +54,14 @@ public class PanelDispenserHandler : MonoBehaviour {
         var salary = salaries[index % 9];
         var title = titles[index % 9];
         
-        //TODO: Set text panels equal to title/salary
+		if (index > 8) {
+			leftTitleText.text = title;
+			leftSalaryText.text = string.Format("Average Salary: {0:C}", salary);
+		}
+		else {
+			rightTitleText.text = title;
+			rightSalaryText.text = string.Format("Average Salary: {0:C}", salary);
+		}
 
         md.restartDispensingWithSalary(salary);
     }

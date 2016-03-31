@@ -32,6 +32,7 @@ namespace VRStandardAssets.Utils
 
         [SerializeField] private bool m_IsComparorObject;
 		[SerializeField] private MoneyDispenser money;
+		[SerializeField] private PanelDispenserHandler dispenserHandler;
 
 		[SerializeField] private Autowalk walkingScript;
 
@@ -193,11 +194,12 @@ namespace VRStandardAssets.Utils
 
 			ToggleSliderValue();
 			if (m_IsComparorObject) {
-
+				Debug.Log("Toggle Comparater Dispenser");
+				dispenserHandler.toggleComparatorDispensing(gameObject, money);
 			}
 			else {
-				// TODO: Call the toggle on the managing script
-				money.toggleDispensing();
+				Debug.Log("Toggle Regular Dispenser");
+				dispenserHandler.toggleDispensing(money);
 			}
 
 			// Play the clip for when the bar is filled.
