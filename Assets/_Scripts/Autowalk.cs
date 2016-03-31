@@ -56,6 +56,9 @@ public class Autowalk : MonoBehaviour
 	void Update () 
 	{
 		if (!canToggleWalking) {
+			if (isWalking) {
+				walk();
+			}
 			return;
 		}
 
@@ -107,11 +110,7 @@ public class Autowalk : MonoBehaviour
 
 		if (isWalking) 
 		{
-			Vector3 direction = new Vector3(head.transform.forward.x, 0, head.transform.forward.z).normalized * speed * Time.deltaTime;
-			Quaternion rotation = Quaternion.Euler(new Vector3(0, -transform.rotation.eulerAngles.y, 0));
-			transform.Translate(rotation * direction);
-
-            
+			walk();
         }
 		
 		if(freezeYPosition)
@@ -119,6 +118,12 @@ public class Autowalk : MonoBehaviour
 			transform.position = new Vector3(transform.position.x, yOffset, transform.position.z);
 		}
     }
+
+	public void walk() {
+		Vector3 direction = new Vector3(head.transform.forward.x, 0, head.transform.forward.z).normalized * speed * Time.deltaTime;
+		Quaternion rotation = Quaternion.Euler(new Vector3(0, -transform.rotation.eulerAngles.y, 0));
+		transform.Translate(rotation * direction);
+	}
 
 	public void setCanWalk(bool canWalk) {
 		canToggleWalking = canWalk;
