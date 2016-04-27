@@ -53,7 +53,7 @@ public class IntroScript : MonoBehaviour {
 				leftStartText.enabled = true;
 				rightStartText.enabled = true;
 
-				walkingScript.enabled = true;
+				// walkingScript.enabled = true;
 				panelDispenserScript.enabled = true;
 			}
 		}
